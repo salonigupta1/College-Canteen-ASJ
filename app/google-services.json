@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "418630205750",
+    "project_id": "collegecanteen-4b4fd",
+    "storage_bucket": "collegecanteen-4b4fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418630205750:android:3949847e702cdc9a0fb397",
+        "android_client_info": {
+          "package_name": "com.example.college_canteen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "418630205750-rv4e1eh4hk4mgblen9m9q9gv6oiqr1ou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLd7CC2zXJbj2R7hJu_qQbYEvwo5UNRAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "418630205750-rv4e1eh4hk4mgblen9m9q9gv6oiqr1ou.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

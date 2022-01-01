@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">College Canteen</string>
+    <string name="college_canteen">College Canteen</string>
+    <string name="dvynshgpt">dvynshgpt</string>
+    <string name="drinks">Drinks</string>
+    <string name="icon">Icon</string>
+    <string name="order">Order</string>
+    <string name="home">Home</string>
+    <string name="setting">Setting</string>
+    <string name="login">Login</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="profile">Profile</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="fastFood">Fast Food</string>
+    <string name="_91">+91</string>
+    <string name="auth">auth</string>
+    <string name="verify_mobile">Verify mobile</string>
+    <string name="verify">Verify</string>
+    <string name="logout">Logout</string>
+</resources>

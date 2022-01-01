@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9FAFF"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context=".activities.PhoneAuth">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center|bottom">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/auth"
+            android:paddingBottom="40dp"
+            android:src="@drawable/auth" />
+    </LinearLayout>
+
+<!--    Input Phone No-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom|center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="40dp"
+            android:paddingEnd="0dp"
+            android:text="@string/login"
+            android:textColor="#444444"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="40dp"
+            android:paddingTop="10dp"
+            android:paddingRight="40dp"
+            android:paddingBottom="10dp">
+
+            <EditText
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:enabled="false"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/_91"
+                android:textColor="#1F1F1F"
+                android:autofillHints="hint"
+                android:inputType="none"
+                tools:ignore="LabelFor" />
+
+            <EditText
+                android:id="@+id/phoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:autofillHints="@string/_91"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#1F1F1F"
+                tools:ignore="LabelFor" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:background="#6372FF"
+            android:text="@string/login"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+</LinearLayout>
