@@ -3,6 +3,7 @@ package com.example.collegecanteen.activities
 //import android.app.AlertDialog
 //import android.app.ProgressDialog
 import android.content.Intent
+import android.graphics.PorterDuff
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -28,6 +29,7 @@ class PhoneAuth : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_phone_auth)
+
 
         auth=FirebaseAuth.getInstance()
 

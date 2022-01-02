@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/drawerLayout"
-    android:background="@color/black"
+    android:background="@drawable/category"
     tools:context=".activities.FastFoodProductActivity"
     tools:openDrawer="start"
     android:fitsSystemWindows="true">
@@ -23,12 +23,21 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent">
 
-
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Choose Your Category"
+                    android:textColor="#000"
+                    android:textAlignment="center"
+                    android:textSize="35dp"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:fontFamily="serif"/>
                 <GridLayout
                     android:layout_width="388dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:layout_margin="5dp"
+                    android:layout_margin="10dp"
                     android:alignmentMode="alignMargins"
                     android:columnCount="2"
                     android:columnOrderPreserved="false"
@@ -232,11 +241,11 @@
                             tools:ignore="UseCompoundDrawables">
 
                             <ImageView
-                                android:layout_width="24dp"
-                                android:layout_height="24dp"
-                                android:layout_marginTop="12dp"
-                                android:contentDescription="@string/icon"
-                                android:src="@drawable/ic_launcher_background" />
+                                android:layout_width="100dp"
+                                android:layout_height="100dp"
+                                android:paddingTop="10dp"
+                                android:paddingStart="20dp"
+                                android:src="@drawable/logout" />
 
                                 <Button
                                     android:id="@+id/logoutBtn"
@@ -244,10 +253,9 @@
                                     android:layout_height="50dp"
                                     android:background="#0000FFFF"
                                     android:text="@string/logout"
-                                    android:textSize="15sp"
+                                    android:textSize="20sp"
                                     android:textAllCaps="false"
-                                    android:textColor="@color/white"
-                                    android:layout_marginTop="15dp"/>
+                                    android:textColor="@color/white"/>
 
 
                         </LinearLayout>
@@ -259,14 +267,14 @@
 
     </ScrollView>
 
-        <com.google.android.material.navigation.NavigationView
-        android:id="@+id/nav_view"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        app:headerLayout="@layout/nav_header"
-        app:menu="@menu/nav_menu"
-        android:layout_gravity="start"
-        android:fitsSystemWindows="true">
-    </com.google.android.material.navigation.NavigationView>
+<!--        <com.google.android.material.navigation.NavigationView-->
+<!--        android:id="@+id/nav_view"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:headerLayout="@layout/nav_header"-->
+<!--        app:menu="@menu/nav_menu"-->
+<!--        android:layout_gravity="start"-->
+<!--        android:fitsSystemWindows="true">-->
+<!--    </com.google.android.material.navigation.NavigationView>-->
 
 </androidx.drawerlayout.widget.DrawerLayout>
