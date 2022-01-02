@@ -3,6 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Imad_Work_Folder/Android_Studio_Projects/CollegeCanteen/app/src/main/res/drawable/rounded_btn.xml" value="0.2203125" />
+        <entry key="..\:/Imad_Work_Folder/Android_Studio_Projects/CollegeCanteen/app/src/main/res/layout/activity_category.xml" value="0.11956521739130435" />
+        <entry key="..\:/Imad_Work_Folder/Android_Studio_Projects/CollegeCanteen/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Imad_Work_Folder/Android_Studio_Projects/CollegeCanteen/app/src/main/res/layout/activity_phone_auth.xml" value="0.25" />
+        <entry key="..\:/Imad_Work_Folder/Android_Studio_Projects/CollegeCanteen/app/src/main/res/layout/activity_phone_verify.xml" value="0.22" />
+        <entry key="..\:/Imad_Work_Folder/Android_Studio_Projects/CollegeCanteen/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Imad_Work_Folder/Android_Studio_Projects/CollegeCanteen/app/src/main/res/layout/nav_header.xml" value="0.1" />
+        <entry key="..\:/Imad_Work_Folder/Android_Studio_Projects/CollegeCanteen/app/src/main/res/layout/roundedbtn.xml" value="0.1" />
+        <entry key="..\:/Imad_Work_Folder/Android_Studio_Projects/CollegeCanteen/app/src/main/res/menu/nav_menu.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Divyanshu Gupta/AndroidStudioProjects/CollegeCanteen/app/src/main/res/layout/activity_auth_verify.xml" value="0.1" />
         <entry key="..\:/Users/Divyanshu Gupta/AndroidStudioProjects/CollegeCanteen/app/src/main/res/layout/activity_category.xml" value="0.1" />
         <entry key="..\:/Users/Divyanshu Gupta/AndroidStudioProjects/CollegeCanteen/app/src/main/res/layout/activity_fastfoodproduct.xml" value="0.1" />

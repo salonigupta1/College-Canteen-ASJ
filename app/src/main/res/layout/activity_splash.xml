@@ -7,17 +7,4 @@
     android:background="@drawable/splash_back"
     tools:context=".activities.SplashActivity">
 
-    <TextView
-        android:id="@+id/TV_AppName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="22dp"
-        android:fontFamily="sans-serif-black"
-        android:text="@string/college_canteen"
-        android:textColor="@color/purple_200"
-        android:textSize="22sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

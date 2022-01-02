@@ -3,32 +3,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F9FAFF"
+    android:background="@drawable/bg_image"
     android:orientation="vertical"
     android:weightSum="2"
     tools:context=".activities.PhoneAuth">
 
+
+    <!-- App logo -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:gravity="center|bottom">
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:contentDescription="@string/auth"
-            android:paddingBottom="40dp"
-            android:src="@drawable/auth" />
+            android:src="@drawable/logo" />
     </LinearLayout>
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="College Canteen"
+       android:textColor="@color/white"
+       android:textAlignment="center"
+       android:textSize="25dp"
+       android:fontFamily="cursive"/>
+
+
 
 <!--    Input Phone No-->
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:gravity="bottom|center"
+        android:layout_marginTop="150dp"
+        android:gravity="top|center"
         android:orientation="vertical">
 
         <TextView
@@ -53,25 +65,27 @@
                 android:layout_width="70dp"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
+                android:autofillHints="hint"
                 android:enabled="false"
+                android:inputType="none"
+                android:minHeight="48dp"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:text="@string/_91"
                 android:textColor="#1F1F1F"
-                android:autofillHints="hint"
-                android:inputType="none"
                 tools:ignore="LabelFor" />
 
             <EditText
                 android:id="@+id/phoneNumber"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="phone"
                 android:autofillHints="@string/_91"
+                android:inputType="phone"
+                android:minHeight="48dp"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:textColor="#1F1F1F"
-                tools:ignore="LabelFor" />
+                tools:ignore="LabelFor,SpeakableTextPresentCheck" />
         </LinearLayout>
 
         <Button
@@ -79,8 +93,31 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="40dp"
-            android:background="#6372FF"
-            android:text="@string/login"
-            android:textColor="#ffffff" />
+            android:background="@drawable/rounded_btn"
+            android:text="@string/login" />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:src="@drawable/mail"
+        android:layout_marginLeft="110dp"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:src="@drawable/insta"
+            android:layout_marginLeft="25dp"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/website" />
+    </LinearLayout>
+
 </LinearLayout>

@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "418630205750",
-    "project_id": "collegecanteen-4b4fd",
-    "storage_bucket": "collegecanteen-4b4fd.appspot.com"
+    "project_number": "109386325543",
+    "project_id": "college-canteen-25c0f",
+    "storage_bucket": "college-canteen-25c0f.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:418630205750:android:3949847e702cdc9a0fb397",
+        "mobilesdk_app_id": "1:109386325543:android:bfce9e8110f8a0ef443802",
         "android_client_info": {
           "package_name": "com.example.college_canteen"
         }
       },
       "oauth_client": [
         {
-          "client_id": "418630205750-rv4e1eh4hk4mgblen9m9q9gv6oiqr1ou.apps.googleusercontent.com",
+          "client_id": "109386325543-2onddm2kgjk53qntucflnne01n9bcet9.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBLd7CC2zXJbj2R7hJu_qQbYEvwo5UNRAE"
+          "current_key": "AIzaSyDQI1Za1k3tuiEfOJGmEjmhhTFZ47prsb0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "418630205750-rv4e1eh4hk4mgblen9m9q9gv6oiqr1ou.apps.googleusercontent.com",
+              "client_id": "109386325543-2onddm2kgjk53qntucflnne01n9bcet9.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

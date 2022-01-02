@@ -5,27 +5,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F9FAFF"
+    android:background="@drawable/bg_image"
     tools:context=".activities.PhoneVerify"
     android:orientation="vertical"
     android:weightSum="2">
+
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:gravity="center|bottom"
-        android:layout_weight="1">
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp">
+
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:contentDescription="@string/auth"
-            android:src="@drawable/auth"
-            android:paddingBottom="40dp"/>
+            android:src="@drawable/logo" />
     </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="College Canteen"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:fontFamily="cursive"/>
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:gravity="bottom|center"
+        android:gravity="top|center"
+        android:layout_marginTop="150dp"
         android:layout_weight="1">
         <TextView
             android:layout_width="match_parent"
@@ -58,6 +70,6 @@
             android:textAllCaps="false"
             android:layout_margin="40dp"
             android:textColor="#ffffff"
-            android:background="#6372FF"/>
+            android:background="@drawable/rounded_btn"/>
     </LinearLayout>
 </LinearLayout>
