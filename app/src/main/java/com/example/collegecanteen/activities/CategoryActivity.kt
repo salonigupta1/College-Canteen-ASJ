@@ -1,16 +1,15 @@
 package com.example.collegecanteen.activities
 
-import android.os.Build
+//import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.WindowInsets
-import android.view.WindowManager
 import com.example.collegecanteen.R
 import android.content.Intent
+import android.view.*
+import android.widget.Button
 import android.view.MenuItem
-//import android.view.MenuItem
-import android.view.View
 import android.widget.LinearLayout
+//import android.widget.TextView
 //import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
@@ -27,38 +26,30 @@ class CategoryActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_category)
 
-        @Suppress("DEPRECATION")
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
-            window.insetsController?.hide(WindowInsets.Type.statusBars())
-        } else {
-            window.setFlags(
-                WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                WindowManager.LayoutParams.FLAG_FULLSCREEN
-            )
-        }
-
         auth= FirebaseAuth.getInstance()
         val currentUser=auth.currentUser
+
+//
+//        @Suppress("DEPRECATION")
+//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+//            window.insetsController?.hide(WindowInsets.Type.statusBars())
+//        } else {
+//            window.setFlags(
+//                WindowManager.LayoutParams.FLAG_FULLSCREEN,
+//                WindowManager.LayoutParams.FLAG_FULLSCREEN
+//            )
+//        }
 
         if(currentUser==null){
             startActivity(Intent(this,PhoneAuth::class.java))
             finish()
         }
 
-//        val varLogOut = findViewById<View>(R.id.nav_logout) as TextView
-//        varLogOut.setOnClickListener {
-//            val intent = Intent(this@CategoryActivity, PhoneAuth::class.java)
-//            startActivity(intent)
-//        }
-
-        fun onNavigationItemSelected(menuItem: MenuItem):Boolean{
-            when(menuItem.itemId){
-                R.id.nav_logout ->{
-                    val intent = Intent(this@CategoryActivity, PhoneAuth::class.java)
-                    startActivity(intent)
-                }
-            }
-            return true
+        val logout = findViewById<View>(R.id.logoutBtn) as Button
+        logout.setOnClickListener{
+            auth.signOut()
+            startActivity(Intent(this, PhoneAuth::class.java))
+            finish()
         }
 
         val drawerLayout: DrawerLayout = findViewById(R.id.drawerLayout)
@@ -74,21 +65,15 @@ class CategoryActivity : AppCompatActivity() {
 
             when (it.itemId) {
                 R.id.nav_home -> Toast.makeText(applicationContext, "Clicked Home",
-                    Toast.LENGTH_SHORT
-                )
-                    .show()
+                    Toast.LENGTH_SHORT).show()
                 R.id.order -> Toast.makeText(applicationContext, "Clicked Order",
-                    Toast.LENGTH_SHORT
-                )
-                    .show()
+                    Toast.LENGTH_SHORT).show()
                 R.id.setting -> Toast.makeText(applicationContext, "Clicked setting",
-                    Toast.LENGTH_SHORT
-                )
-                    .show()
+                    Toast.LENGTH_SHORT).show()
+
                 R.id.nav_logout -> Toast.makeText(applicationContext, "Clicked Logout",
-                    Toast.LENGTH_SHORT
-                )
-                    .show()
+                    Toast.LENGTH_SHORT).show()
+
                 R.id.nav_share -> Toast.makeText(applicationContext, "Clicked Share",
                     Toast.LENGTH_SHORT
                 )

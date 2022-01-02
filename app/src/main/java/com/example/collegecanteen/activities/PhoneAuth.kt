@@ -1,5 +1,7 @@
 package com.example.collegecanteen.activities
 
+//import android.app.AlertDialog
+//import android.app.ProgressDialog
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -21,12 +23,18 @@ class PhoneAuth : AppCompatActivity() {
     lateinit var storedVerificationId:String
     lateinit var resendToken: PhoneAuthProvider.ForceResendingToken
     private lateinit var callbacks: PhoneAuthProvider.OnVerificationStateChangedCallbacks
+//    private lateinit var ProgressDialog mProgress
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_phone_auth)
 
         auth=FirebaseAuth.getInstance()
+
+//        set up progress dialog
+//        progressDialog = ProgressDialog(this)
+//        alertDialog.setTitle("please wait")
+//        alertDialog.setCanceledOnTouchOutside(false)
 
 //        Reference
         val login=findViewById<Button>(R.id.loginBtn)
@@ -44,6 +52,7 @@ class PhoneAuth : AppCompatActivity() {
 
         // Callback function for Phone Auth
         callbacks = object : PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
+
 
             override fun onVerificationCompleted(credential: PhoneAuthCredential) {
                 startActivity(Intent(applicationContext, CategoryActivity::class.java))
@@ -77,7 +86,7 @@ class PhoneAuth : AppCompatActivity() {
 
         if(number.isNotEmpty()){
             number= "+91$number"
-            sendVerificationcode (number)
+            sendVerificationcode(number)
         }else{
             Toast.makeText(this,"Enter mobile number",Toast.LENGTH_SHORT).show()
         }

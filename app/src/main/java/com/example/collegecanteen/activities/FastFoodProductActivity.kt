@@ -43,15 +43,15 @@ class FastFoodProductActivity : AppCompatActivity() {
 
 
 
-       fun onNavigationItemSelected(menuItem: MenuItem):Boolean{
-            when(menuItem.itemId){
-                R.id.nav_logout ->{
-                    val intent = Intent(this@FastFoodProductActivity, PhoneAuth::class.java)
-                     startActivity(intent)
-                }
-            }
-           return true
-        }
+//       fun onNavigationItemSelected(menuItem: MenuItem):Boolean{
+//            when(menuItem.itemId){
+//                R.id.nav_logout ->{
+//                    val intent = Intent(this@FastFoodProductActivity, PhoneAuth::class.java)
+//                     startActivity(intent)
+//                }
+//            }
+//           return true
+//        }
 
 
         val drawerLayout: DrawerLayout = findViewById(R.id.drawerLayout)

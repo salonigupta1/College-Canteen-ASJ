@@ -17,6 +17,7 @@
         android:title="@string/setting"
         android:icon="@drawable/ic_baseline_settings_24"/>
 
+
     <item android:title="@string/profile">
 
         <menu>

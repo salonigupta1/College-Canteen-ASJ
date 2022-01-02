@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "418630205750-1gmt50sufi4djtejpfjmn0klffnmiljk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.college_canteen",
+            "certificate_hash": "6dcf2e26d157760a64f3db50f868ed79e4332339"
+          }
+        },
+        {
           "client_id": "418630205750-rv4e1eh4hk4mgblen9m9q9gv6oiqr1ou.apps.googleusercontent.com",
           "client_type": 3
         }

@@ -16,13 +16,16 @@
         tools:ignore="AllowBackup"
         tools:targetApi="m" >
         <activity android:name=".activities.FastFoodProductActivity" />
-        <activity android:name=".activities.CategoryActivity" />
-        <activity android:name=".activities.PhoneVerify"/>
-        <activity android:name=".activities.PhoneAuth" />
+        <activity android:name=".activities.CategoryActivity"/>
+        <activity android:name=".activities.PhoneVerify"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".activities.PhoneAuth"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
         <activity
             android:name=".activities.SplashActivity"
             android:exported="true"
-            android:screenOrientation="fullSensor" >
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
