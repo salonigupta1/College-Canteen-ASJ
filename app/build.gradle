@@ -2,10 +2,15 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'com.google.gms.google-services'
+    id 'kotlin-kapt'
 }
 
 android {
     compileSdk 32
+
+    dataBinding{
+        enabled = true
+    }
 
     defaultConfig {
         applicationId "com.example.collegecanteen"
@@ -33,7 +38,7 @@ android {
 }
 
 dependencies {
-
+    kapt "com.android.databinding:compiler:$android_plugin_version"
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.0'
     implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
@@ -55,4 +60,8 @@ dependencies {
     implementation 'de.hdodenhof:circleimageview:3.1.0'
     //    PinView
     implementation 'com.chaos.view:pinview:1.4.3'
+}
+
+kapt {
+    generateStubs = true
 }

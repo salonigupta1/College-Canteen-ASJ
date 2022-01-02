@@ -20,4 +20,6 @@
     <string name="verify_mobile">Verify mobile</string>
     <string name="verify">Verify</string>
     <string name="logout">Logout</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="username">\@username</string>
 </resources>

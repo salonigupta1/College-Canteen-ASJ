@@ -72,8 +72,8 @@ class FastFoodProductActivity : AppCompatActivity() {
                     .show()
                 R.id.setting -> Toast.makeText(applicationContext, "Clicked setting", LENGTH_SHORT)
                     .show()
-                R.id.nav_logout -> Toast.makeText(applicationContext, "Clicked Logout", LENGTH_SHORT)
-                    .show()
+//                R.id.nav_logout -> Toast.makeText(applicationContext, "Clicked Logout", LENGTH_SHORT)
+//                    .show()
                 R.id.nav_share -> Toast.makeText(applicationContext, "Clicked Share", LENGTH_SHORT)
                     .show()
                 R.id.nav_rate_us -> Toast.makeText(

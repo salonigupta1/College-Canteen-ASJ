@@ -179,81 +179,20 @@
 
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="170dp"
-                        android:layout_height="170dp"
-                        android:layout_margin="12dp"
-                        app:cardBackgroundColor="@color/gray"
-                        app:cardCornerRadius="15dp"
-                        app:cardElevation="5dp">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:gravity="center"
-                            android:orientation="vertical"
-                            tools:ignore="UseCompoundDrawables">
-
-                            <ImageView
-                                android:layout_width="24dp"
-                                android:layout_height="24dp"
-                                android:layout_marginTop="12dp"
-                                android:contentDescription="@string/icon"
-                                android:src="@drawable/ic_launcher_background"
-                                tools:ignore="ImageContrastCheck,ImageContrastCheck,ImageContrastCheck" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="24dp"
-                                android:fontFamily="sans-serif-black"
-                                android:text="@string/drinks"
-                                android:textColor="@color/white"
-                                android:textSize="16sp"
-                                tools:ignore="TextContrastCheck,TextContrastCheck" />
-
-                        </LinearLayout>
-                    </androidx.cardview.widget.CardView>
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="170dp"
-                        android:layout_height="170dp"
-                        android:layout_margin="12dp"
-                        app:cardBackgroundColor="@color/gray"
-                        app:cardCornerRadius="15dp"
-                        app:cardElevation="5dp">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:gravity="center"
-                            android:orientation="vertical"
-                            tools:ignore="UseCompoundDrawables">
-
-                            <ImageView
-                                android:layout_width="24dp"
-                                android:layout_height="24dp"
-                                android:layout_marginTop="12dp"
-                                android:contentDescription="@string/icon"
-                                android:src="@drawable/ic_launcher_background" />
-
-                                <Button
-                                    android:id="@+id/logoutBtn"
-                                    android:layout_width="144dp"
-                                    android:layout_height="50dp"
-                                    android:background="#0000FFFF"
-                                    android:text="@string/logout"
-                                    android:textSize="15sp"
-                                    android:textAllCaps="false"
-                                    android:textColor="@color/white"
-                                    android:layout_marginTop="15dp"/>
-
-
-                        </LinearLayout>
-                    </androidx.cardview.widget.CardView>
-
                 </GridLayout>
+
+                <Button
+                    android:id="@+id/logoutBtn"
+                    android:layout_width="144dp"
+                    android:layout_height="50dp"
+                    android:background="#0000FFFF"
+                    android:text="@string/logout"
+                    android:textSize="15sp"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="77dp"
+                    android:layout_gravity="center_horizontal"/>
 
             </LinearLayout>
 

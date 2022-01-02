@@ -19,10 +19,14 @@ import com.google.firebase.auth.FirebaseAuth
 
 class CategoryActivity : AppCompatActivity() {
 
+//    private lateinit var binding: ActivityProfileBinding
     private lateinit var auth: FirebaseAuth
     private lateinit var toggle: ActionBarDrawerToggle
 
     override fun onCreate(savedInstanceState: Bundle?) {
+
+//        binding = ActivityProfileBinding.inflate(layoutInflater)
+//        setContentView(binding.root)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_category)
 
@@ -71,8 +75,8 @@ class CategoryActivity : AppCompatActivity() {
                 R.id.setting -> Toast.makeText(applicationContext, "Clicked setting",
                     Toast.LENGTH_SHORT).show()
 
-                R.id.nav_logout -> Toast.makeText(applicationContext, "Clicked Logout",
-                    Toast.LENGTH_SHORT).show()
+//                R.id.nav_logout -> Toast.makeText(applicationContext, "Clicked Logout",
+//                    Toast.LENGTH_SHORT).show()
 
                 R.id.nav_share -> Toast.makeText(applicationContext, "Clicked Share",
                     Toast.LENGTH_SHORT
@@ -94,6 +98,19 @@ class CategoryActivity : AppCompatActivity() {
         }
 
     }
+
+//    private fun checkUser(){
+////            get current user
+//        val firebaseUser = auth.currentUser
+//        if (firebaseUser==null){
+////            logged out
+//            startActivity(Intent(this , PhoneAuth::class.java))
+//        }
+//        else{
+//            val phone = firebaseUser.phoneNumber
+//            binding.phoneTv.text = phone
+//        }
+//    }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (toggle.onOptionsItemSelected(item))

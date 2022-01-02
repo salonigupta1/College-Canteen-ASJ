@@ -39,7 +39,6 @@ class PhoneAuth : AppCompatActivity() {
 //        Reference
         val login=findViewById<Button>(R.id.loginBtn)
 
-
         val currentUser = auth.currentUser
         if(currentUser != null) {
             startActivity(Intent(applicationContext, CategoryActivity::class.java))

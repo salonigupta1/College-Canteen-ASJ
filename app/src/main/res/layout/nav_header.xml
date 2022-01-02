@@ -12,16 +12,16 @@
         android:layout_height="60dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="46dp"
-        android:src="@drawable/me"/>
+        android:src="@drawable/profile"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/logoutBtn"
+        android:id="@+id/phoneTv"
         android:paddingTop="8dp"
         android:textColor="@color/white"
         android:textSize="20sp"
-        android:text="@string/dvynshgpt"
+        android:text="@string/username"
         android:layout_marginStart="16dp"
         android:fontFamily="sans-serif-black"/>
 
