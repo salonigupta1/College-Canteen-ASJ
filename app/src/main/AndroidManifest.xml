@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.collegecanteen" >
+    package="com.example.collegecanteen">
     <!-- permission -->
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -14,13 +14,24 @@
         android:theme="@style/Theme.CollegeCanteen"
         android:usesCleartextTraffic="true"
         tools:ignore="AllowBackup"
-        tools:targetApi="m" >
+        tools:targetApi="m">
+        <activity
+            android:name=".activities.SnacksProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.DessertsProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.DrinkProductActivity"
+            android:exported="false" />
         <activity android:name=".activities.FastFoodProductActivity" />
-        <activity android:name=".activities.CategoryActivity"/>
-        <activity android:name=".activities.PhoneVerify"
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
-        <activity android:name=".activities.PhoneAuth"
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".activities.CategoryActivity" />
+        <activity
+            android:name=".activities.PhoneVerify"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".activities.PhoneAuth"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".activities.SplashActivity"
             android:exported="true"

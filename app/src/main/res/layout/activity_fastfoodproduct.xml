@@ -6,10 +6,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/drawerLayout"
-    android:background="@color/black"
+    android:background="#ffff"
     tools:context=".activities.FastFoodProductActivity"
     tools:openDrawer="start"
     android:fitsSystemWindows="true">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fast_food"
+            android:textSize="42sp"
+            android:gravity="center_horizontal|center_vertical"
+
+            android:textColor="#3a3b3c"
+            android:layout_marginTop="20dp">
+
+        </TextView>
+    </LinearLayout>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -18,298 +33,296 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginTop="80dp"
+            android:padding="0dp">
 
             <GridLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:rowCount="4"
+                android:layout_width="wrap_content"
+                android:layout_height="580dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="0dp"
+                android:alignmentMode="alignMargins"
                 android:columnCount="2"
                 android:columnOrderPreserved="false"
-                android:layout_margin="5dp"
-                android:layout_gravity="center_horizontal"
-                android:alignmentMode="alignMargins"
+                android:rowCount="6"
                 tools:ignore="UselessParent">
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="170dp"
-                    android:layout_height="170dp"
+                    android:layout_width="180dp"
+                    android:layout_height="148dp"
                     android:layout_margin="12dp"
+                    android:backgroundTint="#FDA88B"
                     app:cardCornerRadius="15dp"
-                    app:cardElevation="5dp"
-                    app:cardBackgroundColor="@color/gray">
+                    app:cardElevation="5dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
+                        android:backgroundTint="#6CD5C6"
                         android:gravity="center"
+                        android:orientation="vertical"
                         tools:ignore="UseCompoundDrawables">
 
                         <ImageView
-                            android:layout_width="24dp"
-                            android:layout_height="24dp"
-                            android:src="@drawable/ic_launcher_background"
+
+                            android:layout_width="60dp"
+                            android:layout_height="55dp"
                             android:layout_marginTop="12dp"
-                            android:contentDescription="@string/icon" />
+                            android:contentDescription="@string/icon"
+
+                            android:src="@drawable/burger1" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/drinks"
-                            android:textColor="@color/white"
+                            android:layout_marginTop="20dp"
                             android:fontFamily="sans-serif-black"
-                            android:textSize="16sp"
-                            android:layout_marginTop="24dp"/>
+                            android:text="@string/burger"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:backgroundTint="#E5693A"
+                            android:text="@string/order"
+                            android:textColor="#ffff"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="180dp"
+                    android:layout_height="148dp"
+                    android:layout_margin="12dp"
+                    android:backgroundTint="#6CD5C6"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_marginTop="12dp"
+                            android:contentDescription="@string/icon"
+                            android:src="@drawable/pizza" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="sans-serif-black"
+                            android:text="@string/pizza"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:layout_width="100dp"
+
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:backgroundTint="#00b386"
+                            android:text="@string/order"
+                            android:textColor="#ffff"
+                            android:textStyle="bold">
+
+                        </Button>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="180dp"
+                    android:layout_height="148dp"
+                    android:layout_margin="12dp"
+                    android:backgroundTint="#F69ED8"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_marginTop="12dp"
+                            android:contentDescription="@string/icon"
+                            android:src="@drawable/sandwich" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="sans-serif-black"
+                            android:text="@string/sandwich"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:layout_width="100dp"
+
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:backgroundTint="#F350B5"
+                            android:text="@string/order"
+                            android:textColor="#ffff"
+                            android:textStyle="bold"/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="170dp"
-                    android:layout_height="170dp"
+                    android:layout_width="180dp"
+                    android:layout_height="148dp"
                     android:layout_margin="12dp"
+                    android:backgroundTint="#9CBFF5"
                     app:cardCornerRadius="15dp"
-                    app:cardElevation="5dp"
-                    app:cardBackgroundColor="@color/gray">
+                    app:cardElevation="5dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
                         android:gravity="center"
+                        android:orientation="vertical"
                         tools:ignore="UseCompoundDrawables">
 
                         <ImageView
-                            android:layout_width="24dp"
-                            android:layout_height="24dp"
-                            android:src="@drawable/ic_launcher_background"
+
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
                             android:layout_marginTop="12dp"
-                            android:contentDescription="@string/icon" />
+                            android:contentDescription="@string/icon"
+                            android:src="@drawable/donut" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/drinks"
-                            android:textColor="@color/white"
+                            android:layout_marginTop="20dp"
                             android:fontFamily="sans-serif-black"
+                            android:text="@string/donuts"
+                            android:textColor="@color/white"
                             android:textSize="16sp"
-                            android:layout_marginTop="24dp"/>
+                            tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+                        <Button
+                            android:layout_width="100dp"
+
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:backgroundTint="#3379EC"
+                            android:text="@string/order"
+                            android:textColor="#ffff"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="180dp"
+                    android:layout_height="148dp"
+                    android:layout_margin="12dp"
+                    android:backgroundTint="#8EC6D3"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_marginTop="12dp"
+                            android:contentDescription="@string/icon"
+                            android:src="@drawable/hotdog" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="sans-serif-black"
+                            android:text="@string/hot_dog"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:layout_width="100dp"
+
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:backgroundTint="#26ACC6"
+                            android:text="@string/order"
+                            android:textColor="#ffff"
+                            android:textStyle="bold"/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="170dp"
-                    android:layout_height="170dp"
+                    android:layout_width="180dp"
+                    android:layout_height="148dp"
                     android:layout_margin="12dp"
+                    android:backgroundTint="#BDA0F2"
                     app:cardCornerRadius="15dp"
-                    app:cardElevation="5dp"
-                    app:cardBackgroundColor="@color/gray">
+                    app:cardElevation="5dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
                         android:gravity="center"
+                        android:orientation="vertical"
                         tools:ignore="UseCompoundDrawables">
 
                         <ImageView
-                            android:layout_width="24dp"
-                            android:layout_height="24dp"
-                            android:src="@drawable/ic_launcher_background"
+
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
                             android:layout_marginTop="12dp"
-                            android:contentDescription="@string/icon" />
+                            android:contentDescription="@string/icon"
+                            android:src="@drawable/popcorn"
+                            tools:ignore="ImageContrastCheck" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/drinks"
-                            android:textColor="@color/white"
+                            android:layout_marginTop="20dp"
                             android:fontFamily="sans-serif-black"
+                            android:text="@string/popcorn"
+                            android:textColor="@color/white"
                             android:textSize="16sp"
-                            android:layout_marginTop="24dp"/>
+                            tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
 
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="170dp"
-                    android:layout_height="170dp"
-                    android:layout_margin="12dp"
-                    app:cardCornerRadius="15dp"
-                    app:cardElevation="5dp"
-                    app:cardBackgroundColor="@color/gray">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:gravity="center"
-                        tools:ignore="UseCompoundDrawables">
-
-                        <ImageView
-                            android:layout_width="24dp"
-                            android:layout_height="24dp"
-                            android:src="@drawable/ic_launcher_background"
-                            android:layout_marginTop="12dp"
-                            android:contentDescription="@string/icon" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
+                        <Button
+                            android:layout_width="100dp"
                             android:layout_height="wrap_content"
-                            android:text="@string/drinks"
-                            android:textColor="@color/white"
-                            android:fontFamily="sans-serif-black"
-                            android:textSize="16sp"
-                            android:layout_marginTop="24dp"/>
+                            android:layout_gravity="center"
+                            android:backgroundTint="#7E4AE5"
+                            android:text="@string/order"
+                            android:textColor="#ffff"
+                            android:textStyle="bold"/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
-
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="170dp"
-                    android:layout_height="170dp"
-                    android:layout_margin="12dp"
-                    app:cardCornerRadius="15dp"
-                    app:cardElevation="5dp"
-                    app:cardBackgroundColor="@color/gray">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:gravity="center"
-                        tools:ignore="UseCompoundDrawables">
-
-                        <ImageView
-                            android:layout_width="24dp"
-                            android:layout_height="24dp"
-                            android:src="@drawable/ic_launcher_background"
-                            android:layout_marginTop="12dp"
-                            android:contentDescription="@string/icon" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/drinks"
-                            android:textColor="@color/white"
-                            android:fontFamily="sans-serif-black"
-                            android:textSize="16sp"
-                            android:layout_marginTop="24dp"/>
-
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="170dp"
-                    android:layout_height="170dp"
-                    android:layout_margin="12dp"
-                    app:cardCornerRadius="15dp"
-                    app:cardElevation="5dp"
-                    app:cardBackgroundColor="@color/gray">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:gravity="center"
-                        tools:ignore="UseCompoundDrawables">
-
-                        <ImageView
-                            android:layout_width="24dp"
-                            android:layout_height="24dp"
-                            android:src="@drawable/ic_launcher_background"
-                            android:layout_marginTop="12dp"
-                            android:contentDescription="@string/icon" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/drinks"
-                            android:textColor="@color/white"
-                            android:fontFamily="sans-serif-black"
-                            android:textSize="16sp"
-                            android:layout_marginTop="24dp"/>
-
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="170dp"
-                    android:layout_height="170dp"
-                    android:layout_margin="12dp"
-                    app:cardCornerRadius="15dp"
-                    app:cardElevation="5dp"
-                    app:cardBackgroundColor="@color/gray">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:gravity="center"
-                        tools:ignore="UseCompoundDrawables">
-
-                        <ImageView
-                            android:layout_width="24dp"
-                            android:layout_height="24dp"
-                            android:src="@drawable/ic_launcher_background"
-                            android:layout_marginTop="12dp"
-                            android:contentDescription="@string/icon" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/drinks"
-                            android:textColor="@color/white"
-                            android:fontFamily="sans-serif-black"
-                            android:textSize="16sp"
-                            android:layout_marginTop="24dp"/>
-
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="170dp"
-                    android:layout_height="170dp"
-                    android:layout_margin="12dp"
-                    app:cardCornerRadius="15dp"
-                    app:cardElevation="5dp"
-                    app:cardBackgroundColor="@color/gray">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:gravity="center"
-                        tools:ignore="UseCompoundDrawables">
-
-                        <ImageView
-                            android:layout_width="24dp"
-                            android:layout_height="24dp"
-                            android:src="@drawable/ic_launcher_background"
-                            android:layout_marginTop="12dp"
-                            android:contentDescription="@string/icon" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/drinks"
-                            android:textColor="@color/white"
-                            android:fontFamily="sans-serif-black"
-                            android:textSize="16sp"
-                            android:layout_marginTop="24dp"/>
-
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-
 
             </GridLayout>
 

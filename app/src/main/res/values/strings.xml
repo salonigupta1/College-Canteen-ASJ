@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">College Canteen</string>
-    <string name="college_canteen">College Canteen</string>
     <string name="dvynshgpt">dvynshgpt</string>
     <string name="drinks">Drinks</string>
     <string name="icon">Icon</string>
@@ -22,4 +21,20 @@
     <string name="logout">Logout</string>
     <string name="phone_number">Phone Number</string>
     <string name="username">\@username</string>
+    <string name="college_canteen">College Canteen</string>
+    <string name="logo">logo</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="mail">mail</string>
+    <string name="insta">insta</string>
+    <string name="web">web</string>
+    <string name="fast_food">Fast Food</string>
+    <string name="burger">Burger</string>
+    <string name="pizza">Pizza</string>
+    <string name="sandwich">Sandwich</string>
+    <string name="donuts">Donuts</string>
+    <string name="hot_dog">Hot Dog</string>
+    <string name="popcorn">Popcorn</string>
+    <string name="select_your_choice">Select your choice</string>
+    <string name="desserts">Desserts</string>
+    <string name="snacks">Snacks</string>
 </resources>

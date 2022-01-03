@@ -1,0 +1,183 @@
+[Version]
+Signature="$Windows NT$"
+Class=Extension
+ClassGuid={e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+Provider=Realtek
+ExtensionId={12D32D00-C5BF-4A3B-A030-EBA5AB6FD0DD}
+CatalogFile=IntcDMicExt.cat
+DriverVer = 10/20/2020, 09.21.3690.169
+PnpLockDown = 1
+
+[Manufacturer]
+"Intel(R) Corporation" = Intel, NTAMD64.10.0...16273
+
+[Intel.NTAMD64.10.0...16273]
+%Device.ExtensionDesc% = IntcAudModelWSstPpDllKD, INTELAUDIO\CTLR_DEV_9DC8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_1D721814&REV_10EC
+%Device.ExtensionDesc% = IntcAudModelWSstPpDllKD, INTELAUDIO\CTLR_DEV_02C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_1D721901&REV_10EC
+%Device.ExtensionDesc% = IntcAudModelWSstPpDllKD, INTELAUDIO\CTLR_DEV_9DC8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_1D721901&REV_10EC
+
+[IntcAudModelWSstPpDllKD]
+AddReg = RealtekSstPpDll.AddReg
+
+[IntcAudModelWSstPpDllKD.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn1.Topo_1%,IntcAudModel.DmicInput1KD.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn1.Topo_1%,IntcAudModel.DmicInput1KD.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn1.Topo_2%,IntcAudModel.DmicInput1KD.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn1.Topo_2%,IntcAudModel.DmicInput1KD.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn1.Topo_4%,IntcAudModel.DmicInput1KD.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn1.Topo_4%,IntcAudModel.DmicInput1KD.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn2.Topo_1%,IntcAudModel.DmicInput2KD.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn2.Topo_1%,IntcAudModel.DmicInput2KD.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn2.Topo_2%,IntcAudModel.DmicInput2KD.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn2.Topo_2%,IntcAudModel.DmicInput2KD.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn2.Topo_4%,IntcAudModel.DmicInput2KD.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn2.Topo_4%,IntcAudModel.DmicInput2KD.Topo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn1.Topo_1_24%,IntcAudModel.DmicInput1KD.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn1.Topo_1_24%,IntcAudModel.DmicInput1KD.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn1.Topo_2_24%,IntcAudModel.DmicInput1KD.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn1.Topo_2_24%,IntcAudModel.DmicInput1KD.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn1.Topo_4_24%,IntcAudModel.DmicInput1KD.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn1.Topo_4_24%,IntcAudModel.DmicInput1KD.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn2.Topo_1_24%,IntcAudModel.DmicInput2KD.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn2.Topo_1_24%,IntcAudModel.DmicInput2KD.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn2.Topo_2_24%,IntcAudModel.DmicInput2KD.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn2.Topo_2_24%,IntcAudModel.DmicInput2KD.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn2.Topo_4_24%,IntcAudModel.DmicInput2KD.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn2.Topo_4_24%,IntcAudModel.DmicInput2KD.Topo
+
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn.Topo_new_1%,IntcAudModel.DmicInput1KD.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn.Topo_new_1%,IntcAudModel.DmicInput1KD.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn.Topo_new_2%,IntcAudModel.DmicInput1KD.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn.Topo_new_2%,IntcAudModel.DmicInput1KD.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn.Topo_new_4%,IntcAudModel.DmicInput1KD.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn.Topo_new_4%,IntcAudModel.DmicInput1KD.Topo
+
+[IntcAudModel.DmicInput1KD.Topo]
+AddReg = SysRecFxKD.AddReg
+
+[IntcAudModel.DmicInput2KD.Topo]
+AddReg = SysRecFxKD.AddReg
+
+[SysRecFxKD.AddReg]
+HKR,"FX\\0",%PKEY_FX_Association%,,%KSNODETYPE_ANY%
+HKR,"FX\\0",%PKEY_CompositeFX_ModeEffectClsid%,%REG_MULTI_SZ%,%REALTEKREC_INT_VOLMFX_CLSID%,%REALTEKREC_INT_MFX_CLSID%,%REALTEKREC_INT_INVVOLMFX_CLSID%
+HKR,"FX\\0",%PKEY_CompositeFX_EndpointEffectClsid%,%REG_MULTI_SZ%,%REALTEKREC_INT_EFX_CLSID%
+HKR,"FX\\0",%PKEY_CompositeFX_KeywordDetector_ModeEffectClsid%,%REG_MULTI_SZ%,%REALTEKREC_INT_KDMFX_CLSID%
+HKR,"FX\\0",%PKEY_MFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%,%AUDIO_SIGNALPROCESSINGMODE_SPEECH%
+HKR,"FX\\0",%PKEY_EFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%,%AUDIO_SIGNALPROCESSINGMODE_SPEECH%
+HKR,"FX\\0",%PKEY_MFX_KeywordDetector_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%,%AUDIO_SIGNALPROCESSINGMODE_SPEECH%
+HKR,"FX\\0",%PKEY_BYPASS_TP_EFFECTS%,%REG_DWORD%,0x1
+HKR,"EP\\0",%PKEY_RTINT_FOR_ONBOARD%,%REG_DWORD%,0x1
+
+[RealtekSstPpDll.AddReg]
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",0x00020000,%%SystemRoot%%\system32\RTKSpeechPP.dll
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllConfigurationFile",0x00020000,%%SystemRoot%%\system32\Gen3pKey.dat
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Parameters,"ppDllName",0x00020000,%%SystemRoot%%\system32\RTKSpeechPP.dll
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Parameters,"ppDllConfigurationFile",0x00020000,%%SystemRoot%%\system32\Gen3pKey.dat
+
+;Second stage pre-processing configuration
+;HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"secondStagePpDllConfigurationFile",...
+
+;Channel Selection: specify channel number from 0 to n - 1, where n is total number of microphone channels.
+;HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"WovMicrophoneChannelSelect",%REG_DWORD%,0
+
+;Onset buffer size: specify length of onset buffer in milliseconds. Extending size of the onset buffer is not free and causes reduction of key phrase buffer length.
+;HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"OverrideOnsetBufferSize",%REG_DWORD%,256
+
+;Logging to file: if set to 1, Intel Audio Service will dump diagnostic information to file. If set to 0 logging to file is disabled.
+;HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"logToFile",%REG_DWORD%,1
+
+;Log message details: specifies level of the messages that will be collected and dumped to file.
+;1 – ERROR – logs only error messages.
+;2 – WARNING – logs error and warning messages.
+;4 – INFORMATION – logs error, warning and information messages.
+;8 – VERBOSE – logs all of the above and many other messages.
+;HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"serviceLog",%REG_DWORD%,1
+
+[RealtekSstPpDll.AddReg.Security]
+"G:BUD:(A;CIOI;KA;;;BU)"
+
+[IntcAudModelWSstPpDllKD.Components]
+AddComponent = RealtekINTAPO,,RealtekINTAPO_Install
+AddComponent = RealtekSSTPPDLL,,RealtekSSTPPDLL_Install
+
+[RealtekINTAPO_Install]
+ComponentIDs = VEN_10EC&AID_0003
+Description = "Realtek Audio Effects Component (INT)"
+
+[RealtekSSTPPDLL_Install]
+ComponentIDs = VEN_10EC&SSTPPDLL_0001
+Description = "Realtek Speech Preprocessing IP DLL Component"
+
+[Strings]
+KSCATEGORY_AUDIO = "{6994AD04-93EF-11D0-A3CC-00A0C9223196}"
+KSCATEGORY_RENDER = "{65E8773E-8F56-11D0-A3B9-00A0C9223196}"
+KSCATEGORY_CAPTURE = "{65E8773D-8F56-11D0-A3B9-00A0C9223196}"
+KSCATEGORY_TOPOLOGY = "{DDA54A40-1E4C-11D1-A050-405705C10000}"
+
+KSNAME_DmicIn1.Topo_1 = "IntcDMicTopo_1_48_16_D0"
+KSNAME_DmicIn1.Topo_2 = "IntcDMicTopo_2_48_16_D0"
+KSNAME_DmicIn1.Topo_4 = "IntcDMicTopo_4_48_16_D0"
+KSNAME_DmicIn2.Topo_1 = "IntcDMicTopo_1_48_16_D1"
+KSNAME_DmicIn2.Topo_2 = "IntcDMicTopo_2_48_16_D1"
+KSNAME_DmicIn2.Topo_4 = "IntcDMicTopo_4_48_16_D1"
+KSNAME_DmicIn1.Topo_1_24 = "IntcDMicTopo_1_48_24_D0"
+KSNAME_DmicIn1.Topo_2_24 = "IntcDMicTopo_2_48_24_D0"
+KSNAME_DmicIn1.Topo_4_24 = "IntcDMicTopo_4_48_24_D0"
+KSNAME_DmicIn2.Topo_1_24 = "IntcDMicTopo_1_48_24_D1"
+KSNAME_DmicIn2.Topo_2_24 = "IntcDMicTopo_2_48_24_D1"
+KSNAME_DmicIn2.Topo_4_24 = "IntcDMicTopo_4_48_24_D1"
+KSNAME_DmicIn.Topo_new_1 = "IntcDMicTopo_1 _48_16_0"
+KSNAME_DmicIn.Topo_new_2 = "IntcDMicTopo_2 _48_16_0"
+KSNAME_DmicIn.Topo_new_4 = "IntcDMicTopo_4 _48_16_0"
+
+Device.ExtensionDesc = "Intel Device Extension"
+
+PKEY_FX_Association                 = "{D04E05A6-594B-4FB6-A80D-01AF5EED7D1D},0"
+PKEY_FX_PreMixEffectClsid           = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},1"
+PKEY_FX_PostMixEffectClsid          = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},2"
+PKEY_FX_UserInterfaceClsid          = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},3"
+PKEY_FX_StreamEffectClsid           = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},5"
+PKEY_FX_ModeEffectClsid             = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},6"
+PKEY_FX_EndpointEffectClsid         = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},7"
+PKEY_FX_KeywordDetector_StreamEffectClsid   = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},8"
+PKEY_FX_KeywordDetector_ModeEffectClsid     = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},9"
+PKEY_FX_KeywordDetector_EndpointEffectClsid = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},10"
+PKEY_FX_Offload_StreamEffectClsid    = "{D04E05A6-594B-4FB6-A80D-01AF5EED7D1D},11"
+PKEY_FX_Offload_ModeEffectClsid      = "{D04E05A6-594B-4FB6-A80D-01AF5EED7D1D},12"
+PKEY_CompositeFX_StreamEffectClsid   = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},13"
+PKEY_CompositeFX_ModeEffectClsid     = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},14"
+PKEY_CompositeFX_EndpointEffectClsid = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},15"
+PKEY_CompositeFX_KeywordDetector_StreamEffectClsid   = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},16"
+PKEY_CompositeFX_KeywordDetector_ModeEffectClsid     = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},17"
+PKEY_CompositeFX_KeywordDetector_EndpointEffectClsid = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},18"
+PKEY_CompositeFX_Offload_StreamEffectClsid   = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},19"
+PKEY_CompositeFX_Offload_ModeEffectClsid     = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},20"
+PKEY_SFX_ProcessingModes_Supported_For_Streaming = "{D3993A3F-99C2-4402-B5EC-A92A0367664B},5"
+PKEY_MFX_ProcessingModes_Supported_For_Streaming = "{D3993A3F-99C2-4402-B5EC-A92A0367664B},6"
+PKEY_EFX_ProcessingModes_Supported_For_Streaming = "{D3993A3F-99C2-4402-B5EC-A92A0367664B},7"
+PKEY_SFX_KeywordDetector_ProcessingModes_Supported_For_Streaming = "{D3993A3F-99C2-4402-B5EC-A92A0367664B},8"
+PKEY_MFX_KeywordDetector_ProcessingModes_Supported_For_Streaming = "{D3993A3F-99C2-4402-B5EC-A92A0367664B},9"
+PKEY_EFX_KeywordDetector_ProcessingModes_Supported_For_Streaming = "{D3993A3F-99C2-4402-B5EC-A92A0367664B},10"
+PKEY_SFX_Offload_ProcessingModes_Supported_For_Streaming = "{D3993A3F-99C2-4402-B5EC-A92A0367664B},11"
+PKEY_MFX_Offload_ProcessingModes_Supported_For_Streaming = "{D3993A3F-99C2-4402-B5EC-A92A0367664B},12"
+
+PKEY_BYPASS_TP_EFFECTS = "{0F8412D3-DC5C-4DB3-B174-DC47A859435C},0"
+PKEY_RTINT_FOR_ONBOARD = "{0F8412D3-DC5C-4DB3-B174-DC47A859435C},9"
+
+REALTEKREC_INT_SFX_CLSID        = "{8EF0FF22-9B1A-4028-A49D-691319285B67}"
+REALTEKREC_INT_MFX_CLSID        = "{8E67EBA6-2304-4F44-B422-0849246E28FE}"
+REALTEKREC_INT_EFX_CLSID        = "{F0CF28F2-0A43-4B8C-923A-84DFCB90293F}"
+REALTEKREC_INT_INVVOLMFX_CLSID  = "{806748D9-BFB0-4832-9AD9-66EDEC950623}"
+REALTEKREC_INT_VOLMFX_CLSID     = "{80615180-9EA6-4028-BBCD-1297C06D5FDF}"
+REALTEKREC_INT_KDMFX_CLSID      = "{80962103-68E0-4FCF-92FB-5BD44AA76F5F}"
+AUDIO_SIGNALPROCESSINGMODE_DEFAULT = "{C18E2F7E-933D-4965-B7D1-1EEF228D2AF3}"
+AUDIO_SIGNALPROCESSINGMODE_COMMUNICATION = "{98951333-B9CD-48B1-A0A3-FF40682D73F7}"
+AUDIO_SIGNALPROCESSINGMODE_SPEECH = "{FC1CFC9B-B9D6-4CFA-B5E0-4BB2166878B2}"
+KSNODETYPE_ANY = "{00000000-0000-0000-0000-000000000000}"
+
+REG_BINARY = 0x00000001
+REG_DWORD = 0x00010001
+REG_MULTI_SZ = 0x00010000
+

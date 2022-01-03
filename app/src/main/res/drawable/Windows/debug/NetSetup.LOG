@@ -1,0 +1,16 @@
+﻿07/04/2020 01:54:16:258 -----------------------------------------------------------------
+07/04/2020 01:54:16:258 NetpDoDomainJoin
+07/04/2020 01:54:16:259 NetpDoDomainJoin: using new computer names
+07/04/2020 01:54:16:259 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+07/04/2020 01:54:16:259 NetpMachineValidToJoin: 'WIN-TTVLI44U2VS'
+07/04/2020 01:54:16:259 NetpMachineValidToJoin: status: 0x0
+07/04/2020 01:54:16:259 NetpJoinWorkgroup: joining computer 'WIN-TTVLI44U2VS' to workgroup 'WORKGROUP'
+07/04/2020 01:54:16:259 NetpValidateName: checking to see if 'WORKGROUP' is valid as type 2 name
+07/04/2020 01:54:16:265 NetpCheckNetBiosNameNotInUse for 'WORKGROUP' [ Workgroup as MACHINE]  returned 0x0
+07/04/2020 01:54:16:265 NetpValidateName: name 'WORKGROUP' is valid for type 2
+07/04/2020 01:54:16:270 NetpJoinWorkgroup: status:  0x0
+07/04/2020 01:54:16:270 NetpDoDomainJoin: status: 0x0
+01/28/2021 14:03:25:151 -----------------------------------------------------------------
+01/28/2021 14:03:25:151 NetpValidateName: checking to see if 'DIVYANSHUNOTEBO' is valid as type 1 name
+01/28/2021 14:03:28:181 NetpCheckNetBiosNameNotInUse for 'DIVYANSHUNOTEBO' [MACHINE] returned 0x0
+01/28/2021 14:03:28:181 NetpValidateName: name 'DIVYANSHUNOTEBO' is valid for type 1

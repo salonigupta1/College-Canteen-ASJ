@@ -1,0 +1,107 @@
+[Version]
+Signature="$Windows NT$"
+Class=MEDIA
+ClassGUID={4d36e96c-e325-11ce-bfc1-08002be10318}
+Provider=%MfgName%
+DriverVer=04/10/2020, 1.0.0.0
+CatalogFile=droidcam.cat
+
+[SourceDisksNames]
+1 = %DroidCam.Disk1%,,,
+
+[SourceDisksFiles.x86]
+DroidCam.sys = 1
+
+[SourceDisksFiles.amd64]
+DroidCam.sys = 1
+
+[Manufacturer]
+%MfgName%=MicrosoftDS,NTAMD64
+
+[MicrosoftDS]
+%DroidCam_PCMEX.DeviceDesc%=DroidCam_PCMEX,DroidCam
+
+[MicrosoftDS.NTAMD64]
+%DroidCam_PCMEX.DeviceDesc%=DroidCam_PCMEX,DroidCam
+
+[DestinationDirs]
+DroidCam_PCMEX.CopyList=12
+
+[DroidCam_PCMEX]
+AlsoInstall=ks.registration(ks.inf),wdmaudio.registration(wdmaudio.inf)
+CopyFiles=DroidCam_PCMEX.CopyList
+AddReg=DroidCam_PCMEX.AddReg
+
+[DroidCam_PCMEX.CopyList]
+droidcam.sys
+
+[DroidCam_PCMEX.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Wave%,DROIDCAM.I.Wave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_Wave%,DROIDCAM.I.Wave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Topology%,DROIDCAM.I.Topo
+
+[DroidCam_PCMEX.AddReg]
+HKR,,AssociatedFilters,,"wdmaud,swmidi,redbook"
+HKR,,Driver,,droidcam.sys
+
+HKR,Drivers,SubClasses,,"wave"
+HKR,Drivers\wave\wdmaud.drv,Driver,,wdmaud.drv
+HKR,Drivers\wave\wdmaud.drv,Description,,%DroidCam_PCMEX.DeviceDesc%
+
+
+; COMMON
+[DROIDCAM.I.Wave]
+AddReg=DROIDCAM.I.Wave.AddReg
+[DROIDCAM.I.Wave.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%DROIDCAM.Wave.szPname%
+
+[DROIDCAM.I.Topo]
+AddReg=DROIDCAM.I.Topo.AddReg
+[DROIDCAM.I.Topo.AddReg]
+HKR,,CLSID,,%Proxy.CLSID%
+HKR,,FriendlyName,,%DROIDCAM.Topo.szPname%
+
+; DROIDCAM_Extensible
+[DroidCam_PCMEX.NT]
+Include=ks.inf,wdmaudio.inf
+Needs=KS.Registration, WDMAUDIO.Registration
+CopyFiles=DroidCam_PCMEX.CopyList
+AddReg=DroidCam_PCMEX.AddReg
+
+[DroidCam_PCMEX.NT.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Wave%,DROIDCAM.I.Wave
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_Wave%,DROIDCAM.I.Wave
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_Topology%,DROIDCAM.I.Topo
+
+[DroidCam_PCMEX.NT.Services]
+AddService=DroidCam,0x00000002,DroidCam_Service_Inst
+
+[DroidCam_Service_Inst]
+DisplayName=%DroidCam.SvcDesc%
+ServiceType=1
+StartType=3
+ErrorControl=1
+ServiceBinary=%12%\droidcam.sys
+
+; COMMON
+[Strings]
+MfgName="Dev47Apps.com"
+DroidCam_PCMEX.DeviceDesc="DroidCam Virtual Audio"
+
+DROIDCAM.Wave.szPname="DroidCam Audio"
+DROIDCAM.Topo.szPname="Topology"
+DROIDCAM_MIDI="WDM Midi Device"
+
+Proxy.CLSID="{17CCA71B-ECD7-11D0-B908-00A0C9223196}"
+KSCATEGORY_AUDIO="{6994AD04-93EF-11D0-A3CC-00A0C9223196}"
+KSCATEGORY_RENDER="{65E8773E-8F56-11D0-A3B9-00A0C9223196}"
+KSCATEGORY_CAPTURE="{65E8773D-8F56-11D0-A3B9-00A0C9223196}"
+
+KSNAME_Wave="Wave"
+KSNAME_Topology= "Topology"
+DroidCam.Disk1=  "Install Disk"
+DroidCam.SvcDesc="DroidCam Virtual Audio"
+MediaCategories="SYSTEM\CurrentControlSet\Control\MediaCategories"
+
+

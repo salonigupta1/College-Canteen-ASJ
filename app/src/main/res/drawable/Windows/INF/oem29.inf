@@ -1,0 +1,62 @@
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = SoftwareComponent
+ClassGuid   = {5c4c3332-344d-483c-8739-259e934c9cc8}
+Provider    = %OEM%
+DriverVer   = 07/14/2020,1.5.3.0
+CatalogFile = dtsapo4xservice.cat
+
+[SourceDisksNames]
+222 = %DiskId1%
+
+[SourceDisksFiles]
+DtsApo4Service.exe=222
+msvcp140_64.dll=222
+vcruntime140_64.dll=222
+
+[DestinationDirs]
+DefaultDestDir = 11, DTS\PC\APO4x ; %windir%\system32\DTS\PC\APO4x
+
+[SignatureAttributes]
+DtsApo4Service.exe=SignatureAttributes.PETrust
+
+[SignatureAttributes.DRM]
+DRMLevel=1300
+
+[SignatureAttributes.PETrust]
+PETrust=true
+
+[Manufacturer]
+%OEM% = DTSService,NTamd64
+
+[DTSService.NTamd64]
+%Service.ComponentDesc% = DTSService_Installx64,SWC\VEN_DTSI&HID_DTSIAPO4xSERVICE
+
+[DTSService_Installx64]
+CopyFiles = CopyList.DTSServiceX64
+
+[DTSService_Installx64.Services]
+AddService = ,2  ; to mask Infverif warning  
+AddService = DtsApo4Service, 0x00000800, DTS_Usersrv_ServiceInstall
+
+[CopyList.DTSServiceX64]
+DtsApo4Service.exe
+msvcp140.dll,  msvcp140_64.dll
+vcruntime140.dll, vcruntime140_64.dll
+
+
+[DTS_Usersrv_ServiceInstall]
+DisplayName    = "DtsApo4Service"
+ServiceType    = 0x00000010      ; SERVICE_WIN32_SHARE_PROCESS
+StartType      = 0x2             ; SERVICE_AUTO_START
+ErrorControl   = 0x1             ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %11%\DTS\PC\APO4x\DtsApo4Service.exe 
+
+[Strings]
+OEM                  = "DTS"
+Service.ComponentDesc	 = "DTS APO4x Service"
+DiskId1              = "DTS APO4x Service Installation Disk"
+
+REG_BINARY = 0x00000001
+REG_DWORD = 0x00010001
+REG_MULTI_SZ = 0x00010000

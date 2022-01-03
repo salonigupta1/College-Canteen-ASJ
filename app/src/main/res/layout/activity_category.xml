@@ -6,199 +6,211 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/drawerLayout"
-    android:background="@color/black"
+    android:background="#ffff"
     tools:context=".activities.FastFoodProductActivity"
     tools:openDrawer="start"
+
     android:fitsSystemWindows="true">
-
-    <ScrollView
-        android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_your_choice"
+            android:textSize="42sp"
+            android:layout_marginTop="28dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="@color/purple_200">
+        </TextView>
+    </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-               android:layout_marginTop="39dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_marginTop="99dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <GridLayout
+            android:layout_width="388dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="2">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="12dp"
+                android:backgroundTint="#FDA88B"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/fastFood"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:backgroundTint="#FDA88B"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginTop="12dp"
+                        android:contentDescription="@string/icon"
+                        android:src="@drawable/burger" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/fastFood"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="12dp"
+                android:backgroundTint="#6CD5C6"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:id="@+id/drinks"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginTop="12dp"
+                        android:contentDescription="@string/icon"
+                        android:src="@drawable/drink1"
+                        android:background="#6CD5C6"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/drinks"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="12dp"
+
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp"
+                android:backgroundTint="#F69ED8">
+
+                <LinearLayout
+                    android:id="@+id/desserts"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginTop="12dp"
+                        android:contentDescription="@string/icon"
+                        android:src="@drawable/sweets" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/desserts"
+
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_margin="12dp"
+                android:backgroundTint="#A0D69A"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:id="@+id/snacks"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginTop="12dp"
+                        android:contentDescription="@string/icon"
+                        android:src="@drawable/snack1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/snacks"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+        <Button
+            android:id="@+id/logoutBtn"
+            android:layout_width="144dp"
+            android:layout_height="50dp"
+            android:background="#0000FFFF"
+            android:text="@string/logout"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/purple_200"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
 
 
-                <GridLayout
-                    android:layout_width="388dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_margin="5dp"
-                    android:alignmentMode="alignMargins"
-                    android:columnCount="2"
-                    android:columnOrderPreserved="false"
-                    android:rowCount="3"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    tools:ignore="UselessParent">
 
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="170dp"
-                        android:layout_height="170dp"
-                        android:layout_margin="12dp"
-                        app:cardBackgroundColor="@color/gray"
-                        app:cardCornerRadius="15dp"
-                        app:cardElevation="5dp">
-
-                        <LinearLayout
-                            android:id="@+id/fastFood"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:gravity="center"
-                            android:orientation="vertical"
-                            tools:ignore="UseCompoundDrawables">
-
-                            <ImageView
-                                android:layout_width="24dp"
-                                android:layout_height="24dp"
-                                android:layout_marginTop="12dp"
-                                android:contentDescription="@string/icon"
-                                android:src="@drawable/ic_launcher_background" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="24dp"
-                                android:fontFamily="sans-serif-black"
-                                android:text="@string/fastFood"
-                                android:textColor="@color/white"
-                                android:textSize="16sp" />
-
-                        </LinearLayout>
-                    </androidx.cardview.widget.CardView>
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="170dp"
-                        android:layout_height="170dp"
-                        android:layout_margin="12dp"
-                        app:cardBackgroundColor="@color/gray"
-                        app:cardCornerRadius="15dp"
-                        app:cardElevation="5dp">
-
-                        <LinearLayout
-                            android:id="@+id/drinks"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:gravity="center"
-                            android:orientation="vertical"
-                            tools:ignore="UseCompoundDrawables">
-
-                            <ImageView
-                                android:layout_width="24dp"
-                                android:layout_height="24dp"
-                                android:layout_marginTop="12dp"
-                                android:contentDescription="@string/icon"
-                                android:src="@drawable/ic_launcher_background"
-                                tools:ignore="ImageContrastCheck" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="24dp"
-                                android:fontFamily="sans-serif-black"
-                                android:text="@string/drinks"
-                                android:textColor="@color/white"
-                                android:textSize="16sp"
-                                tools:ignore="TextContrastCheck,TextContrastCheck" />
-
-                        </LinearLayout>
-                    </androidx.cardview.widget.CardView>
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="170dp"
-                        android:layout_height="170dp"
-                        android:layout_margin="12dp"
-                        app:cardBackgroundColor="@color/gray"
-                        app:cardCornerRadius="15dp"
-                        app:cardElevation="5dp">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:gravity="center"
-                            android:orientation="vertical"
-                            tools:ignore="UseCompoundDrawables">
-
-                            <ImageView
-                                android:layout_width="24dp"
-                                android:layout_height="24dp"
-                                android:layout_marginTop="12dp"
-                                android:contentDescription="@string/icon"
-                                android:src="@drawable/ic_launcher_background" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="24dp"
-                                android:fontFamily="sans-serif-black"
-                                android:text="@string/drinks"
-                                android:textColor="@color/white"
-                                android:textSize="16sp" />
-
-                        </LinearLayout>
-                    </androidx.cardview.widget.CardView>
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="170dp"
-                        android:layout_height="170dp"
-                        android:layout_margin="12dp"
-                        app:cardBackgroundColor="@color/gray"
-                        app:cardCornerRadius="15dp"
-                        app:cardElevation="5dp">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:gravity="center"
-                            android:orientation="vertical"
-                            tools:ignore="UseCompoundDrawables">
-
-                            <ImageView
-                                android:layout_width="24dp"
-                                android:layout_height="24dp"
-                                android:layout_marginTop="12dp"
-                                android:contentDescription="@string/icon"
-                                android:src="@drawable/ic_launcher_background"
-                                tools:ignore="ImageContrastCheck,ImageContrastCheck,ImageContrastCheck" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="24dp"
-                                android:fontFamily="sans-serif-black"
-                                android:text="@string/drinks"
-                                android:textColor="@color/white"
-                                android:textSize="16sp"
-                                tools:ignore="TextContrastCheck,TextContrastCheck" />
-
-                        </LinearLayout>
-                    </androidx.cardview.widget.CardView>
-                </GridLayout>
-
-                <Button
-                    android:id="@+id/logoutBtn"
-                    android:layout_width="144dp"
-                    android:layout_height="50dp"
-                    android:background="#0000FFFF"
-                    android:text="@string/logout"
-                    android:textSize="15sp"
-                    android:textAlignment="center"
-                    android:textAllCaps="false"
-                    android:textColor="@color/white"
-                    android:layout_marginTop="77dp"
-                    android:layout_gravity="center_horizontal"/>
-
-            </LinearLayout>
-
-    </ScrollView>
-
-        <com.google.android.material.navigation.NavigationView
+    <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"

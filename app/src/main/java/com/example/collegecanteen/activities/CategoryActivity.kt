@@ -97,6 +97,24 @@ class CategoryActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val varDrink = findViewById<View>(R.id.drinks) as LinearLayout
+        varDrink.setOnClickListener {
+            val intent = Intent(this@CategoryActivity, DrinkProductActivity::class.java)
+            startActivity(intent)
+        }
+
+        val varDesserts = findViewById<View>(R.id.desserts) as LinearLayout
+        varDesserts.setOnClickListener {
+            val intent = Intent(this@CategoryActivity, DessertsProductActivity::class.java)
+            startActivity(intent)
+        }
+
+        val varSnacks = findViewById<View>(R.id.snacks) as LinearLayout
+        varSnacks.setOnClickListener {
+            val intent = Intent(this@CategoryActivity, SnacksProductActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 
 //    private fun checkUser(){

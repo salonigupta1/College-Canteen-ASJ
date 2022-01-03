@@ -1,0 +1,1333 @@
+[Device Install Log]
+     OS Version = 10.0.22000
+     Service Pack = 0.0
+     Suite = 0x0300
+     ProductType = 1
+     Architecture = amd64
+
+[BeginLog]
+
+[Boot Session: 2021/11/02 12:55:40.500]
+
+>>>  [Sysprep Respecialize - {00840161-bdb9-11ea-42cf-e70b75c74630}]
+>>>  Section start 2021/11/02 12:56:09.249
+     set: System Information:
+     set:      BIOS Release Date: 05/06/2020
+     set:      BIOS Vendor: TIMI
+     set:      BIOS Version: XMRCM400P0A04
+     set:      System Family: Mi Laptop
+     set:      System Manufacturer: TIMI
+     set:      System Product Name: Mi  NoteBook 14
+     set:      System SKU: TM1901-27750
+     set: Sysprep is running under Setup mode with OOBE in progress.
+     set: Initialized PnP data. Time = 562 ms. 12:56:09.814
+     set: Updated driver package signatures. Time = 79 ms. 12:56:09.893
+     set: Installed devices. Time = 1281 ms. 12:56:11.162
+     set: Verified migrated devices. Time = 62 ms. 12:56:11.225
+     set: Cleaned up unneeded PnP data. Time = 16 ms. 12:56:11.256
+     set: Completed PnP Setup.
+<<<  Section end 2021/11/02 12:56:11.274
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Setup Update Driver Package Signatures]
+>>>  Section start 2021/11/02 12:56:09.814
+     set: oem42.inf/ch341ser.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem65.inf/cometlakepch-lpdmasecextension.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem32.inf/cometlakepch-lpsystem.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem1.inf/cometlakepch-lpsystemthermal.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem11.inf/cometlakesystem.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem26.inf/detectionverificationdrv.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem17.inf/dptf_acpi.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem54.inf/dptf_acpi.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem39.inf/dptf_cpu.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem38.inf/dptf_cpu.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem61.inf/dtsapo4dapxiaomiextkg.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem8.inf/hdbusext.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem63.inf/hdx_miext_xperi4_rtk.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem35.inf/heci.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem62.inf/iaahcic.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem16.inf/iaahcic.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem66.inf/ialpss2_gpio2_cnl.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem57.inf/ialpss2_i2c_cnl.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem15.inf/iigd_ext.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem33.inf/iigd_ext.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem60.inf/intcaudiobus.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem28.inf/intcdmicextt_mi.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem20.inf/intcdmicext_mi.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem3.inf/intcoed.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem45.inf/oemextension.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem67.inf/pieextension.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem0.inf/radiocontrol.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem52.inf/radiocontrol.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem19.inf/cui_dch.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem6.inf/cui_dch.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem43.inf/dal.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem51.inf/droidcam.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem27.inf/droidcamvideo.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem25.inf/dtsapo4x64.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem29.inf/dtsapo4xservice.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem2.inf/dtsaudioprocessinghsa.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem41.inf/hdxmi.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem10.inf/hdxsstmi.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem50.inf/ibtusb.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem55.inf/iclsclient.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem47.inf/igcc_dch.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem53.inf/igcc_dch.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem49.inf/iigd_dch.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem18.inf/intcdaud.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem37.inf/intcdaud.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem44.inf/intcdaud.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem7.inf/intcdaud.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem22.inf/intcdaud.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem48.inf/intcdaud.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem12.inf/intcdmic.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem34.inf/intcsdw.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem23.inf/intcsst.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem13.inf/lms.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem9.inf/mshdadac.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem58.inf/netwtw04.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem59.inf/netwtw06.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem4.inf/netwtw08.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem40.inf/piecomponent.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem24.inf/realtekapo.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem46.inf/realtekapo.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem21.inf/realtekhsa.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem5.inf/realtekhsa.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem30.inf/realtekintapo.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem31.inf/realtekintapo.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem56.inf/realtekservice.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem64.inf/realtekservice.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem68.inf/realteksstppdll.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem36.inf/realteksstppdll.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+     set: oem14.inf/rtux64w10.inf -> Signed by 'Microsoft Windows Hardware Compatibility Publisher' (SignerScore = 0x0D000005).
+<<<  Section end 2021/11/02 12:56:09.893
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Setup Plug and Play Device Install]
+>>>  Section start 2021/11/02 12:56:09.893
+     set: PCI\VEN_8086&DEV_02E0&SUBSYS_19011D72&REV_00\3&11583659&1&B0 -> Configured [oem35.inf:PCI\VEN_8086&DEV_02E0,TEE_DDI_x64] and started (ConfigFlags = 0x00000000).
+     set: ACPI\PNP0C02\1 -> Configured [machine.inf:*PNP0C02,NO_DRV_MBRES] (ConfigFlags = 0x00000000).
+     set: ACPI\PNP0C02\2 -> Configured [machine.inf:*PNP0C02,NO_DRV_MBRES] (ConfigFlags = 0x00000000).
+     set: ACPI\PNP0C02\5 -> Configured [machine.inf:*PNP0C02,NO_DRV_MBRES] (ConfigFlags = 0x00000000).
+     set: PCI\VEN_8086&DEV_9B41&SUBSYS_19011D72&REV_02\3&11583659&1&10 -> Awaiting install for incomplete driver configuration (ConfigFlags = 0x00000020).
+     set: {5D624F94-8850-40C3-A3FA-A4FD2080BAF3}\VWIFIMP_WFD\4&1424E472&1&11 -> Awaiting install for incomplete driver configuration (ConfigFlags = 0x00000020).
+     set: SW\{96E080C7-143C-11D1-B40F-00A0C9223196}\{3C0D501A-140B-11D1-B40F-00A0C9223196} -> Configured [ksfilter.inf:SW\{96E080C7-143C-11D1-B40F-00A0C9223196},MSKSSRV.NT] and started (ConfigFlags = 0x00000000).
+     set: ACPI\PNP0C09\4&23B2480F&0 -> Configured [machine.inf:*PNP0C09,NO_DRV] and started (ConfigFlags = 0x00000000).
+     set: SWD\DRIVERENUM\{BABE2782-EB1B-46A7-871A-F043D3200542}#OEM_DAL_COMPONENT&4&2937ED40&0 -> Configured [oem43.inf:SWC\3C4852D6-D47B-4F46-B05E-B5EDC1AA440E,DALInstallSection.ntamd64] and started (ConfigFlags = 0x00000000).
+     set: ACPI\PNP0100\4&23B2480F&0 -> Configured [machine.inf:*PNP0100,NO_DRV_X] (ConfigFlags = 0x00000000).
+     set: ACPI\PNP0C0A\0 -> Configured [cmbatt.inf:ACPI\PNP0C0A,CmBatt_Inst] and started (ConfigFlags = 0x00000000).
+     set: PCI\VEN_8086&DEV_02E8&SUBSYS_19011D72&REV_00\3&11583659&1&A8 -> Configured [oem57.inf:PCI\VEN_8086&DEV_02E8,iaLPSS2_I2C_CNL_Device.NT] and started (ConfigFlags = 0x00000000).
+     set: ACPI\ACPI000C\2&DABA3FF&1 -> Configured [acpipagr.inf:*ACPI000C,PagrInstall] and started (ConfigFlags = 0x00000000).
+     set: SWD\DRIVERENUM\OEM_LMS_COMPONENT&4&2937ED40&0 -> Configured [oem13.inf:SWC\5DCEB103-DD64-403C-A17C-94FC5F917A9C,LMSInstallSection.NTamd64] and started (ConfigFlags = 0x00000000).
+     set: SWD\DRIVERENUM\{6799211C-AC58-4689-BC51-A485C2B9CD2F}#DTSHSA&5&33B0D57C&0 -> Configured [oem2.inf:SWC\VEN_DTSI&HID_DTSIDAP,DTSHSA_DAP_Install] and started (ConfigFlags = 0x00000000).
+     set: BTHENUM\DEV_A4CCB9D849A4\7&1B74E3B7&0&BLUETOOTHDEVICE_A4CCB9D849A4 -> Configured [bth.inf:BTHENUM\GENERIC_DEVICE,BthGenericDevice.NT] and started (ConfigFlags = 0x00000000).
+     set: STORAGE\VOLUME\{952F47B0-BD6C-11EA-8863-806E6F6E6963}#00000024B7500000 -> Configured [volume.inf:STORAGE\Volume,volume_install.NT] and started (ConfigFlags = 0x00000000).
+     set: ROOT\VOLMGR\0000 -> Configured [volmgr.inf:ROOT\VOLMGR,Volmgr] and started (ConfigFlags = 0x00040000).
+     set: ACPI\ACPI0003\5&1D8DBA46&0 -> Configured [cmbatt.inf:ACPI\ACPI0003,AcAdapter_Inst] and started (ConfigFlags = 0x00000000).
+     set: PCI\VEN_8086&DEV_02F9&SUBSYS_19011D72&REV_00\3&11583659&1&90 -> Configured [oem1.inf:PCI\VEN_8086&DEV_02F9,Needs_NO_DRV] (ConfigFlags = 0x00000000).
+     set: ACPI\MSFT0101\2&DABA3FF&1 -> Configured [tpm.inf:ACPI\MSFT0101,Tpm2BaseInstall] and started (ConfigFlags = 0x00000000).
+     set: PCI\VEN_8086&DEV_9B61&SUBSYS_19011D72&REV_0C\3&11583659&1&00 -> Configured [oem11.inf:PCI\VEN_8086&DEV_9B61,Needs_NO_DRV] and started (ConfigFlags = 0x00000000).
+     set: SWD\DRIVERENUM\{C3A63EDD-2D27-4B66-B155-5E94B43D926A}#REALTEKHSA&5&33B0D57C&0 -> Configured [oem21.inf:SWC\VEN_10EC&HID_0001,HsaComponent_Install] and started (ConfigFlags = 0x00000000).
+     set: ACPI\INT3400\2&DABA3FF&1 -> Configured [oem54.inf:ACPI\INT3400,DptfAcpi.NTamd64] and started (ConfigFlags = 0x00000400).
+     set: ROOT\BASICDISPLAY\0000 -> Configured [basicdisplay.inf:ROOT\BasicDisplay,MSBDD_Fallback] and started (ConfigFlags = 0x00000000).
+     set: ACPI\INT3403\SEN1 -> Configured [oem54.inf:ACPI\INT3403,DptfAcpi.NTamd64] and started (ConfigFlags = 0x00000400).
+     set: ACPI\INT3403\SEN2 -> Configured [oem54.inf:ACPI\INT3403,DptfAcpi.NTamd64] and started (ConfigFlags = 0x00000400).
+     set: ACPI\INT3403\SEN3 -> Configured [oem54.inf:ACPI\INT3403,DptfAcpi.NTamd64] and started (ConfigFlags = 0x00000400).
+     set: ACPI\INT3403\SEN4 -> Configured [oem54.inf:ACPI\INT3403,DptfAcpi.NTamd64] and started (ConfigFlags = 0x00000400).
+     set: ACPI\PNP0C0E\2&DABA3FF&1 -> Configured [machine.inf:*PNP0C0E,NO_DRV] and started (ConfigFlags = 0x00000000).
+     set: PCI\VEN_8086&DEV_0284&SUBSYS_19011D72&REV_00\3&11583659&1&F8 -> Configured [oem32.inf:PCI\VEN_8086&DEV_0284,Needs_MSISADRV] and started (ConfigFlags = 0x00000000).
+     set: ACPI\THERMALZONE\TZ00 -> Configured [machine.inf:ACPI\ThermalZone,NO_DRV] and started (ConfigFlags = 0x00000000).
+     set: ACPI\THERMALZONE\TZ01 -> Configured [machine.inf:ACPI\ThermalZone,NO_DRV] and started (ConfigFlags = 0x00000000).
+     set: INTELAUDIO\DSP_CTLR_DEV_02C8&VEN_8086&DEV_0222&SUBSYS_19011D72&REV_0000\4&10BC4A3D&0&0800 -> Configured [oem3.inf:INTELAUDIO\DSP_CTLR_DEV_02C8&VEN_8086&DEV_0222,IntcOED.NT] and started (ConfigFlags = 0x00000000).
+     set: PCI\VEN_8086&DEV_02C8&SUBSYS_19011D72&REV_00\3&11583659&1&FB -> Configured [oem60.inf:PCI\VEN_8086&DEV_02C8&CC_0401,IntcAudioBus.NT] and started (ConfigFlags = 0x00000000).
+     set: SWD\DRIVERENUM\{12D32D00-C5BF-4A3B-A030-EBA5AB6FD0DD}#REALTEKSSTPPDLL&6&17B32E68&0 -> Configured [oem68.inf:SWC\VEN_10EC&SSTPPDLL_0001,SstPpDllComponent_Install] and started (ConfigFlags = 0x00000000).
+     set: ROOT\VID\0000 -> Configured [wvid.inf:ROOT\VID,Vid_Device_Client.NT] and started (ConfigFlags = 0x00000000).
+     set: ACPI\PNP0103\0 -> Configured [machine.inf:*PNP0103,NO_DRV_HPET] (ConfigFlags = 0x00000000).
+     set: BTHENUM\{00001112-0000-1000-8000-00805F9B34FB}_VID&00010046_PID&1200\7&1B74E3B7&0&A4CCB9D849A4_C00000000 -> Configured [bth.inf:BTHENUM\{00001112-0000-1000-8000-00805f9b34fb},BthDefaultService.NT] and started (ConfigFlags = 0x00000000).
+     set: PCI\VEN_8086&DEV_02A3&SUBSYS_19011D72&REV_00\3&11583659&1&FC -> Configured [oem32.inf:PCI\VEN_8086&DEV_02A3,Needs_NO_DRV] (ConfigFlags = 0x00000000).
+     set: ROOT\COMPOSITEBUS\0000 -> Configured [compositebus.inf:ROOT\CompositeBus,CompositeBus_Device.NT] and started (ConfigFlags = 0x00000000).
+     set: ROOT\VDRVROOT\0000 -> Configured [vdrvroot.inf:ROOT\vdrvroot,VDRVROOT] and started (ConfigFlags = 0x00000000).
+     set: ROOT\SPACEPORT\0000 -> Configured [spaceport.inf:Root\Spaceport,Spaceport_Install] and started (ConfigFlags = 0x00040000).
+     set: SWD\DRIVERENUM\{C3A63EDD-2D27-4B66-B155-5E94B43D926A}#REALTEKSRV&5&33B0D57C&0 -> Configured [oem56.inf:SWC\VEN_10EC&SID_0001,SrvComponent_Install] and started (ConfigFlags = 0x00000000).
+     set: BTH\MS_BTHLE\6&22C770F9&0&3 -> Configured [bthleenum.inf:BTH\MS_BTHLE,BthLEEnum.NT] and started (ConfigFlags = 0x00000000).
+     set: ROOT\KDNIC\0000 -> Configured [kdnic.inf:root\kdnic,KdNic.ndi] and started (ConfigFlags = 0x00000000).
+     set: UEFI\RES_{CF422683-E7BA-49AD-B31D-F8C89F10DBB6}\0 -> Configured [c_firmware.inf:UEFI\CC_00010001,FirmwareResource.NT] and started (ConfigFlags = 0x00000000).
+     set: ACPI\PNP0C0D\2&DABA3FF&1 -> Configured [machine.inf:*PNP0C0D,NO_DRV] and started (ConfigFlags = 0x00000000).
+     set: ACPI\PNP0C02\PCHRESV -> Configured [machine.inf:*PNP0C02,NO_DRV_MBRES] (ConfigFlags = 0x00000000).
+     set: SWD\DRIVERENUM\{12D32D00-C5BF-4A3B-A030-EBA5AB6FD0DD}#REALTEKINTAPO&6&17B32E68&0 -> Configured [oem31.inf:SWC\VEN_10EC&AID_0003,ApoComponent_Install] and started (ConfigFlags = 0x00000000).
+     set: HID\ELAN2304&COL04\5&2B673C8&0&0003 -> Configured [mtconfig.inf:HID_DEVICE_UP:000D_U:000E,MTConfigInst.NT] and started (ConfigFlags = 0x00000000).
+     set: SWD\DRIVERENUM\{BABE2782-EB1B-46A7-871A-F043D3200542}#OEM_ICLS_COMPONENT&4&2937ED40&0 -> Configured [oem55.inf:SWC\PROVIDER_INTEL_COMPONENT_ICLSCLIENT,IclsClientInstallSection.NTamd64] and started (ConfigFlags = 0x00000000).
+     set: STORAGE\VOLUME\{952F47B0-BD6C-11EA-8863-806E6F6E6963}#0000000018500000 -> Configured [volume.inf:STORAGE\Volume,volume_install.NT] and started (ConfigFlags = 0x00000000).
+     set: HID\ELAN2304&COL03\5&2B673C8&0&0002 -> Configured [input.inf:HID_DEVICE_UP:000D_U:0005,HID_Raw_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set: HID\ELAN2304&COL02\5&2B673C8&0&0001 -> Configured [input.inf:HID_DEVICE_UPR:FF00-FFFF,HID_Raw_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set: ROOT\UMBUS\0000 -> Configured [umbus.inf:root\umbus,UmBusRoot_Device.NT] and started (ConfigFlags = 0x00000000).
+     set: ROOT\CAD\0000 -> Configured [ChargeArbitration.inf:ROOT\CAD,CAD_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set: DISPLAY\NCP004A\1&8713BCA&0&UID0 -> Configured [monitor.inf:*PNP09FF,PnPMonitor.Install] and started (ConfigFlags = 0x00000000).
+     set: ACPI\PNP0B00\4&23B2480F&0 -> Configured [machine.inf:*PNP0B00,NO_DRV_X] and started (ConfigFlags = 0x00000000).
+     set: ACPI\PNP0C14\SAMPLEDEV -> Configured [wmiacpi.inf:*PNP0C14,WMIMAP_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set: BTHENUM\{00001801-0000-1000-8000-00805F9B34FB}_VID&00010046_PID&1200\7&1B74E3B7&0&A4CCB9D849A4_C00000000 -> Configured [null] and started (ConfigFlags = 0x00000000).
+     set: HID\ELAN2304&COL01\5&2B673C8&0&0000 -> Configured [msmouse.inf:HID_DEVICE_SYSTEM_MOUSE,HID_Mouse_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set: INTELAUDIO\FUNC_01&VEN_8086&DEV_280B&SUBSYS_80860101&REV_1000\4&10BC4A3D&0&0201 -> Configured [oem18.inf:INTELAUDIO\FUNC_01&VEN_8086&DEV_280B&SUBSYS_80860101,IntcAudModel] and started (ConfigFlags = 0x00000000).
+     set: SWD\MSDAS\{CE958E9A-424F-4C88-86F4-11314821E75A} -> Configured [c_swdevice.inf:SWD\GenericRaw,SoftwareDevice] and started (ConfigFlags = 0x00000000).
+     set: ROOT\ACPI_HAL\0000 -> Configured [hal.inf:acpiapic,ACPI_AMD64_HAL] and started (ConfigFlags = 0x00040000).
+     set: PCI\VEN_8086&DEV_02D3&SUBSYS_19011D72&REV_00\3&11583659&1&B8 -> Configured [oem16.inf:PCI\VEN_8086&DEV_02D3&CC_0106,AHCI_inst.NTamd64] and started (ConfigFlags = 0x00000000).
+     set: ACPI\PNP0000\4&23B2480F&0 -> Configured [machine.inf:*PNP0000,NO_DRV_PIC] (ConfigFlags = 0x00000000).
+     set: ACPI\PNP0C14\TESTDEV -> Configured [wmiacpi.inf:*PNP0C14,WMIMAP_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set: ACPI\PNP0A08\0 -> Configured [pci.inf:*PNP0A08,PCI_ROOT] and started (ConfigFlags = 0x00000000).
+     set: SWD\DRIVERENUM\OEM_DAL_COMPONENT&4&2937ED40&0 -> Configured [oem43.inf:SWC\3C4852D6-D47B-4F46-B05E-B5EDC1AA440E,DALInstallSection.ntamd64] and started (ConfigFlags = 0x00000000).
+     set: SWD\DRIVERENUM\{6799211C-AC58-4689-BC51-A485C2B9CD2F}#DTSAPO&5&33B0D57C&0 -> Configured [oem25.inf:SWC\VEN_DTSI&AID_DTSI2,ApoComponent_Install] and started (ConfigFlags = 0x00000000).
+     set: INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1D721901&REV_1000\4&10BC4A3D&0&0001 -> Configured [oem10.inf:INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1D721901,IntcAzAudModelSST.NTamd64] and started (ConfigFlags = 0x00000000).
+     set: SWD\DRIVERENUM\{9FD11DEE-422F-4B05-9119-F0BB9D833699}#PIESOFTWARECOMPONENT&4&1424E472&1 -> Configured [oem40.inf:SWC\VID_8086&PID_PIE&SID_0001,PieSoftwareComponent_Install] and started (ConfigFlags = 0x00000000).
+     set: STORAGE\VOLUME\{952F47B0-BD6C-11EA-8863-806E6F6E6963}#00000076FC200000 -> Configured [volume.inf:STORAGE\Volume,volume_install.NT] and started (ConfigFlags = 0x00000000).
+     set: BTHENUM\{00001116-0000-1000-8000-00805F9B34FB}_VID&00010046_PID&1200\7&1B74E3B7&0&A4CCB9D849A4_C00000000 -> Configured [bth.inf:BTHENUM\{00001116-0000-1000-8000-00805f9b34fb},BthDefaultService.NT] and started (ConfigFlags = 0x00000000).
+     set: INTELAUDIO\CTLR_DEV_02C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_1D721901&REV_10EC\5&28520DAF&0&0100 -> Configured [oem12.inf:INTELAUDIO\CTLR_DEV_02C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20,IntcAudModel] and started (ConfigFlags = 0x00000000).
+     set: ACPI\PNP0C14\WST -> Configured [wmiacpi.inf:*PNP0C14,WMIMAP_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set: ACPI\INT3F0D\4&23B2480F&0 -> Configured [machine.inf:*PNP0C02,NO_DRV_MBRES] (ConfigFlags = 0x00000000).
+     set: ACPI_HAL\PNP0C08\0 -> Configured [acpi.inf:*PNP0C08,ACPI_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set: ACPI\TIMI1601\4&23B2480F&0 -> Configured [keyboard.inf:*PNP0303,STANDARD_Inst] and started (ConfigFlags = 0x00000000).
+     set: ROOT\BASICRENDER\0000 -> Configured [basicrender.inf:ROOT\BasicRender,BasicRender] and started (ConfigFlags = 0x00000000).
+     set: SWD\DRIVERENUM\{C3A63EDD-2D27-4B66-B155-5E94B43D926A}#REALTEKAPO&5&33B0D57C&0 -> Configured [oem46.inf:SWC\VEN_10EC&AID_0001,ApoComponent_Install] and started (ConfigFlags = 0x00000000).
+     set: BTHENUM\{0000110A-0000-1000-8000-00805F9B34FB}_VID&00010046_PID&1200\7&1B74E3B7&0&A4CCB9D849A4_C00000000 -> Started and awaiting additional install (ConfigFlags = 0x00000400).
+     set: ACPI_HAL\UEFI\0 -> Configured [uefi.inf:ACPI_HAL\UEFI,UEFI_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set: SWD\DRIVERENUM\{BABE2782-EB1B-46A7-871A-F043D3200542}#OEM_LMS_COMPONENT&4&2937ED40&0 -> Configured [oem13.inf:SWC\5DCEB103-DD64-403C-A17C-94FC5F917A9C,LMSInstallSection.NTamd64] and started (ConfigFlags = 0x00000000).
+     set: PCI\VEN_8086&DEV_02F0&SUBSYS_02A48086&REV_00\3&11583659&1&A3 -> Configured [oem4.inf:PCI\VEN_8086&DEV_02F0&SUBSYS_02A48086,Install_MPCIEX_GENM2CRFDIVERSITY_9462_AC_HMC_WINT_64_AC_No_160_10] and started (ConfigFlags = 0x00000000).
+     set: PCI\VEN_8086&DEV_02ED&SUBSYS_19011D72&REV_00\3&11583659&1&A0 -> Configured [usbxhci.inf:PCI\CC_0C0330,Generic.Install.NT] and started (ConfigFlags = 0x00000000).
+     set: BTH\MS_BTHBRB\6&22C770F9&0&1 -> Configured [bth.inf:BTH\MS_BTHBRB,BthEnum.NT] and started (ConfigFlags = 0x00000000).
+     set: ACPI\PNP0C02\SARESV -> Configured [machine.inf:*PNP0C02,NO_DRV_MBRES] (ConfigFlags = 0x00000000).
+     set: USB\VID_8087&PID_0AAA\5&1F543D55&0&10 -> Configured [oem50.inf:USB\VID_8087&PID_0AAA&REV_0002,ibtusb] and started (ConfigFlags = 0x00000000).
+     set: ACPI\FIXEDBUTTON\2&DABA3FF&1 -> Configured [machine.inf:ACPI\FixedButton,NO_DRV] and started (ConfigFlags = 0x00000000).
+     set: ACPI\PNP0C14\XAPE -> Configured [wmiacpi.inf:*PNP0C14,WMIMAP_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set: BTHENUM\{0000111F-0000-1000-8000-00805F9B34FB}_VID&00010046_PID&1200\7&1B74E3B7&0&A4CCB9D849A4_C00000000 -> Configured [microsoft_bluetooth_hfp_hf.inf:BTHENUM\{0000111f-0000-1000-8000-00805f9b34fb},BthHfEnum_Hf_Install] and started (ConfigFlags = 0x00000000).
+     set: PCI\VEN_8086&DEV_02E9&SUBSYS_19011D72&REV_00\3&11583659&1&A9 -> Configured [oem57.inf:PCI\VEN_8086&DEV_02E9,iaLPSS2_I2C_CNL_Device.NT] and started (ConfigFlags = 0x00000000).
+     set: ACPI\INT33A1\1 -> Configured [intelpep.inf:ACPI\INT33A1,HSWULT] and started (ConfigFlags = 0x00000000).
+     set: BTH\MS_RFCOMM\6&22C770F9&0&0 -> Configured [tdibth.inf:BTH\MS_RFCOMM,RFCOMM.Install] and started (ConfigFlags = 0x00000000).
+     set: BTHENUM\{00001132-0000-1000-8000-00805F9B34FB}_VID&00010046_PID&1200\7&1B74E3B7&0&A4CCB9D849A4_C00000000 -> Configured [null] and started (ConfigFlags = 0x00000000).
+     set: BTH\MS_BTHPAN\6&22C770F9&0&2 -> Awaiting install for incomplete driver configuration (ConfigFlags = 0x00000020).
+     set: ACPI\PNP0C02\IOTRAPS -> Configured [machine.inf:*PNP0C02,NO_DRV_MBRES] (ConfigFlags = 0x00000000).
+     set: STORAGE\VOLUME\{952F47B0-BD6C-11EA-8863-806E6F6E6963}#0000000010500000 -> Configured [volume.inf:STORAGE\Volume,volume_install.NT] and started (ConfigFlags = 0x00000000).
+     set: BTHENUM\{0000110C-0000-1000-8000-00805F9B34FB}_VID&00010046_PID&1200\7&1B74E3B7&0&A4CCB9D849A4_C00000000 -> Configured [microsoft_bluetooth_avrcptransport.inf:BTHENUM\{0000110c-0000-1000-8000-00805f9b34fb},Microsoft_Bluetooth_AvrcpTransport.NT] and started (ConfigFlags = 0x00000000).
+     set: {DD8E82AE-334B-49A2-AEAE-AEB0FD5C40DD}\DETECTIONVERIFICATION\5&28520DAF&0&0 -> Configured [oem26.inf:{DD8E82AE-334B-49A2-AEAE-AEB0FD5C40DD}\DetectionVerification,IntcDV.NT] and started (ConfigFlags = 0x00000000).
+     set: ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_142_-_INTEL(R)_CORE(TM)_I5-10210U_CPU_@_1.60GHZ\_1 -> Configured [cpu.inf:ACPI\GenuineIntel_-_Intel64,IntelPPM_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set: ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_142_-_INTEL(R)_CORE(TM)_I5-10210U_CPU_@_1.60GHZ\_2 -> Configured [cpu.inf:ACPI\GenuineIntel_-_Intel64,IntelPPM_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set: ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_142_-_INTEL(R)_CORE(TM)_I5-10210U_CPU_@_1.60GHZ\_3 -> Configured [cpu.inf:ACPI\GenuineIntel_-_Intel64,IntelPPM_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set: ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_142_-_INTEL(R)_CORE(TM)_I5-10210U_CPU_@_1.60GHZ\_4 -> Configured [cpu.inf:ACPI\GenuineIntel_-_Intel64,IntelPPM_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set: ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_142_-_INTEL(R)_CORE(TM)_I5-10210U_CPU_@_1.60GHZ\_5 -> Configured [cpu.inf:ACPI\GenuineIntel_-_Intel64,IntelPPM_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set: ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_142_-_INTEL(R)_CORE(TM)_I5-10210U_CPU_@_1.60GHZ\_6 -> Configured [cpu.inf:ACPI\GenuineIntel_-_Intel64,IntelPPM_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set: ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_142_-_INTEL(R)_CORE(TM)_I5-10210U_CPU_@_1.60GHZ\_7 -> Configured [cpu.inf:ACPI\GenuineIntel_-_Intel64,IntelPPM_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set: ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_142_-_INTEL(R)_CORE(TM)_I5-10210U_CPU_@_1.60GHZ\_8 -> Configured [cpu.inf:ACPI\GenuineIntel_-_Intel64,IntelPPM_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set: STORAGE\VOLUME\{952F47B0-BD6C-11EA-8863-806E6F6E6963}#0000000000100000 -> Configured [volume.inf:STORAGE\Volume,volume_install.NT] and started (ConfigFlags = 0x00000000).
+     set: BTHENUM\{00001105-0000-1000-8000-00805F9B34FB}_VID&00010046_PID&1200\7&1B74E3B7&0&A4CCB9D849A4_C00000000 -> Configured [bth.inf:BTHENUM\{00001105-0000-1000-8000-00805f9b34fb},BthDefaultService.NT] and started (ConfigFlags = 0x00000000).
+     set: SWD\MMDEVAPI\MICROSOFTGSWAVETABLESYNTH -> Configured [c_swdevice.inf:SWD\GenericRaw,SoftwareDevice] and started (ConfigFlags = 0x00000000).
+     set: BTHENUM\{0000112D-0000-1000-8000-00805F9B34FB}_VID&00010046_PID&1200\7&1B74E3B7&0&A4CCB9D849A4_C00000000 -> Configured [bth.inf:BTHENUM\{0000112d-0000-1000-8000-00805f9b34fb},BthDefaultService.NT] and started (ConfigFlags = 0x00000000).
+     set: USB\ROOT_HUB30\4&1B0B8274&0&0 -> Configured [usbhub3.inf:USB\ROOT_HUB30,Generic.Install.NT] and started (ConfigFlags = 0x00000000).
+     set: SWD\DRIVERENUM\{6799211C-AC58-4689-BC51-A485C2B9CD2F}#DTSSERVICE&5&33B0D57C&0 -> Configured [oem29.inf:SWC\VEN_DTSI&HID_DTSIAPO4xSERVICE,DTSService_Installx64] and started (ConfigFlags = 0x00000000).
+     set: SCSI\DISK&VEN_SAMSUNG&PROD_MZNLN512HAJQ-000\4&17CFB3F3&0&000200 -> Configured [disk.inf:GenDisk,disk_install.NT] and started (ConfigFlags = 0x00000000).
+     set: {2F2B7B01-597A-434C-8DD6-D27CD46EF73C}\IBTUSBFILTER\6&22C770F9&0&00 -> Configured [null] and started (ConfigFlags = 0x00000000).
+     set: ACPI\XMCCA001\2&DABA3FF&1 -> Configured [oem52.inf:ACPI\XMCCA001,RadioControl.Inst.Win7.NT] and started (ConfigFlags = 0x00000400).
+     set: ROOT\NDISVIRTUALBUS\0000 -> Configured [ndisvirtualbus.inf:ROOT\NdisVirtualBus,NdisVirtualBus_Device.NT] and started (ConfigFlags = 0x00000000).
+     set: HID\XMCCA001\3&5F5E471&0&0000 -> Configured [oem52.inf:HID\VEN_XMCC&DEV_A001,customCollection.Inst.NT] and started (ConfigFlags = 0x00000400).
+     set: PCI\VEN_8086&DEV_1903&SUBSYS_19011D72&REV_0C\3&11583659&1&20 -> Configured [oem38.inf:PCI\VEN_8086&DEV_1903,EsifManager10.0.NTamd64] and started (ConfigFlags = 0x00000000).
+     set: ACPI\ELAN2304\4&CFC1A96&0 -> Configured [hidi2c.inf:ACPI\PNP0C50,hidi2c_Device.NT] and started (ConfigFlags = 0x00000000).
+     set: BTHLE\DEV_A4CCB9D849A4\7&322A2D1F&0&A4CCB9D849A4 -> Configured [bthleenum.inf:BTHLE\GenericDevice,BthLEEnum.Device.NT] and started (ConfigFlags = 0x00000000).
+     set: BTHHFENUM\BTHHFPAUDIO\8&A817881&2&97 -> Awaiting install for incomplete driver configuration (ConfigFlags = 0x00000020).
+     set: BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&00010046_PID&1200\7&1B74E3B7&0&A4CCB9D849A4_C00000000 -> Configured [microsoft_bluetooth_avrcptransport.inf:BTHENUM\{0000110e-0000-1000-8000-00805f9b34fb},Microsoft_Bluetooth_AvrcpTransport.NT] and started (ConfigFlags = 0x00000000).
+     set: PCI\VEN_8086&DEV_02EF&SUBSYS_19011D72&REV_00\3&11583659&1&A2 -> Configured [oem32.inf:PCI\VEN_8086&DEV_02EF,Needs_NO_DRV] (ConfigFlags = 0x00000000).
+     set: PCI\VEN_8086&DEV_02A4&SUBSYS_19011D72&REV_00\3&11583659&1&FD -> Configured [oem32.inf:PCI\VEN_8086&DEV_02A4,Needs_NO_DRV] (ConfigFlags = 0x00000000).
+     set: BTHENUM\{00001800-0000-1000-8000-00805F9B34FB}_VID&00010046_PID&1200\7&1B74E3B7&0&A4CCB9D849A4_C00000000 -> Configured [null] and started (ConfigFlags = 0x00000000).
+     set: BTHENUM\{0000112F-0000-1000-8000-00805F9B34FB}_VID&00010046_PID&1200\7&1B74E3B7&0&A4CCB9D849A4_C00000000 -> Configured [bth.inf:BTHENUM\{0000112f-0000-1000-8000-00805f9b34fb},BthDefaultService.NT] and started (ConfigFlags = 0x00000000).
+     set: ROOT\MSSMBIOS\0000 -> Configured [mssmbios.inf:ROOT\mssmbios,MSSMBIOS_DRV] and started (ConfigFlags = 0x00000000).
+     set: ACPI\INT340E\2&DABA3FF&1 -> Configured [machine.inf:*PNP0C02,NO_DRV_MBRES] (ConfigFlags = 0x00000000).
+     set: ACPI\PNP0C14\TBFP -> Configured [wmiacpi.inf:*PNP0C14,WMIMAP_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set: ROOT\SYSTEM\0000 -> Configured [swenum.inf:ROOT\SWENUM,SWENUM] and started (ConfigFlags = 0x00000000).
+     set: ROOT\RDPBUS\0000 -> Configured [rdpbus.inf:ROOT\RDPBUS,RDPBUS] and started (ConfigFlags = 0x00000000).
+     set: BTHENUM\{00001115-0000-1000-8000-00805F9B34FB}_VID&00010046_PID&1200\7&1B74E3B7&0&A4CCB9D849A4_C00000000 -> Configured [bth.inf:BTHENUM\{00001115-0000-1000-8000-00805f9b34fb},BthDefaultService.NT] and started (ConfigFlags = 0x00000000).
+     set: SWD\DRIVERENUM\OEM_ICLS_COMPONENT&4&2937ED40&0 -> Configured [oem55.inf:SWC\PROVIDER_INTEL_COMPONENT_ICLSCLIENT,IclsClientInstallSection.NTamd64] and started (ConfigFlags = 0x00000000).
+     set: ROOT\MEDIA\0000 -> Configured [oem27.inf:droidcamvideo,DroidCamVideo.Device.NTamd64] and started (ConfigFlags = 0x00000000).
+     set: ROOT\MEDIA\0001 -> Configured [oem51.inf:droidcam,DroidCam_PCMEX.NT] and started (ConfigFlags = 0x00000000).
+     set: ACPI\INT34BB\3&11583659&1 -> Configured [oem66.inf:ACPI\INT34BB,iaLPSS2_GPIO2_CNL_Device.NT] and started (ConfigFlags = 0x00000000).
+     set: Waiting for system services to start... 12:56:09.939
+     set: Completed waiting for system services to start. 12:56:09.939
+     set: DeviceInstall service already running. 12:56:09.939
+     set: Waiting for pending device installs... 12:56:09.939
+     set: Completed pending device installs. 12:56:11.162
+     set: PCI\VEN_8086&DEV_9B41&SUBSYS_19011D72&REV_02\3&11583659&1&10 -> Configured [oem49.inf:PCI\VEN_8086&DEV_9B41&SUBSYS_19011D72,iCML_w10_DS] and started (ConfigFlags = 0x00000000).
+     set: {5D624F94-8850-40C3-A3FA-A4FD2080BAF3}\VWIFIMP_WFD\4&1424E472&1&11 -> Configured [netvwifimp.inf:{5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd,vwifimp_wfd.ndi] and started (ConfigFlags = 0x00000000).
+     set: SWD\DRIVERENUM\IGCC&4&1880DEDB&0 -> Configured [oem53.inf:SWC\100.8853_VEN8086_IGCC,IGCC_Component_Install] and started (ConfigFlags = 0x00000000).
+     set: BTHENUM\{0000110A-0000-1000-8000-00805F9B34FB}_VID&00010046_PID&1200\7&1B74E3B7&0&A4CCB9D849A4_C00000000 -> Configured [microsoft_bluetooth_a2dp_snk.inf:BTHENUM\{0000110a-0000-1000-8000-00805f9b34fb},BthA2dpSnk] and started (ConfigFlags = 0x00000000).
+     set: BTH\MS_BTHPAN\6&22C770F9&0&2 -> Configured [bthpan.inf:BTH\MS_BTHPAN,BthPan.Install] and started (ConfigFlags = 0x00000000).
+     set: SWD\DRIVERENUM\CUI&4&1880DEDB&0 -> Configured [oem19.inf:SWC\100.8853_VEN8086_GFXUI,Igdlh_CUI_Component_Install] and started (ConfigFlags = 0x00000000).
+     set: BTHHFENUM\BTHHFPAUDIO\8&A817881&2&97 -> Configured [microsoft_bluetooth_hfp.inf:BTHHFENUM\BthHFPAudio,Common_BthHfAud_Install] and started (ConfigFlags = 0x00000000).
+     set: Devices pre-configured: 135 (120 internal, 15 external)
+     set: Devices pre-installed: 0
+     set: Devices need install: 12 (10 internal, 2 external)
+     set: Devices configured: 7 (5 internal, 2 external)
+     set: Devices installed: 0
+     set: Devices non-present: 0
+<<<  Section end 2021/11/02 12:56:11.162
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Setup online Device Install (Hardware initiated) - PCI\VEN_8086&DEV_9B41&SUBSYS_19011D72&REV_02\3&11583659&1&10]
+>>>  Section start 2021/11/02 12:56:09.939
+     ump: Install needed due to device having problem code CM_PROB_REINSTALL
+     utl: {Select Drivers - PCI\VEN_8086&DEV_9B41&SUBSYS_19011D72&REV_02\3&11583659&1&10} 12:56:10.519
+     utl:      Driver Node:
+     utl:           Status         - Selected
+     utl:           Driver INF     - oem49.inf (C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b547612cbf9ae8be\iigd_dch.inf)
+     utl:           Class GUID     - {4d36e968-e325-11ce-bfc1-08002be10318}
+     utl:           Driver Version - 10/14/2020,27.20.100.8853
+     utl:           Configuration  - PCI\VEN_8086&DEV_9B41&SUBSYS_19011D72 [iCML_w10_DS]
+     utl:           Driver Rank    - 00CF0001
+     utl:           Signer Score   - WHQL (0D000005)
+     utl:      Driver Extension Node:
+     utl:           Status         - Selected
+     utl:           Driver INF     - oem15.inf (C:\WINDOWS\System32\DriverStore\FileRepository\iigd_ext.inf_amd64_20e89a4f2bc2a191\iigd_ext.inf)
+     utl:           Class GUID     - {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+     utl:           Extension ID   - {ac19527b-95f0-481c-ac28-f0684523bc6c}
+     utl:           Driver Version - 05/28/2019,26.20.100.6911
+     utl:           Configuration  - PCI\VEN_8086&DEV_9B41&SUBSYS_19011D72
+     utl:           Driver Rank    - 00FF0000
+     utl:           Signer Score   - WHQL (0D000005)
+     utl:      Driver Extension Node:
+     utl:           Status         - Selected
+     utl:           Driver INF     - oem33.inf (C:\WINDOWS\System32\DriverStore\FileRepository\iigd_ext.inf_amd64_34eed3ff2e81bf0f\iigd_ext.inf)
+     utl:           Class GUID     - {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+     utl:           Extension ID   - {82035c10-40f9-44a6-8888-f0eb60893b9d}
+     utl:           Driver Version - 10/14/2020,27.20.100.8853
+     utl:           Configuration  - PCI\VEN_8086&DEV_9B41&SUBSYS_19011D72 [iCML_w10_DS]
+     utl:           Driver Rank    - 00FF0000
+     utl:           Signer Score   - WHQL (0D000005)
+     utl:      Driver Node:
+     utl:           Status         - Outranked
+     utl:           Driver INF     - oem49.inf (C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b547612cbf9ae8be\iigd_dch.inf)
+     utl:           Class GUID     - {4d36e968-e325-11ce-bfc1-08002be10318}
+     utl:           Driver Version - 10/14/2020,27.20.100.8853
+     utl:           Configuration  - PCI\VEN_8086&DEV_9B41 [iCML_w10_DS]
+     utl:           Driver Rank    - 00CF2001
+     utl:           Signer Score   - WHQL (0D000005)
+     utl:      Driver Node:
+     utl:           Status         - Outranked
+     utl:           Driver INF     - display.inf (C:\WINDOWS\System32\DriverStore\FileRepository\display.inf_amd64_01cf530faf2f1752\display.inf)
+     utl:           Class GUID     - {4d36e968-e325-11ce-bfc1-08002be10318}
+     utl:           Driver Version - 06/21/2006,10.0.22000.1
+     utl:           Configuration  - PCI\CC_0300 [MSBDA]
+     utl:           Driver Rank    - 00FB2008
+     utl:           Signer Score   - Inbox (0D000003)
+     utl: {Select Drivers - exit(0x00000000} 12:56:10.519
+     dvi: {Core Device Install} 12:56:10.519
+     dvi:      {Configure Device - PCI\VEN_8086&DEV_9B41&SUBSYS_19011D72&REV_02\3&11583659&1&10} 12:56:10.535
+     dvi:           Device Status: 0x01802400 [0x12 - 0xc0000493]
+     dvi:           Config Flags: 0x00000020
+     dvi:           Parent Device: ACPI\PNP0A08\0
+     sto:           {Configure Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b547612cbf9ae8be\iigd_dch.inf}
+     sto:                Source Filter  = PCI\VEN_8086&DEV_9B41&SUBSYS_19011D72
+     inf:                Class GUID     = {4d36e968-e325-11ce-bfc1-08002be10318}
+     inf:                Class Options  = Configurable
+     inf:                {Configure Driver: Intel(R) UHD Graphics}
+     inf:                     Section Name = iCML_w10_DS
+     inf:                     {Add Service: igfx}
+     inf:                          Start Type    = 3
+     inf:                          Service Type  = 1
+     inf:                          Error Control = 0
+     inf:                          Image Path    = \SystemRoot\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b547612cbf9ae8be\igdkmd64.sys
+     inf:                          Group         = Video
+     inf:                          Updated service 'igfx'.
+     inf:                     {Add Service: exit(0x00000000)}
+     inf:                     {Add Service: cphs}
+     inf:                          Start Type    = 2
+     inf:                          Service Type  = 16
+     inf:                          Error Control = 1
+     inf:                          Image Path    = %SystemRoot%\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b547612cbf9ae8be\IntelCpHeciSvc.exe
+     inf:                          Display Name  = Intel(R) Content Protection HECI Service
+     inf:                          Description   = Intel(R) Content Protection HECI Service - enables communication with the Content Protection FW
+     inf:                          Updated service 'cphs'.
+     inf:                     {Add Service: exit(0x00000000)}
+     inf:                     {Add Service: cplspcon}
+     inf:                          Start Type    = 2
+     inf:                          Service Type  = 16
+     inf:                          Error Control = 1
+     inf:                          Image Path    = %SystemRoot%\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b547612cbf9ae8be\IntelCpHDCPSvc.exe
+     inf:                          Display Name  = Intel(R) Content Protection HDCP Service
+     inf:                          Description   = Intel(R) Content Protection HDCP Service - enables communication with Content Protection HDCP HW
+     inf:                          Updated service 'cplspcon'.
+     inf:                     {Add Service: exit(0x00000000)}
+     inf:                     Hardware Id  = PCI\VEN_8086&DEV_9B41&SUBSYS_19011D72
+     inf:                     {Configure Driver Configuration: iCML_w10_DS}
+     inf:                          Service Name  = igfx
+     inf:                          {Add Component: CUI}
+     inf:                               Component Ids = SWC\100.8853_VEN8086_GFXUI
+     inf:                          {Add Component: exit(0x00000000)}
+     inf:                          {Add Component: IGCC}
+     inf:                               Component Ids = SWC\100.8853_VEN8086_IGCC
+     inf:                          {Add Component: exit(0x00000000)}
+     inf:                          Config Flags  = 0x00000000
+     inf:                     {Configure Driver Configuration: exit(0x00000000)}
+     inf:                {Configure Driver: exit(0x00000000)}
+     flq:                {FILE_QUEUE_COMMIT} 12:56:10.629
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b547612cbf9ae8be\vulkan-1-32.dll' to 'C:\WINDOWS\SysWow64\vulkan-1.dll'.
+     cpy:                     Existing file 'C:\WINDOWS\SysWow64\vulkan-1.dll' remains unchanged.
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b547612cbf9ae8be\vulkaninfo-32.exe' to 'C:\WINDOWS\SysWow64\vulkaninfo.exe'.
+     cpy:                     Existing file 'C:\WINDOWS\SysWow64\vulkaninfo.exe' remains unchanged.
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b547612cbf9ae8be\vulkan-1-32.dll' to 'C:\WINDOWS\SysWow64\vulkan-1-999-0-0-0.dll'.
+     cpy:                     Existing file 'C:\WINDOWS\SysWow64\vulkan-1-999-0-0-0.dll' remains unchanged.
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b547612cbf9ae8be\vulkaninfo-32.exe' to 'C:\WINDOWS\SysWow64\vulkaninfo-1-999-0-0-0.exe'.
+     cpy:                     Existing file 'C:\WINDOWS\SysWow64\vulkaninfo-1-999-0-0-0.exe' remains unchanged.
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b547612cbf9ae8be\vulkan-1-64.dll' to 'C:\WINDOWS\System32\vulkan-1.dll'.
+     cpy:                     Existing file 'C:\WINDOWS\System32\vulkan-1.dll' remains unchanged.
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b547612cbf9ae8be\vulkaninfo-64.exe' to 'C:\WINDOWS\System32\vulkaninfo.exe'.
+     cpy:                     Existing file 'C:\WINDOWS\System32\vulkaninfo.exe' remains unchanged.
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b547612cbf9ae8be\vulkan-1-64.dll' to 'C:\WINDOWS\System32\vulkan-1-999-0-0-0.dll'.
+     cpy:                     Existing file 'C:\WINDOWS\System32\vulkan-1-999-0-0-0.dll' remains unchanged.
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b547612cbf9ae8be\vulkaninfo-64.exe' to 'C:\WINDOWS\System32\vulkaninfo-1-999-0-0-0.exe'.
+     cpy:                     Existing file 'C:\WINDOWS\System32\vulkaninfo-1-999-0-0-0.exe' remains unchanged.
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b547612cbf9ae8be\Intel_OpenCL_ICD32.dll' to 'C:\WINDOWS\SysWow64\OpenCL.dll'.
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b547612cbf9ae8be\Intel_OpenCL_ICD64.dll' to 'C:\WINDOWS\System32\OpenCL.dll'.
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b547612cbf9ae8be\ze_loader.dll' to 'C:\WINDOWS\System32\ze_loader.dll'.
+     cpy:                     Existing file 'C:\WINDOWS\System32\ze_loader.dll' remains unchanged.
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b547612cbf9ae8be\ze_validation_layer.dll' to 'C:\WINDOWS\System32\ze_validation_layer.dll'.
+     cpy:                     Existing file 'C:\WINDOWS\System32\ze_validation_layer.dll' remains unchanged.
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b547612cbf9ae8be\mfx_loader_dll_hw32.dll' to 'C:\WINDOWS\SysWow64\libmfxhw32.dll'.
+     cpy:                     Existing file 'C:\WINDOWS\SysWow64\libmfxhw32.dll' remains unchanged.
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b547612cbf9ae8be\mfxplugin32_hw.dll' to 'C:\WINDOWS\SysWow64\mfxplugin32_hw.dll'.
+     cpy:                     Existing file 'C:\WINDOWS\SysWow64\mfxplugin32_hw.dll' remains unchanged.
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b547612cbf9ae8be\mfx_loader_dll_hw64.dll' to 'C:\WINDOWS\System32\libmfxhw64.dll'.
+     cpy:                     Existing file 'C:\WINDOWS\System32\libmfxhw64.dll' remains unchanged.
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b547612cbf9ae8be\mfxplugin64_hw.dll' to 'C:\WINDOWS\System32\mfxplugin64_hw.dll'.
+     cpy:                     Existing file 'C:\WINDOWS\System32\mfxplugin64_hw.dll' remains unchanged.
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b547612cbf9ae8be\intel_gfx_api-x64.dll' to 'C:\WINDOWS\System32\intel_gfx_api-x64.dll'.
+     cpy:                     Existing file 'C:\WINDOWS\System32\intel_gfx_api-x64.dll' remains unchanged.
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b547612cbf9ae8be\intel_gfx_api-x86.dll' to 'C:\WINDOWS\SysWow64\intel_gfx_api-x86.dll'.
+     cpy:                     Existing file 'C:\WINDOWS\SysWow64\intel_gfx_api-x86.dll' remains unchanged.
+     flq:                {FILE_QUEUE_COMMIT - exit(0x00000000)} 12:56:10.802
+     sto:           {Configure Driver Package: exit(0x00000000)}
+     sto:           {Configure Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\iigd_ext.inf_amd64_20e89a4f2bc2a191\iigd_ext.inf}
+     sto:                Source Filter  = PCI\VEN_8086&DEV_9B41&SUBSYS_19011D72
+     inf:                Class GUID     = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+     inf:                Class Options  = Configurable
+     inf:                {Configure Driver: Intel(R) UHD Graphics}
+     inf:                     Section Name = iCML_w10_DS
+     inf:                     Hardware Id  = PCI\VEN_8086&DEV_9B41&SUBSYS_19011D72
+     inf:                     {Configure Driver Configuration: iCML_w10_DS}
+     inf:                          No associated service.
+     inf:                          Config Flags  = 0x00000000
+     inf:                     {Configure Driver Configuration: exit(0x00000000)}
+     inf:                {Configure Driver: exit(0x00000000)}
+     flq:                {FILE_QUEUE_COMMIT} 12:56:10.802
+     flq:                {FILE_QUEUE_COMMIT - exit(0x00000000)} 12:56:10.802
+     sto:           {Configure Driver Package: exit(0x00000000)}
+     sto:           {Configure Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\iigd_ext.inf_amd64_34eed3ff2e81bf0f\iigd_ext.inf}
+     sto:                Source Filter  = PCI\VEN_8086&DEV_9B41&SUBSYS_19011D72
+     inf:                Class GUID     = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+     inf:                Class Options  = Configurable
+     inf:                {Configure Driver: Intel(R) UHD Graphics}
+     inf:                     Section Name = iCML_w10_DS
+     inf:                     Hardware Id  = PCI\VEN_8086&DEV_9B41&SUBSYS_19011D72
+     inf:                     {Configure Driver Configuration: iCML_w10_DS}
+     inf:                          No associated service.
+     inf:                          Config Flags  = 0x00000000
+     inf:                     {Configure Driver Configuration: exit(0x00000000)}
+     inf:                {Configure Driver: exit(0x00000000)}
+     flq:                {FILE_QUEUE_COMMIT} 12:56:10.802
+     flq:                {FILE_QUEUE_COMMIT - exit(0x00000000)} 12:56:10.802
+     sto:           {Configure Driver Package: exit(0x00000000)}
+     dvi:           Install Device: Configuring device. 12:56:10.802
+     dvi:                Configuration: oem49.inf:PCI\VEN_8086&DEV_9B41&SUBSYS_19011D72,iCML_w10_DS
+     dvi:                Configuration: oem15.inf:PCI\VEN_8086&DEV_9B41&SUBSYS_19011D72,*
+     dvi:                Configuration: oem33.inf:PCI\VEN_8086&DEV_9B41&SUBSYS_19011D72,iCML_w10_DS
+     dvi:           Install Device: Configuring device completed. 12:56:10.817
+     dvi:           Device Status: 0x01802000
+     dvi:           Install Device: Starting device 'PCI\VEN_8086&DEV_9B41&SUBSYS_19011D72&REV_02\3&11583659&1&10'. 12:56:10.817
+     dvi:           Install Device: Starting device completed. 12:56:11.100
+     dvi:      {Configure Device - exit(0x00000000)} 12:56:11.100
+     dvi: {Core Device Install - exit(0x00000000)} 12:56:11.100
+<<<  Section end 2021/11/02 12:56:11.162
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Setup online Device Install (Hardware initiated) - ACPI\INT3400\2&daba3ff&1]
+>>>  Section start 2021/11/02 12:56:09.939
+     ump: Install needed due to device needing additional installation
+     utl: {Select Drivers - ACPI\INT3400\2&daba3ff&1} 12:56:10.457
+     utl:      Driver Node:
+     utl:           Status         - Selected | Installed
+     utl:           Driver INF     - oem54.inf (C:\WINDOWS\System32\DriverStore\FileRepository\dptf_acpi.inf_amd64_b51172d9b56837a0\dptf_acpi.inf)
+     utl:           Class GUID     - {4d36e97d-e325-11ce-bfc1-08002be10318}
+     utl:           Driver Version - 11/05/2019,8.7.10200.12510
+     utl:           Configuration  - ACPI\INT3400 [DptfAcpi.NTamd64]
+     utl:           Driver Rank    - 00FF0001
+     utl:           Signer Score   - WHQL (0D000005)
+     utl:      Driver Node:
+     utl:           Status         - Outranked
+     utl:           Driver INF     - oem17.inf (C:\WINDOWS\System32\DriverStore\FileRepository\dptf_acpi.inf_amd64_4a6ac5de2a7fb025\dptf_acpi.inf)
+     utl:           Class GUID     - {4d36e97d-e325-11ce-bfc1-08002be10318}
+     utl:           Driver Version - 05/06/2019,8.6.10400.9366
+     utl:           Configuration  - ACPI\INT3400
+     utl:           Driver Rank    - 00FF0001
+     utl:           Signer Score   - WHQL (0D000005)
+     utl: {Select Drivers - exit(0x00000000} 12:56:10.457
+     dvi: Waiting for previous device install to complete. 12:56:10.457
+     dvi: {Core Device Install} 12:56:10.488
+     dvi:      {Configure Device - ACPI\INT3400\2&daba3ff&1} 12:56:10.488
+     dvi:           Device Status: 0x0180000a
+     dvi:           Config Flags: 0x00000400
+     dvi:           Parent Device: ACPI_HAL\PNP0C08\0
+     sto:           {Configure Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\dptf_acpi.inf_amd64_b51172d9b56837a0\dptf_acpi.inf}
+     sto:                Source Filter  = ACPI\INT3400
+     inf:                Class GUID     = {4d36e97d-e325-11ce-bfc1-08002be10318}
+     inf:                Class Options  = Configurable BootCritical
+     inf:                {Configure Driver: Intel(R) Dynamic Tuning Manager}
+     inf:                     Section Name = DptfAcpi.NTamd64
+     inf:                     {Add Service: dptf_acpi}
+     inf:                          Start Type    = 3
+     inf:                          Service Type  = 1
+     inf:                          Error Control = 1
+     inf:                          Image Path    = \SystemRoot\System32\DriverStore\FileRepository\dptf_acpi.inf_amd64_b51172d9b56837a0\dptf_acpi.sys
+     inf:                          Group         = Base
+     inf:                          Updated service 'dptf_acpi'.
+     inf:                     {Add Service: exit(0x00000000)}
+     inf:                     Hardware Id  = ACPI\INT3400
+     inf:                     {Configure Driver Configuration: DptfAcpi.NTamd64}
+     inf:                          Service Name  = dptf_acpi
+     inf:                          Config Flags  = 0x00000000
+     inf:                     {Configure Driver Configuration: exit(0x00000000)}
+     inf:                {Configure Driver: exit(0x00000000)}
+     flq:                {FILE_QUEUE_COMMIT} 12:56:10.504
+     flq:                {FILE_QUEUE_COMMIT - exit(0x00000000)} 12:56:10.504
+     sto:           {Configure Driver Package: exit(0x00000000)}
+     dvi:           Install Device: Configuring device. 12:56:10.504
+     dvi:                Configuration: oem54.inf:ACPI\INT3400,DptfAcpi.NTamd64
+     dvi:           Install Device: Configuring device completed. 12:56:10.504
+     dvi:           Device Status: 0x0180000a
+     dvi:           Install Device: Removing device 'ACPI\INT3400\2&DABA3FF&1' and sub-tree. 12:56:10.504
+     dvi:           Install Device: Removing device sub-tree completed. 12:56:10.504
+     dvi:           Install Device: Restarting device. 12:56:10.504
+     dvi:           Install Device: Restarting device completed. 12:56:10.504
+     dvi:      {Configure Device - exit(0x00000000)} 12:56:10.504
+     dvi: {Core Device Install - exit(0x00000000)} 12:56:10.504
+<<<  Section end 2021/11/02 12:56:10.519
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Setup online Device Install (Hardware initiated) - ACPI\INT3403\SEN1]
+>>>  Section start 2021/11/02 12:56:09.955
+     ump: Install needed due to device needing additional installation
+     utl: {Select Drivers - ACPI\INT3403\SEN1} 12:56:10.206
+     utl:      Driver Node:
+     utl:           Status         - Selected | Installed
+     utl:           Driver INF     - oem54.inf (C:\WINDOWS\System32\DriverStore\FileRepository\dptf_acpi.inf_amd64_b51172d9b56837a0\dptf_acpi.inf)
+     utl:           Class GUID     - {4d36e97d-e325-11ce-bfc1-08002be10318}
+     utl:           Driver Version - 11/05/2019,8.7.10200.12510
+     utl:           Configuration  - ACPI\INT3403 [DptfAcpi.NTamd64]
+     utl:           Driver Rank    - 00FF0001
+     utl:           Signer Score   - WHQL (0D000005)
+     utl:      Driver Node:
+     utl:           Status         - Outranked
+     utl:           Driver INF     - oem17.inf (C:\WINDOWS\System32\DriverStore\FileRepository\dptf_acpi.inf_amd64_4a6ac5de2a7fb025\dptf_acpi.inf)
+     utl:           Class GUID     - {4d36e97d-e325-11ce-bfc1-08002be10318}
+     utl:           Driver Version - 05/06/2019,8.6.10400.9366
+     utl:           Configuration  - ACPI\INT3403
+     utl:           Driver Rank    - 00FF0001
+     utl:           Signer Score   - WHQL (0D000005)
+     utl: {Select Drivers - exit(0x00000000} 12:56:10.206
+     dvi: Waiting for previous device install to complete. 12:56:10.206
+     dvi: {Core Device Install} 12:56:10.410
+     dvi:      {Configure Device - ACPI\INT3403\SEN1} 12:56:10.410
+     dvi:           Device Status: 0x0180000a
+     dvi:           Config Flags: 0x00000400
+     dvi:           Parent Device: ACPI\PNP0C09\4&23b2480f&0
+     sto:           {Configure Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\dptf_acpi.inf_amd64_b51172d9b56837a0\dptf_acpi.inf}
+     sto:                Source Filter  = ACPI\INT3403
+     inf:                Class GUID     = {4d36e97d-e325-11ce-bfc1-08002be10318}
+     inf:                Class Options  = Configurable BootCritical
+     inf:                {Configure Driver: Intel(R) Dynamic Tuning Generic Participant}
+     inf:                     Section Name = DptfAcpi.NTamd64
+     inf:                     {Add Service: dptf_acpi}
+     inf:                          Start Type    = 3
+     inf:                          Service Type  = 1
+     inf:                          Error Control = 1
+     inf:                          Image Path    = \SystemRoot\System32\DriverStore\FileRepository\dptf_acpi.inf_amd64_b51172d9b56837a0\dptf_acpi.sys
+     inf:                          Group         = Base
+     inf:                          Updated service 'dptf_acpi'.
+     inf:                     {Add Service: exit(0x00000000)}
+     inf:                     Hardware Id  = ACPI\INT3403
+     inf:                     {Configure Driver Configuration: DptfAcpi.NTamd64}
+     inf:                          Service Name  = dptf_acpi
+     inf:                          Config Flags  = 0x00000000
+     inf:                     {Configure Driver Configuration: exit(0x00000000)}
+     inf:                {Configure Driver: exit(0x00000000)}
+     flq:                {FILE_QUEUE_COMMIT} 12:56:10.426
+     flq:                {FILE_QUEUE_COMMIT - exit(0x00000000)} 12:56:10.426
+     sto:           {Configure Driver Package: exit(0x00000000)}
+     dvi:           Install Device: Configuring device. 12:56:10.426
+     dvi:                Configuration: oem54.inf:ACPI\INT3403,DptfAcpi.NTamd64
+     dvi:           Install Device: Configuring device completed. 12:56:10.441
+     dvi:           Device Status: 0x0180000a
+     dvi:           Install Device: Removing device 'ACPI\INT3403\SEN1' and sub-tree. 12:56:10.441
+     dvi:           Install Device: Removing device sub-tree completed. 12:56:10.457
+     dvi:           Install Device: Restarting device. 12:56:10.457
+     dvi:           Install Device: Restarting device completed. 12:56:10.472
+     dvi:      {Configure Device - exit(0x00000000)} 12:56:10.472
+     dvi: {Core Device Install - exit(0x00000000)} 12:56:10.472
+<<<  Section end 2021/11/02 12:56:10.535
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Setup online Device Install (Hardware initiated) - ACPI\INT3403\SEN4]
+>>>  Section start 2021/11/02 12:56:09.955
+     ump: Install needed due to device needing additional installation
+     utl: {Select Drivers - ACPI\INT3403\SEN4} 12:56:09.955
+     utl:      Driver Node:
+     utl:           Status         - Selected | Installed
+     utl:           Driver INF     - oem54.inf (C:\WINDOWS\System32\DriverStore\FileRepository\dptf_acpi.inf_amd64_b51172d9b56837a0\dptf_acpi.inf)
+     utl:           Class GUID     - {4d36e97d-e325-11ce-bfc1-08002be10318}
+     utl:           Driver Version - 11/05/2019,8.7.10200.12510
+     utl:           Configuration  - ACPI\INT3403 [DptfAcpi.NTamd64]
+     utl:           Driver Rank    - 00FF0001
+     utl:           Signer Score   - WHQL (0D000005)
+     utl:      Driver Node:
+     utl:           Status         - Outranked
+     utl:           Driver INF     - oem17.inf (C:\WINDOWS\System32\DriverStore\FileRepository\dptf_acpi.inf_amd64_4a6ac5de2a7fb025\dptf_acpi.inf)
+     utl:           Class GUID     - {4d36e97d-e325-11ce-bfc1-08002be10318}
+     utl:           Driver Version - 05/06/2019,8.6.10400.9366
+     utl:           Configuration  - ACPI\INT3403
+     utl:           Driver Rank    - 00FF0001
+     utl:           Signer Score   - WHQL (0D000005)
+     utl: {Select Drivers - exit(0x00000000} 12:56:09.955
+     dvi: {Core Device Install} 12:56:09.955
+     dvi:      {Configure Device - ACPI\INT3403\SEN4} 12:56:09.955
+     dvi:           Device Status: 0x0180000a
+     dvi:           Config Flags: 0x00000400
+     dvi:           Parent Device: ACPI\PNP0C09\4&23b2480f&0
+     sto:           {Configure Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\dptf_acpi.inf_amd64_b51172d9b56837a0\dptf_acpi.inf}
+     sto:                Source Filter  = ACPI\INT3403
+     inf:                Class GUID     = {4d36e97d-e325-11ce-bfc1-08002be10318}
+     inf:                Class Options  = Configurable BootCritical
+     inf:                {Configure Driver: Intel(R) Dynamic Tuning Generic Participant}
+     inf:                     Section Name = DptfAcpi.NTamd64
+     inf:                     {Add Service: dptf_acpi}
+     inf:                          Start Type    = 3
+     inf:                          Service Type  = 1
+     inf:                          Error Control = 1
+     inf:                          Image Path    = \SystemRoot\System32\DriverStore\FileRepository\dptf_acpi.inf_amd64_b51172d9b56837a0\dptf_acpi.sys
+     inf:                          Group         = Base
+     inf:                          Updated service 'dptf_acpi'.
+     inf:                     {Add Service: exit(0x00000000)}
+     inf:                     Hardware Id  = ACPI\INT3403
+     inf:                     {Configure Driver Configuration: DptfAcpi.NTamd64}
+     inf:                          Service Name  = dptf_acpi
+     inf:                          Config Flags  = 0x00000000
+     inf:                     {Configure Driver Configuration: exit(0x00000000)}
+     inf:                {Configure Driver: exit(0x00000000)}
+     flq:                {FILE_QUEUE_COMMIT} 12:56:09.972
+     flq:                {FILE_QUEUE_COMMIT - exit(0x00000000)} 12:56:09.972
+     sto:           {Configure Driver Package: exit(0x00000000)}
+     dvi:           Install Device: Configuring device. 12:56:09.972
+     dvi:                Configuration: oem54.inf:ACPI\INT3403,DptfAcpi.NTamd64
+     dvi:           Install Device: Configuring device completed. 12:56:09.972
+     dvi:           Device Status: 0x0180000a
+     dvi:           Install Device: Removing device 'ACPI\INT3403\SEN4' and sub-tree. 12:56:09.972
+     dvi:           Install Device: Removing device sub-tree completed. 12:56:09.972
+     dvi:           Install Device: Restarting device. 12:56:09.972
+     dvi:           Install Device: Restarting device completed. 12:56:09.987
+     dvi:      {Configure Device - exit(0x00000000)} 12:56:09.987
+     dvi: {Core Device Install - exit(0x00000000)} 12:56:09.987
+<<<  Section end 2021/11/02 12:56:09.987
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Setup online Device Install (Hardware initiated) - BTHENUM\{0000110a-0000-1000-8000-00805f9b34fb}_VID&00010046_PID&1200\7&1b74e3b7&0&A4CCB9D849A4_C00000000]
+>>>  Section start 2021/11/02 12:56:09.955
+     ump: Install needed due to device needing additional installation
+     utl: {Select Drivers - BTHENUM\{0000110a-0000-1000-8000-00805f9b34fb}_VID&00010046_PID&1200\7&1b74e3b7&0&A4CCB9D849A4_C00000000} 12:56:10.143
+     utl:      Driver Node:
+     utl:           Status         - Selected
+     utl:           Driver INF     - microsoft_bluetooth_a2dp_snk.inf (C:\WINDOWS\System32\DriverStore\FileRepository\microsoft_bluetooth_a2dp_snk.inf_amd64_7a48ac9d759c7ab4\microsoft_bluetooth_a2dp_snk.inf)
+     utl:           Class GUID     - {4d36e96c-e325-11ce-bfc1-08002be10318}
+     utl:           Driver Version - 06/04/2021,10.0.22000.1
+     utl:           Configuration  - BTHENUM\{0000110a-0000-1000-8000-00805f9b34fb}
+     utl:           Driver Rank    - 00FF2000
+     utl:           Signer Score   - Inbox (0D000003)
+     utl:      Driver Node:
+     utl:           Status         - Outranked
+     utl:           Driver INF     - bth.inf (C:\WINDOWS\System32\DriverStore\FileRepository\bth.inf_amd64_3e43a68c9dc0c272\bth.inf)
+     utl:           Class GUID     - {e0cbf06c-cd8b-4647-bb8a-263b43f0f974}
+     utl:           Driver Version - 06/21/2006,10.0.22000.176
+     utl:           Configuration  - BTHENUM\{0000110a-0000-1000-8000-00805f9b34fb}_GENERIC [BthGenericService.NT]
+     utl:           Driver Rank    - 00FF2001
+     utl:           Signer Score   - Inbox (0D000003)
+     utl: {Select Drivers - exit(0x00000000} 12:56:10.143
+     dvi: {Core Device Install} 12:56:10.143
+     dvi:      {Configure Device - BTHENUM\{0000110a-0000-1000-8000-00805f9b34fb}_VID&00010046_PID&1200\7&1b74e3b7&0&A4CCB9D849A4_C00000000} 12:56:10.143
+     dvi:           Device Status: 0x0180600a
+     dvi:           Config Flags: 0x00000400
+     dvi:           Parent Device: BTH\MS_BTHBRB\6&22c770f9&0&1
+     sto:           {Configure Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\microsoft_bluetooth_a2dp_snk.inf_amd64_7a48ac9d759c7ab4\microsoft_bluetooth_a2dp_snk.inf}
+     sto:                Source Filter  = BTHENUM\{0000110a-0000-1000-8000-00805f9b34fb}
+     inf:                Class GUID     = {4d36e96c-e325-11ce-bfc1-08002be10318}
+     inf:                Class Options  = Configurable
+     inf:                {Configure Driver: Microsoft Bluetooth A2dp Sink}
+     inf:                     Section Name = BthA2dpSnk
+     inf:                     {Add Service: BthA2dp}
+     inf:                          Start Type    = 3
+     inf:                          Service Type  = 1
+     inf:                          Error Control = 1
+     inf:                          Image Path    = \SystemRoot\System32\drivers\BthA2dp.sys
+     inf:                          Display Name  = Microsoft Bluetooth A2dp driver
+     inf:                          Updated service 'BthA2dp'.
+     inf:                     {Add Service: exit(0x00000000)}
+     inf:                     Hardware Id  = BTHENUM\{0000110a-0000-1000-8000-00805f9b34fb}
+     inf:                     {Configure Driver Configuration: BthA2dpSnk}
+     inf:                          Service Name  = BthA2dp
+     inf:                          Included INFs = microsoft_bluetooth_a2dp.inf
+     inf:                                          ks.inf
+     inf:                                          wdmaudio.inf
+     inf:                                          BtaMpm.inf
+     inf:                          Include Scope = Services
+     inf:                          Config Flags  = 0x00000000
+     inf:                     {Configure Driver Configuration: exit(0x00000000)}
+     inf:                {Configure Driver: exit(0x00000000)}
+     flq:                {FILE_QUEUE_COMMIT} 12:56:10.237
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\microsoft_bluetooth_a2dp.inf_amd64_75f81f0864dbcd9b\BthA2dp.sys' to 'C:\WINDOWS\System32\drivers\BthA2dp.sys'.
+     cpy:                     Existing file 'C:\WINDOWS\System32\drivers\BthA2dp.sys' remains unchanged.
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\wdmaudio.inf_amd64_176f48e56eb2de15\drmk.sys' to 'C:\WINDOWS\System32\drivers\drmk.sys'.
+     cpy:                     Existing file 'C:\WINDOWS\System32\drivers\drmk.sys' remains unchanged.
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\wdmaudio.inf_amd64_176f48e56eb2de15\portcls.sys' to 'C:\WINDOWS\System32\drivers\portcls.sys'.
+     cpy:                     Existing file 'C:\WINDOWS\System32\drivers\portcls.sys' remains unchanged.
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\wdmaudio.inf_amd64_176f48e56eb2de15\WMALFXGFXDSP.dll' to 'C:\WINDOWS\System32\WMALFXGFXDSP.dll'.
+     cpy:                     Existing file 'C:\WINDOWS\System32\WMALFXGFXDSP.dll' remains unchanged.
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\wdmaudio.inf_amd64_176f48e56eb2de15\SysFxUI.dll' to 'C:\WINDOWS\System32\SysFxUI.dll'.
+     cpy:                     Existing file 'C:\WINDOWS\System32\SysFxUI.dll' remains unchanged.
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\btampm.inf_amd64_1d979ad4405f0bea\BtaMPM.sys' to 'C:\WINDOWS\System32\drivers\BtaMPM.sys'.
+     cpy:                     Existing file 'C:\WINDOWS\System32\drivers\BtaMPM.sys' remains unchanged.
+     flq:                {FILE_QUEUE_COMMIT - exit(0x00000000)} 12:56:10.269
+     sto:           {Configure Driver Package: exit(0x00000000)}
+     dvi:           Install Device: Configuring device. 12:56:10.269
+     dvi:                Configuration: microsoft_bluetooth_a2dp_snk.inf:BTHENUM\{0000110a-0000-1000-8000-00805f9b34fb},*
+     dvi:           Install Device: Configuring device completed. 12:56:10.272
+     dvi:           Device Status: 0x0180600a
+     dvi:           Install Device: Removing device 'BTHENUM\{0000110A-0000-1000-8000-00805F9B34FB}_VID&00010046_PID&1200\7&1B74E3B7&0&A4CCB9D849A4_C00000000' and sub-tree. 12:56:10.272
+     dvi:           Install Device: Removing device sub-tree completed. 12:56:10.272
+     dvi:           Install Device: Restarting device. 12:56:10.272
+     dvi:           Install Device: Restarting device completed. 12:56:10.285
+     dvi:      {Configure Device - exit(0x00000000)} 12:56:10.285
+     dvi: {Core Device Install - exit(0x00000000)} 12:56:10.285
+<<<  Section end 2021/11/02 12:56:10.300
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Setup online Device Install (Hardware initiated) - ACPI\XMCCA001\2&daba3ff&1]
+>>>  Section start 2021/11/02 12:56:09.987
+     ump: Install needed due to device needing additional installation
+     utl: {Select Drivers - ACPI\XMCCA001\2&daba3ff&1} 12:56:09.987
+     utl:      Driver Node:
+     utl:           Status         - Selected | Installed
+     utl:           Driver INF     - oem52.inf (C:\WINDOWS\System32\DriverStore\FileRepository\radiocontrol.inf_amd64_f638f0194b53d0b1\radiocontrol.inf)
+     utl:           Class GUID     - {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+     utl:           Driver Version - 01/13/2021,2.0.0.5
+     utl:           Configuration  - ACPI\XMCCA001 [RadioControl.Inst.Win7.NT]
+     utl:           Driver Rank    - 00FF0001
+     utl:           Signer Score   - WHQL (0D000005)
+     utl:      Driver Node:
+     utl:           Status         - Outranked
+     utl:           Driver INF     - oem0.inf (C:\WINDOWS\System32\DriverStore\FileRepository\radiocontrol.inf_amd64_5c09d1460f737093\radiocontrol.inf)
+     utl:           Class GUID     - {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+     utl:           Driver Version - 05/11/2020,1.0.0.5
+     utl:           Configuration  - ACPI\XMCCA001
+     utl:           Driver Rank    - 00FF0001
+     utl:           Signer Score   - WHQL (0D000005)
+     utl: {Select Drivers - exit(0x00000000} 12:56:09.987
+     dvi: {Core Device Install} 12:56:09.987
+     dvi:      {Configure Device - ACPI\XMCCA001\2&daba3ff&1} 12:56:09.987
+     dvi:           Device Status: 0x0180000a
+     dvi:           Config Flags: 0x00000400
+     dvi:           Parent Device: ACPI_HAL\PNP0C08\0
+     sto:           {Configure Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\radiocontrol.inf_amd64_f638f0194b53d0b1\radiocontrol.inf}
+     sto:                Source Filter  = ACPI\XMCCA001
+     inf:                Class GUID     = {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+     inf:                Class Options  = Configurable BootCritical
+     inf:                {Configure Driver: Radio Controller Device}
+     inf:                     Section Name = RadioControl.Inst.Win7.NT
+     inf:                     {Add Service: RadioControl}
+     inf:                          Start Type    = 3
+     inf:                          Service Type  = 1
+     inf:                          Error Control = 0
+     inf:                          Image Path    = \SystemRoot\System32\drivers\RadioControl.sys
+     inf:                          Display Name  = Radio Controller Device
+     inf:                          Updated service 'RadioControl'.
+     inf:                     {Add Service: exit(0x00000000)}
+     inf:                     Hardware Id  = ACPI\XMCCA001
+     inf:                     {Configure Driver Configuration: RadioControl.Inst.Win7.NT}
+     inf:                          Service Name  = RadioControl
+     inf:                          Upper Filters = mshidkmdf
+     inf:                          Driver has software pending install.
+     inf:                          Config Flags  = 0x00000000
+     inf:                     {Configure Driver Configuration: exit(0x00000000)}
+     inf:                {Configure Driver: exit(0x00000000)}
+     flq:                {FILE_QUEUE_COMMIT} 12:56:10.002
+     flq:                     Copying 'C:\WINDOWS\System32\DriverStore\FileRepository\radiocontrol.inf_amd64_f638f0194b53d0b1\RadioControl.sys' to 'C:\WINDOWS\System32\drivers\RadioControl.sys'.
+     cpy:                     Existing file 'C:\WINDOWS\System32\drivers\RadioControl.sys' remains unchanged.
+     flq:                {FILE_QUEUE_COMMIT - exit(0x00000000)} 12:56:10.002
+     sto:           {Configure Driver Package: exit(0x00000000)}
+     dvi:           Install Device: Configuring device. 12:56:10.002
+     dvi:                Configuration: oem52.inf:ACPI\XMCCA001,RadioControl.Inst.Win7.NT
+     dvi:           Install Device: Configuring device completed. 12:56:10.002
+     dvi:           Device Status: 0x0180000a
+     dvi:           Install Device: Removing device 'ACPI\XMCCA001\2&DABA3FF&1' and sub-tree. 12:56:10.002
+     dvi:           Install Device: Removing device sub-tree completed. 12:56:10.018
+     dvi:           Install Device: Restarting device. 12:56:10.018
+     dvi:           Install Device: Restarting device completed. 12:56:10.018
+     dvi:      {Configure Device - exit(0x00000000)} 12:56:10.018
+     dvi: {Core Device Install - exit(0x00000000)} 12:56:10.018
+<<<  Section end 2021/11/02 12:56:10.018
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Setup online Device Install (Hardware initiated) - HID\XMCCA001\3&5f5e471&0&0000]
+>>>  Section start 2021/11/02 12:56:10.018
+     ump: Install needed due to device needing additional installation
+     utl: {Select Drivers - HID\XMCCA001\3&5f5e471&0&0000} 12:56:10.018
+     utl:      Driver Node:
+     utl:           Status         - Selected | Installed
+     utl:           Driver INF     - oem52.inf (C:\WINDOWS\System32\DriverStore\FileRepository\radiocontrol.inf_amd64_f638f0194b53d0b1\radiocontrol.inf)
+     utl:           Class GUID     - {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+     utl:           Driver Version - 01/13/2021,2.0.0.5
+     utl:           Configuration  - HID\VEN_XMCC&DEV_A001 [customCollection.Inst.NT]
+     utl:           Driver Rank    - 00FF0000
+     utl:           Signer Score   - WHQL (0D000005)
+     utl:      Driver Node:
+     utl:           Status         - Outranked
+     utl:           Driver INF     - oem0.inf (C:\WINDOWS\System32\DriverStore\FileRepository\radiocontrol.inf_amd64_5c09d1460f737093\radiocontrol.inf)
+     utl:           Class GUID     - {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+     utl:           Driver Version - 05/11/2020,1.0.0.5
+     utl:           Configuration  - HID\VEN_XMCC&DEV_A001
+     utl:           Driver Rank    - 00FF0000
+     utl:           Signer Score   - WHQL (0D000005)
+     utl:      Driver Node:
+     utl:           Status         - Outranked
+     utl:           Driver INF     - input.inf (C:\WINDOWS\System32\DriverStore\FileRepository\input.inf_amd64_702fdf2336d2162d\input.inf)
+     utl:           Class GUID     - {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+     utl:           Driver Version - 06/21/2006,10.0.22000.1
+     utl:           Configuration  - HID_DEVICE_UP:0001_U:000C [HID_Raw_Inst.NT]
+     utl:           Driver Rank    - 00FF1003
+     utl:           Signer Score   - Inbox (0D000003)
+     utl:      Driver Node:
+     utl:           Status         - Outranked
+     utl:           Driver INF     - input.inf (C:\WINDOWS\System32\DriverStore\FileRepository\input.inf_amd64_702fdf2336d2162d\input.inf)
+     utl:           Class GUID     - {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+     utl:           Driver Version - 06/21/2006,10.0.22000.1
+     utl:           Configuration  - HID_DEVICE [HID_Raw_Inst.NT]
+     utl:           Driver Rank    - 00FF1004
+     utl:           Signer Score   - Inbox (0D000003)
+     utl: {Select Drivers - exit(0x00000000} 12:56:10.034
+     dvi: {Core Device Install} 12:56:10.034
+     dvi:      {Configure Device - HID\XMCCA001\3&5f5e471&0&0000} 12:56:10.034
+     dvi:           Device Status: 0x0180200a
+     dvi:           Config Flags: 0x00000400
+     dvi:           Parent Device: ACPI\XMCCA001\2&daba3ff&1
+     sto:           {Configure Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\radiocontrol.inf_amd64_f638f0194b53d0b1\radiocontrol.inf}
+     sto:                Source Filter  = HID\VEN_XMCC&DEV_A001
+     inf:                Class GUID     = {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+     inf:                Class Options  = Configurable BootCritical
+     inf:                {Configure Driver: Radio Controller Collection}
+     inf:                     Section Name = customCollection.Inst.NT
+     inf:                     Hardware Id  = HID\VEN_XMCC&DEV_A001
+     inf:                     {Configure Driver Configuration: customCollection.Inst.NT}
+     inf:                          Service Name  = <none>
+     inf:                          Config Flags  = 0x00000000
+     inf:                     {Configure Driver Configuration: exit(0x00000000)}
+     inf:                {Configure Driver: exit(0x00000000)}
+     flq:                {FILE_QUEUE_COMMIT} 12:56:10.034
+     flq:                {FILE_QUEUE_COMMIT - exit(0x00000000)} 12:56:10.034
+     sto:           {Configure Driver Package: exit(0x00000000)}
+     dvi:           Install Device: Configuring device. 12:56:10.034
+     dvi:                Configuration: oem52.inf:HID\VEN_XMCC&DEV_A001,customCollection.Inst.NT
+     dvi:           Install Device: Configuring device completed. 12:56:10.034
+     dvi:           Device Status: 0x0180200a
+     dvi:           Install Device: Removing device 'HID\XMCCA001\3&5F5E471&0&0000' and sub-tree. 12:56:10.034
+     dvi:           Install Device: Removing device sub-tree completed. 12:56:10.034
+     dvi:           Install Device: Restarting device. 12:56:10.034
+     dvi:           Install Device: Restarting device completed. 12:56:10.034
+     dvi:      {Configure Device - exit(0x00000000)} 12:56:10.034
+     dvi: {Core Device Install - exit(0x00000000)} 12:56:10.034
+<<<  Section end 2021/11/02 12:56:10.049
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Setup online Device Install (Hardware initiated) - BTH\MS_BTHPAN\6&22c770f9&0&2]
+>>>  Section start 2021/11/02 12:56:10.049
+     ump: Install needed due to device having problem code CM_PROB_NOT_CONFIGURED
+     utl: {Select Drivers - BTH\MS_BTHPAN\6&22c770f9&0&2} 12:56:10.049
+     utl:      Driver Node:
+     utl:           Status         - Selected
+     utl:           Driver INF     - bthpan.inf (C:\WINDOWS\System32\DriverStore\FileRepository\bthpan.inf_amd64_a31306bfdf7135b0\bthpan.inf)
+     utl:           Class GUID     - {4d36e972-e325-11ce-bfc1-08002be10318}
+     utl:           Driver Version - 06/21/2006,10.0.22000.1
+     utl:           Configuration  - BTH\MS_BTHPAN
+     utl:           Driver Rank    - 00FF0000
+     utl:           Signer Score   - Inbox (0D000003)
+     utl: {Select Drivers - exit(0x00000000} 12:56:10.049
+     dvi: {Core Device Install} 12:56:10.049
+     dvi:      {Configure Device - BTH\MS_BTHPAN\6&22c770f9&0&2} 12:56:10.049
+     dvi:           Device Status: 0x01802400 [0x01 - 0xc0000493]
+     dvi:           Config Flags: 0x00000020
+     dvi:           Parent Device: USB\VID_8087&PID_0AAA\5&1f543d55&0&10
+     sto:           {Configure Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\bthpan.inf_amd64_a31306bfdf7135b0\bthpan.inf}
+     sto:                Source Filter  = BTH\MS_BTHPAN
+     inf:                Class GUID     = {4d36e972-e325-11ce-bfc1-08002be10318}
+     inf:                Class Options  = Configurable
+     inf:                {Configure Driver: Bluetooth Device (Personal Area Network)}
+     inf:                     Section Name = BthPan.Install
+     inf:                     {Add Service: BthPan}
+     inf:                          Start Type    = 3
+     inf:                          Service Type  = 1
+     inf:                          Error Control = 1
+     inf:                          Image Path    = \SystemRoot\System32\drivers\bthpan.sys
+     inf:                          Display Name  = Bluetooth Device (Personal Area Network)
+     inf:                          Description   = Bluetooth Device (Personal Area Network)
+     inf:                          Group         = NDIS
+     inf:                          Created new service 'BthPan'.
+     inf:                     {Add Service: exit(0x00000000)}
+     inf:                     Hardware Id  = BTH\MS_BTHPAN
+     inf:                     {Configure Driver Configuration: BthPan.Install}
+     inf:                          Service Name  = BthPan
+     inf:                          Config Flags  = 0x00000000
+     inf:                     {Configure Driver Configuration: exit(0x00000000)}
+     inf:                {Configure Driver: exit(0x00000000)}
+     flq:                {FILE_QUEUE_COMMIT} 12:56:10.065
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\bthpan.inf_amd64_a31306bfdf7135b0\bthpan.sys' to 'C:\WINDOWS\System32\drivers\bthpan.sys'.
+     flq:                {FILE_QUEUE_COMMIT - exit(0x00000000)} 12:56:10.065
+     dvi:                Existing files modified, may need to restart related services.
+     sto:           {Configure Driver Package: exit(0x00000bc3)}
+     dvi:           Restart required for any devices using this driver.
+     dvi:           Install Device: Configuring device. 12:56:10.065
+     dvi:                Configuration: bthpan.inf:BTH\MS_BTHPAN,*
+     dvi:           Install Device: Configuring device completed. 12:56:10.065
+     dvi:           Device Status: 0x01802000
+     dvi:           {Restarting Devices} 12:56:10.065
+     dvi:                Start: BTH\MS_BTHPAN\6&22C770F9&0&2
+!    dvi:                Device 'BTH\MS_BTHPAN\6&22C770F9&0&2' pending start: Device has problem: 0x38 (CM_PROB_NEED_CLASS_CONFIG), problem status: 0x00000000.
+     dvi:           {Restarting Devices exit} 12:56:10.072
+     dvi:      {Configure Device - exit(0x00000000)} 12:56:10.072
+     dvi: {Core Device Install - exit(0x00000000)} 12:56:10.072
+     dvi: Waiting for device post-install to complete. 12:56:10.081
+     dvi: Device post-install completed. 12:56:10.096
+     dvi: Device Status: 0x0180200a
+<<<  Section end 2021/11/02 12:56:10.175
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Setup online Device Install (Hardware initiated) - {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd\4&1424e472&1&11]
+>>>  Section start 2021/11/02 12:56:10.081
+     ump: Install needed due to device having problem code CM_PROB_NOT_CONFIGURED
+     utl: {Select Drivers - {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd\4&1424e472&1&11} 12:56:10.081
+     utl:      Driver Node:
+     utl:           Status         - Selected
+     utl:           Driver INF     - netvwifimp.inf (C:\WINDOWS\System32\DriverStore\FileRepository\netvwifimp.inf_amd64_bfb9fd6f3a078899\netvwifimp.inf)
+     utl:           Class GUID     - {4d36e972-e325-11ce-bfc1-08002be10318}
+     utl:           Driver Version - 06/21/2006,10.0.22000.1
+     utl:           Configuration  - {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+     utl:           Driver Rank    - 00FF0000
+     utl:           Signer Score   - Inbox (0D000003)
+     utl:      Driver Node:
+     utl:           Status         - Outranked
+     utl:           Driver INF     - netvwifimp.inf (C:\WINDOWS\System32\DriverStore\FileRepository\netvwifimp.inf_amd64_bfb9fd6f3a078899\netvwifimp.inf)
+     utl:           Class GUID     - {4d36e972-e325-11ce-bfc1-08002be10318}
+     utl:           Driver Version - 06/21/2006,10.0.22000.1
+     utl:           Configuration  - {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+     utl:           Driver Rank    - 00FF2000
+     utl:           Signer Score   - Inbox (0D000003)
+     utl: {Select Drivers - exit(0x00000000} 12:56:10.081
+     dvi: {Core Device Install} 12:56:10.081
+     dvi:      {Configure Device - {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd\4&1424e472&1&11} 12:56:10.081
+     dvi:           Device Status: 0x01802400 [0x01 - 0xc0000493]
+     dvi:           Config Flags: 0x00000020
+     dvi:           Parent Device: PCI\VEN_8086&DEV_02F0&SUBSYS_02A48086&REV_00\3&11583659&1&A3
+     sto:           {Configure Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\netvwifimp.inf_amd64_bfb9fd6f3a078899\netvwifimp.inf}
+     sto:                Source Filter  = {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+     inf:                Class GUID     = {4d36e972-e325-11ce-bfc1-08002be10318}
+     inf:                Class Options  = Configurable
+     inf:                {Configure Driver: Microsoft Wi-Fi Direct Virtual Adapter}
+     inf:                     Section Name = vwifimp_wfd.ndi
+     inf:                     {Add Service: vwifimp}
+     inf:                          Start Type    = 3
+     inf:                          Service Type  = 1
+     inf:                          Error Control = 1
+     inf:                          Image Path    = \SystemRoot\System32\drivers\vwifimp.sys
+     inf:                          Display Name  = @%SystemRoot%\System32\drivers\vwifimp.sys,-261
+     inf:                          Group         = NDIS
+     inf:                          Created new service 'vwifimp'.
+     inf:                     {Add Service: exit(0x00000000)}
+     inf:                     Hardware Id  = {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+     inf:                     {Configure Driver Configuration: vwifimp_wfd.ndi}
+     inf:                          Service Name  = vwifimp
+     inf:                          Config Flags  = 0x00000000
+     inf:                     {Configure Driver Configuration: exit(0x00000000)}
+     inf:                {Configure Driver: exit(0x00000000)}
+     flq:                {FILE_QUEUE_COMMIT} 12:56:10.096
+     flq:                {FILE_QUEUE_COMMIT - exit(0x00000000)} 12:56:10.096
+     sto:           {Configure Driver Package: exit(0x00000000)}
+     dvi:           Install Device: Configuring device. 12:56:10.096
+     dvi:                Configuration: netvwifimp.inf:{5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd,*
+     dvi:           Install Device: Configuring device completed. 12:56:10.096
+     dvi:           Device Status: 0x01802000
+     dvi:           Install Device: Starting device '{5D624F94-8850-40C3-A3FA-A4FD2080BAF3}\VWIFIMP_WFD\4&1424E472&1&11'. 12:56:10.096
+     dvi:           Install Device: Starting device completed. 12:56:10.112
+!    dvi:           Device pending start: Device has problem: 0x38 (CM_PROB_NEED_CLASS_CONFIG), problem status: 0x00000000.
+     dvi:      {Configure Device - exit(0x00000000)} 12:56:10.112
+     dvi: {Core Device Install - exit(0x00000000)} 12:56:10.112
+     dvi: Waiting for device post-install to complete. 12:56:10.112
+     dvi: Device post-install completed. 12:56:10.191
+     dvi: Device Status: 0x4180200a
+<<<  Section end 2021/11/02 12:56:10.191
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Setup online Device Install (Hardware initiated) - BTHHFENUM\BthHFPAudio\8&a817881&2&97]
+>>>  Section start 2021/11/02 12:56:10.175
+     ump: Install needed due to device having problem code CM_PROB_NOT_CONFIGURED
+     utl: {Select Drivers - BTHHFENUM\BthHFPAudio\8&a817881&2&97} 12:56:10.175
+     utl:      Driver Node:
+     utl:           Status         - Selected
+     utl:           Driver INF     - microsoft_bluetooth_hfp.inf (C:\WINDOWS\System32\DriverStore\FileRepository\microsoft_bluetooth_hfp.inf_amd64_0201aca5ba84e320\microsoft_bluetooth_hfp.inf)
+     utl:           Class GUID     - {4d36e96c-e325-11ce-bfc1-08002be10318}
+     utl:           Driver Version - 06/04/2021,10.0.22000.1
+     utl:           Configuration  - BTHHFENUM\BthHFPAudio
+     utl:           Driver Rank    - 00FF0000
+     utl:           Signer Score   - Inbox (0D000003)
+     utl: {Select Drivers - exit(0x00000000} 12:56:10.175
+     dvi: Waiting for previous device install to complete. 12:56:10.175
+     dvi: {Core Device Install} 12:56:10.285
+     dvi:      {Configure Device - BTHHFENUM\BthHFPAudio\8&a817881&2&97} 12:56:10.285
+     dvi:           Device Status: 0x01802400 [0x01 - 0xc0000493]
+     dvi:           Config Flags: 0x00000020
+     dvi:           Parent Device: BTHENUM\{0000111f-0000-1000-8000-00805f9b34fb}_VID&00010046_PID&1200\7&1b74e3b7&0&A4CCB9D849A4_C00000000
+     sto:           {Configure Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\microsoft_bluetooth_hfp.inf_amd64_0201aca5ba84e320\microsoft_bluetooth_hfp.inf}
+     sto:                Source Filter  = BTHHFENUM\BthHFPAudio
+     inf:                Class GUID     = {4d36e96c-e325-11ce-bfc1-08002be10318}
+     inf:                Class Options  = Configurable
+     inf:                {Configure Driver: Microsoft Bluetooth Hands-Free Audio device}
+     inf:                     Section Name = Common_BthHfAud_Install
+     inf:                     {Add Service: BthHFAud}
+     inf:                          Start Type    = 3
+     inf:                          Service Type  = 1
+     inf:                          Error Control = 0
+     inf:                          Image Path    = \SystemRoot\System32\drivers\BthHfAud.sys
+     inf:                          Display Name  = Microsoft Bluetooth Hands-Free Audio driver
+     inf:                          Created new service 'BthHFAud'.
+     inf:                     {Add Service: exit(0x00000000)}
+     inf:                     Hardware Id  = BTHHFENUM\BthHFPAudio
+     inf:                     {Configure Driver Configuration: Common_BthHfAud_Install}
+     inf:                          Service Name  = BthHFAud
+     inf:                          Included INFs = ks.inf
+     inf:                                          wdmaudio.inf
+     inf:                                          BtaMpm.inf
+     inf:                          Include Scope = Services
+     inf:                          Config Flags  = 0x00000000
+     inf:                     {Configure Driver Configuration: exit(0x00000000)}
+     inf:                {Configure Driver: exit(0x00000000)}
+     flq:                {FILE_QUEUE_COMMIT} 12:56:10.316
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\microsoft_bluetooth_hfp.inf_amd64_0201aca5ba84e320\BthHfAud.sys' to 'C:\WINDOWS\System32\drivers\BthHfAud.sys'.
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\wdmaudio.inf_amd64_176f48e56eb2de15\drmk.sys' to 'C:\WINDOWS\System32\drivers\drmk.sys'.
+     cpy:                     Existing file 'C:\WINDOWS\System32\drivers\drmk.sys' remains unchanged.
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\wdmaudio.inf_amd64_176f48e56eb2de15\portcls.sys' to 'C:\WINDOWS\System32\drivers\portcls.sys'.
+     cpy:                     Existing file 'C:\WINDOWS\System32\drivers\portcls.sys' remains unchanged.
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\wdmaudio.inf_amd64_176f48e56eb2de15\WMALFXGFXDSP.dll' to 'C:\WINDOWS\System32\WMALFXGFXDSP.dll'.
+     cpy:                     Existing file 'C:\WINDOWS\System32\WMALFXGFXDSP.dll' remains unchanged.
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\wdmaudio.inf_amd64_176f48e56eb2de15\SysFxUI.dll' to 'C:\WINDOWS\System32\SysFxUI.dll'.
+     cpy:                     Existing file 'C:\WINDOWS\System32\SysFxUI.dll' remains unchanged.
+     flq:                     Hardlinking 'C:\WINDOWS\System32\DriverStore\FileRepository\btampm.inf_amd64_1d979ad4405f0bea\BtaMPM.sys' to 'C:\WINDOWS\System32\drivers\BtaMPM.sys'.
+     cpy:                     Existing file 'C:\WINDOWS\System32\drivers\BtaMPM.sys' remains unchanged.
+     flq:                {FILE_QUEUE_COMMIT - exit(0x00000000)} 12:56:10.394
+     dvi:                Existing files modified, may need to restart related services.
+     sto:           {Configure Driver Package: exit(0x00000bc3)}
+     dvi:           Restart required for any devices using this driver.
+     dvi:           Install Device: Configuring device. 12:56:10.394
+     dvi:                Configuration: microsoft_bluetooth_hfp.inf:BTHHFENUM\BthHFPAudio,*
+     dvi:           Install Device: Configuring device completed. 12:56:10.394
+     dvi:           Device Status: 0x01802000
+     dvi:           {Restarting Devices} 12:56:10.394
+     dvi:                Start: BTHHFENUM\BTHHFPAUDIO\8&A817881&2&97
+     dvi:           {Restarting Devices exit} 12:56:10.410
+     dvi:      {Configure Device - exit(0x00000000)} 12:56:10.410
+     dvi: {Core Device Install - exit(0x00000000)} 12:56:10.410
+<<<  Section end 2021/11/02 12:56:10.426
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Setup online Device Install (Hardware initiated) - ACPI\INT3403\SEN3]
+>>>  Section start 2021/11/02 12:56:10.269
+     ump: Install needed due to device needing additional installation
+     utl: {Select Drivers - ACPI\INT3403\SEN3} 12:56:10.332
+     utl:      Driver Node:
+     utl:           Status         - Selected | Installed
+     utl:           Driver INF     - oem54.inf (C:\WINDOWS\System32\DriverStore\FileRepository\dptf_acpi.inf_amd64_b51172d9b56837a0\dptf_acpi.inf)
+     utl:           Class GUID     - {4d36e97d-e325-11ce-bfc1-08002be10318}
+     utl:           Driver Version - 11/05/2019,8.7.10200.12510
+     utl:           Configuration  - ACPI\INT3403 [DptfAcpi.NTamd64]
+     utl:           Driver Rank    - 00FF0001
+     utl:           Signer Score   - WHQL (0D000005)
+     utl:      Driver Node:
+     utl:           Status         - Outranked
+     utl:           Driver INF     - oem17.inf (C:\WINDOWS\System32\DriverStore\FileRepository\dptf_acpi.inf_amd64_4a6ac5de2a7fb025\dptf_acpi.inf)
+     utl:           Class GUID     - {4d36e97d-e325-11ce-bfc1-08002be10318}
+     utl:           Driver Version - 05/06/2019,8.6.10400.9366
+     utl:           Configuration  - ACPI\INT3403
+     utl:           Driver Rank    - 00FF0001
+     utl:           Signer Score   - WHQL (0D000005)
+     utl: {Select Drivers - exit(0x00000000} 12:56:10.332
+     dvi: Waiting for previous device install to complete. 12:56:10.332
+     dvi: {Core Device Install} 12:56:10.472
+     dvi:      {Configure Device - ACPI\INT3403\SEN3} 12:56:10.472
+     dvi:           Device Status: 0x0180000a
+     dvi:           Config Flags: 0x00000400
+     dvi:           Parent Device: ACPI\PNP0C09\4&23b2480f&0
+     sto:           {Configure Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\dptf_acpi.inf_amd64_b51172d9b56837a0\dptf_acpi.inf}
+     sto:                Source Filter  = ACPI\INT3403
+     inf:                Class GUID     = {4d36e97d-e325-11ce-bfc1-08002be10318}
+     inf:                Class Options  = Configurable BootCritical
+     inf:                {Configure Driver: Intel(R) Dynamic Tuning Generic Participant}
+     inf:                     Section Name = DptfAcpi.NTamd64
+     inf:                     {Add Service: dptf_acpi}
+     inf:                          Start Type    = 3
+     inf:                          Service Type  = 1
+     inf:                          Error Control = 1
+     inf:                          Image Path    = \SystemRoot\System32\DriverStore\FileRepository\dptf_acpi.inf_amd64_b51172d9b56837a0\dptf_acpi.sys
+     inf:                          Group         = Base
+     inf:                          Updated service 'dptf_acpi'.
+     inf:                     {Add Service: exit(0x00000000)}
+     inf:                     Hardware Id  = ACPI\INT3403
+     inf:                     {Configure Driver Configuration: DptfAcpi.NTamd64}
+     inf:                          Service Name  = dptf_acpi
+     inf:                          Config Flags  = 0x00000000
+     inf:                     {Configure Driver Configuration: exit(0x00000000)}
+     inf:                {Configure Driver: exit(0x00000000)}
+     flq:                {FILE_QUEUE_COMMIT} 12:56:10.472
+     flq:                {FILE_QUEUE_COMMIT - exit(0x00000000)} 12:56:10.472
+     sto:           {Configure Driver Package: exit(0x00000000)}
+     dvi:           Install Device: Configuring device. 12:56:10.472
+     dvi:                Configuration: oem54.inf:ACPI\INT3403,DptfAcpi.NTamd64
+     dvi:           Install Device: Configuring device completed. 12:56:10.488
+     dvi:           Device Status: 0x0180000a
+     dvi:           Install Device: Removing device 'ACPI\INT3403\SEN3' and sub-tree. 12:56:10.488
+     dvi:           Install Device: Removing device sub-tree completed. 12:56:10.488
+     dvi:           Install Device: Restarting device. 12:56:10.488
+     dvi:           Install Device: Restarting device completed. 12:56:10.488
+     dvi:      {Configure Device - exit(0x00000000)} 12:56:10.488
+     dvi: {Core Device Install - exit(0x00000000)} 12:56:10.488
+<<<  Section end 2021/11/02 12:56:10.551
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Setup online Device Install (Hardware initiated) - ACPI\INT3403\SEN2]
+>>>  Section start 2021/11/02 12:56:10.582
+     ump: Install needed due to device needing additional installation
+     utl: {Select Drivers - ACPI\INT3403\SEN2} 12:56:10.582
+     utl:      Driver Node:
+     utl:           Status         - Selected | Installed
+     utl:           Driver INF     - oem54.inf (C:\WINDOWS\System32\DriverStore\FileRepository\dptf_acpi.inf_amd64_b51172d9b56837a0\dptf_acpi.inf)
+     utl:           Class GUID     - {4d36e97d-e325-11ce-bfc1-08002be10318}
+     utl:           Driver Version - 11/05/2019,8.7.10200.12510
+     utl:           Configuration  - ACPI\INT3403 [DptfAcpi.NTamd64]
+     utl:           Driver Rank    - 00FF0001
+     utl:           Signer Score   - WHQL (0D000005)
+     utl:      Driver Node:
+     utl:           Status         - Outranked
+     utl:           Driver INF     - oem17.inf (C:\WINDOWS\System32\DriverStore\FileRepository\dptf_acpi.inf_amd64_4a6ac5de2a7fb025\dptf_acpi.inf)
+     utl:           Class GUID     - {4d36e97d-e325-11ce-bfc1-08002be10318}
+     utl:           Driver Version - 05/06/2019,8.6.10400.9366
+     utl:           Configuration  - ACPI\INT3403
+     utl:           Driver Rank    - 00FF0001
+     utl:           Signer Score   - WHQL (0D000005)
+     utl: {Select Drivers - exit(0x00000000} 12:56:10.582
+     dvi: Waiting for previous device install to complete. 12:56:10.582
+     dvi: {Core Device Install} 12:56:11.100
+     dvi:      {Configure Device - ACPI\INT3403\SEN2} 12:56:11.100
+     dvi:           Device Status: 0x0180000a
+     dvi:           Config Flags: 0x00000400
+     dvi:           Parent Device: ACPI\PNP0C09\4&23b2480f&0
+     sto:           {Configure Driver Package: C:\WINDOWS\System32\DriverStore\FileRepository\dptf_acpi.inf_amd64_b51172d9b56837a0\dptf_acpi.inf}
+     sto:                Source Filter  = ACPI\INT3403
+     inf:                Class GUID     = {4d36e97d-e325-11ce-bfc1-08002be10318}
+     inf:                Class Options  = Configurable BootCritical
+     inf:                {Configure Driver: Intel(R) Dynamic Tuning Generic Participant}
+     inf:                     Section Name = DptfAcpi.NTamd64
+     inf:                     {Add Service: dptf_acpi}
+     inf:                          Start Type    = 3
+     inf:                          Service Type  = 1
+     inf:                          Error Control = 1
+     inf:                          Image Path    = \SystemRoot\System32\DriverStore\FileRepository\dptf_acpi.inf_amd64_b51172d9b56837a0\dptf_acpi.sys
+     inf:                          Group         = Base
+     inf:                          Updated service 'dptf_acpi'.
+     inf:                     {Add Service: exit(0x00000000)}
+     inf:                     Hardware Id  = ACPI\INT3403
+     inf:                     {Configure Driver Configuration: DptfAcpi.NTamd64}
+     inf:                          Service Name  = dptf_acpi
+     inf:                          Config Flags  = 0x00000000
+     inf:                     {Configure Driver Configuration: exit(0x00000000)}
+     inf:                {Configure Driver: exit(0x00000000)}
+     flq:                {FILE_QUEUE_COMMIT} 12:56:11.100
+     flq:                {FILE_QUEUE_COMMIT - exit(0x00000000)} 12:56:11.100
+     sto:           {Configure Driver Package: exit(0x00000000)}
+     dvi:           Install Device: Configuring device. 12:56:11.100
+     dvi:                Configuration: oem54.inf:ACPI\INT3403,DptfAcpi.NTamd64
+     dvi:           Install Device: Configuring device completed. 12:56:11.115
+     dvi:           Device Status: 0x0180000a
+     dvi:           Install Device: Removing device 'ACPI\INT3403\SEN2' and sub-tree. 12:56:11.115
+     dvi:           Install Device: Removing device sub-tree completed. 12:56:11.115
+     dvi:           Install Device: Restarting device. 12:56:11.115
+     dvi:           Install Device: Restarting device completed. 12:56:11.115
+     dvi:      {Configure Device - exit(0x00000000)} 12:56:11.115
+     dvi: {Core Device Install - exit(0x00000000)} 12:56:11.115
+<<<  Section end 2021/11/02 12:56:11.115
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Setup PnP Migration - Verify]
+>>>  Section start 2021/11/02 12:56:11.162
+     set: PCI\VEN_8086&DEV_02E0&SUBSYS_19011D72&REV_00\3&11583659&1&B0 -> Migrated [0000000000000000], configured [oem35.inf/heci.inf] and started.
+     set: ACPI\PNP0C02\1 -> Migrated [0000000000000000], configured [machine.inf] and ready.
+     set: ACPI\PNP0C02\2 -> Migrated [0000000000000000], configured [machine.inf] and ready.
+     set: ACPI\PNP0C02\5 -> Migrated [0000000000000000], configured [machine.inf] and ready.
+     set: PCI\VEN_8086&DEV_9B41&SUBSYS_19011D72&REV_02\3&11583659&1&10 -> Migrated [0000000000000000], configured [oem49.inf/iigd_dch.inf] and started.
+     set: {5D624F94-8850-40C3-A3FA-A4FD2080BAF3}\VWIFIMP_WFD\4&1424E472&1&11 -> Configured [netvwifimp.inf] and started.
+     set: SW\{96E080C7-143C-11D1-B40F-00A0C9223196}\{3C0D501A-140B-11D1-B40F-00A0C9223196} -> Migrated [0000000000000000], configured [ksfilter.inf] and started.
+     set: ACPI\PNP0C09\4&23B2480F&0 -> Migrated [0000000000000000], configured [machine.inf] and started.
+     set: SWD\DRIVERENUM\{BABE2782-EB1B-46A7-871A-F043D3200542}#OEM_DAL_COMPONENT&4&2937ED40&0 -> Migrated [0000000000000000], configured [oem43.inf/dal.inf] and started.
+     set: ACPI\PNP0100\4&23B2480F&0 -> Migrated [0000000000000000], configured [machine.inf] and ready.
+     set: ACPI\PNP0C0A\0 -> Migrated [0000000000000000], configured [cmbatt.inf] and started.
+     set: PCI\VEN_8086&DEV_02E8&SUBSYS_19011D72&REV_00\3&11583659&1&A8 -> Migrated [0000000000000000], configured [oem57.inf/ialpss2_i2c_cnl.inf] and started.
+     set: ACPI\ACPI000C\2&DABA3FF&1 -> Migrated [0000000000000000], configured [acpipagr.inf] and started.
+     set: SWD\DRIVERENUM\OEM_LMS_COMPONENT&4&2937ED40&0 -> Migrated [0000000000000000], configured [oem13.inf/lms.inf] and started.
+     set: SWD\DRIVERENUM\{6799211C-AC58-4689-BC51-A485C2B9CD2F}#DTSHSA&5&33B0D57C&0 -> Migrated [0000000000000000], configured [oem2.inf/dtsaudioprocessinghsa.inf] and started.
+     set: BTHENUM\DEV_A4CCB9D849A4\7&1B74E3B7&0&BLUETOOTHDEVICE_A4CCB9D849A4 -> Migrated [0000000000000000], configured [bth.inf] and started.
+     set: STORAGE\VOLUME\{952F47B0-BD6C-11EA-8863-806E6F6E6963}#00000024B7500000 -> Configured [volume.inf] and started.
+     set: ROOT\VOLMGR\0000 -> Migrated [0000000000000000], configured [volmgr.inf] and started.
+     set: ACPI\ACPI0003\5&1D8DBA46&0 -> Migrated [0000000000000000], configured [cmbatt.inf] and started.
+     set: PCI\VEN_8086&DEV_02F9&SUBSYS_19011D72&REV_00\3&11583659&1&90 -> Migrated [0000000000000000], configured [oem1.inf/cometlakepch-lpsystemthermal.inf] and ready.
+     set: ACPI\MSFT0101\2&DABA3FF&1 -> Migrated [0000000000000000], configured [tpm.inf] and started.
+     set: PCI\VEN_8086&DEV_9B61&SUBSYS_19011D72&REV_0C\3&11583659&1&00 -> Migrated [0000000000000000], configured [oem11.inf/cometlakesystem.inf] and started.
+     set: SWD\DRIVERENUM\{C3A63EDD-2D27-4B66-B155-5E94B43D926A}#REALTEKHSA&5&33B0D57C&0 -> Migrated [0000000000000000], configured [oem21.inf/realtekhsa.inf] and started.
+     set: ACPI\INT3400\2&DABA3FF&1 -> Migrated [0000000000000000], configured [oem54.inf/dptf_acpi.inf] and started.
+     set: ROOT\BASICDISPLAY\0000 -> Migrated [0000000000000000], configured [basicdisplay.inf] and started.
+     set: ACPI\INT3403\SEN1 -> Migrated [0000000000000000], configured [oem54.inf/dptf_acpi.inf] and started.
+     set: ACPI\INT3403\SEN2 -> Migrated [0000000000000000], configured [oem54.inf/dptf_acpi.inf] and started.
+     set: ACPI\INT3403\SEN3 -> Migrated [0000000000000000], configured [oem54.inf/dptf_acpi.inf] and started.
+     set: ACPI\INT3403\SEN4 -> Migrated [0000000000000000], configured [oem54.inf/dptf_acpi.inf] and started.
+     set: ACPI\PNP0C0E\2&DABA3FF&1 -> Migrated [0000000000000000], configured [machine.inf] and started.
+     set: PCI\VEN_8086&DEV_0284&SUBSYS_19011D72&REV_00\3&11583659&1&F8 -> Migrated [0000000000000000], configured [oem32.inf/cometlakepch-lpsystem.inf] and started.
+     set: ACPI\THERMALZONE\TZ00 -> Migrated [0000000000000000], configured [machine.inf] and started.
+     set: ACPI\THERMALZONE\TZ01 -> Migrated [0000000000000000], configured [machine.inf] and started.
+     set: INTELAUDIO\DSP_CTLR_DEV_02C8&VEN_8086&DEV_0222&SUBSYS_19011D72&REV_0000\4&10BC4A3D&0&0800 -> Migrated [0000000000000000], configured [oem3.inf/intcoed.inf] and started.
+     set: PCI\VEN_8086&DEV_02C8&SUBSYS_19011D72&REV_00\3&11583659&1&FB -> Migrated [0000000000000000], configured [oem60.inf/intcaudiobus.inf] and started.
+     set: SWD\DRIVERENUM\{12D32D00-C5BF-4A3B-A030-EBA5AB6FD0DD}#REALTEKSSTPPDLL&6&17B32E68&0 -> Migrated [0000000000000000], configured [oem68.inf/realteksstppdll.inf] and started.
+     set: ROOT\VID\0000 -> Migrated [0000000000000000], configured [wvid.inf] and started.
+     set: ACPI\PNP0103\0 -> Migrated [0000000000000000], configured [machine.inf] and ready.
+     set: BTHENUM\{00001112-0000-1000-8000-00805F9B34FB}_VID&00010046_PID&1200\7&1B74E3B7&0&A4CCB9D849A4_C00000000 -> Migrated [0000000000000000], configured [bth.inf] and started.
+     set: PCI\VEN_8086&DEV_02A3&SUBSYS_19011D72&REV_00\3&11583659&1&FC -> Migrated [0000000000000000], configured [oem32.inf/cometlakepch-lpsystem.inf] and ready.
+     set: ROOT\COMPOSITEBUS\0000 -> Migrated [0000000000000000], configured [compositebus.inf] and started.
+     set: ROOT\VDRVROOT\0000 -> Migrated [0000000000000000], configured [vdrvroot.inf] and started.
+     set: ROOT\SPACEPORT\0000 -> Migrated [0000000000000000], configured [spaceport.inf] and started.
+     set: SWD\DRIVERENUM\{C3A63EDD-2D27-4B66-B155-5E94B43D926A}#REALTEKSRV&5&33B0D57C&0 -> Migrated [0000000000000000], configured [oem56.inf/realtekservice.inf] and started.
+     set: BTH\MS_BTHLE\6&22C770F9&0&3 -> Migrated [0000000000000000], configured [bthleenum.inf] and started.
+     set: ROOT\KDNIC\0000 -> Migrated [0000000000000000], configured [kdnic.inf] and started.
+     set: UEFI\RES_{CF422683-E7BA-49AD-B31D-F8C89F10DBB6}\0 -> Migrated [0000000000000000], configured [c_firmware.inf] and started.
+     set: ACPI\PNP0C0D\2&DABA3FF&1 -> Migrated [0000000000000000], configured [machine.inf] and started.
+     set: ACPI\PNP0C02\PCHRESV -> Migrated [0000000000000000], configured [machine.inf] and ready.
+     set: SWD\DRIVERENUM\{12D32D00-C5BF-4A3B-A030-EBA5AB6FD0DD}#REALTEKINTAPO&6&17B32E68&0 -> Migrated [0000000000000000], configured [oem31.inf/realtekintapo.inf] and started.
+     set: HID\ELAN2304&COL04\5&2B673C8&0&0003 -> Migrated [0000000000000000], configured [mtconfig.inf] and started.
+     set: SWD\DRIVERENUM\{BABE2782-EB1B-46A7-871A-F043D3200542}#OEM_ICLS_COMPONENT&4&2937ED40&0 -> Migrated [0000000000000000], configured [oem55.inf/iclsclient.inf] and started.
+     set: STORAGE\VOLUME\{952F47B0-BD6C-11EA-8863-806E6F6E6963}#0000000018500000 -> Configured [volume.inf] and started.
+     set: HID\ELAN2304&COL03\5&2B673C8&0&0002 -> Migrated [0000000000000000], configured [input.inf] and started.
+     set: HID\ELAN2304&COL02\5&2B673C8&0&0001 -> Migrated [0000000000000000], configured [input.inf] and started.
+     set: ROOT\UMBUS\0000 -> Migrated [0000000000000000], configured [umbus.inf] and started.
+     set: ROOT\CAD\0000 -> Migrated [0000000000000000], configured [ChargeArbitration.inf] and started.
+!    set: DISPLAY\NCP004A\1&8713BCA&0&UID0 -> Migrated [0000000000000000], configured [monitor.inf] and not present.
+     set: ACPI\PNP0B00\4&23B2480F&0 -> Migrated [0000000000000000], configured [machine.inf] and started.
+     set: ACPI\PNP0C14\SAMPLEDEV -> Migrated [0000000000000000], configured [wmiacpi.inf] and started.
+     set: BTHENUM\{00001801-0000-1000-8000-00805F9B34FB}_VID&00010046_PID&1200\7&1B74E3B7&0&A4CCB9D849A4_C00000000 -> Configured [null] and started.
+     set: HID\ELAN2304&COL01\5&2B673C8&0&0000 -> Migrated [0000000000000000], configured [msmouse.inf] and started.
+     set: INTELAUDIO\FUNC_01&VEN_8086&DEV_280B&SUBSYS_80860101&REV_1000\4&10BC4A3D&0&0201 -> Migrated [0000000000000000], configured [oem18.inf/intcdaud.inf] and started.
+     set: SWD\MSDAS\{CE958E9A-424F-4C88-86F4-11314821E75A} -> Migrated [0000000000000000], configured [c_swdevice.inf] and started.
+     set: ROOT\ACPI_HAL\0000 -> Migrated [0000000000000000], configured [hal.inf] and started.
+     set: PCI\VEN_8086&DEV_02D3&SUBSYS_19011D72&REV_00\3&11583659&1&B8 -> Migrated [0000000000000000], configured [oem16.inf/iaahcic.inf] and started.
+     set: ACPI\PNP0000\4&23B2480F&0 -> Migrated [0000000000000000], configured [machine.inf] and ready.
+     set: ACPI\PNP0C14\TESTDEV -> Migrated [0000000000000000], configured [wmiacpi.inf] and started.
+     set: ACPI\PNP0A08\0 -> Migrated [0000000000000000], configured [pci.inf] and started.
+     set: SWD\DRIVERENUM\OEM_DAL_COMPONENT&4&2937ED40&0 -> Migrated [0000000000000000], configured [oem43.inf/dal.inf] and started.
+     set: SWD\DRIVERENUM\{6799211C-AC58-4689-BC51-A485C2B9CD2F}#DTSAPO&5&33B0D57C&0 -> Migrated [0000000000000000], configured [oem25.inf/dtsapo4x64.inf] and started.
+     set: INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1D721901&REV_1000\4&10BC4A3D&0&0001 -> Migrated [0000000000000000], configured [oem10.inf/hdxsstmi.inf] and started.
+     set: SWD\DRIVERENUM\{9FD11DEE-422F-4B05-9119-F0BB9D833699}#PIESOFTWARECOMPONENT&4&1424E472&1 -> Migrated [0000000000000000], configured [oem40.inf/piecomponent.inf] and started.
+     set: STORAGE\VOLUME\{952F47B0-BD6C-11EA-8863-806E6F6E6963}#00000076FC200000 -> Configured [volume.inf] and started.
+     set: BTHENUM\{00001116-0000-1000-8000-00805F9B34FB}_VID&00010046_PID&1200\7&1B74E3B7&0&A4CCB9D849A4_C00000000 -> Migrated [0000000000000000], configured [bth.inf] and started.
+     set: INTELAUDIO\CTLR_DEV_02C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_1D721901&REV_10EC\5&28520DAF&0&0100 -> Migrated [0000000000000000], configured [oem12.inf/intcdmic.inf] and started.
+     set: ACPI\PNP0C14\WST -> Migrated [0000000000000000], configured [wmiacpi.inf] and started.
+     set: ACPI\INT3F0D\4&23B2480F&0 -> Migrated [0000000000000000], configured [machine.inf] and ready.
+     set: ACPI_HAL\PNP0C08\0 -> Migrated [0000000000000000], configured [acpi.inf] and started.
+     set: ACPI\TIMI1601\4&23B2480F&0 -> Migrated [0000000000000000], configured [keyboard.inf] and started.
+     set: ROOT\BASICRENDER\0000 -> Migrated [0000000000000000], configured [basicrender.inf] and started.
+     set: SWD\DRIVERENUM\{C3A63EDD-2D27-4B66-B155-5E94B43D926A}#REALTEKAPO&5&33B0D57C&0 -> Migrated [0000000000000000], configured [oem46.inf/realtekapo.inf] and started.
+     set: SWD\DRIVERENUM\IGCC&4&1880DEDB&0 -> Migrated [0000000000000000], configured [oem53.inf/igcc_dch.inf] and started.
+     set: BTHENUM\{0000110A-0000-1000-8000-00805F9B34FB}_VID&00010046_PID&1200\7&1B74E3B7&0&A4CCB9D849A4_C00000000 -> Migrated [0000000000000000], configured [microsoft_bluetooth_a2dp_snk.inf] and started.
+     set: ACPI_HAL\UEFI\0 -> Migrated [0000000000000000], configured [uefi.inf] and started.
+     set: SWD\DRIVERENUM\{BABE2782-EB1B-46A7-871A-F043D3200542}#OEM_LMS_COMPONENT&4&2937ED40&0 -> Migrated [0000000000000000], configured [oem13.inf/lms.inf] and started.
+     set: PCI\VEN_8086&DEV_02F0&SUBSYS_02A48086&REV_00\3&11583659&1&A3 -> Migrated [0000000000000000], configured [oem4.inf/netwtw08.inf] and started.
+     set: PCI\VEN_8086&DEV_02ED&SUBSYS_19011D72&REV_00\3&11583659&1&A0 -> Migrated [0000000000000000], configured [usbxhci.inf] and started.
+     set: BTH\MS_BTHBRB\6&22C770F9&0&1 -> Migrated [0000000000000000], configured [bth.inf] and started.
+     set: ACPI\PNP0C02\SARESV -> Migrated [0000000000000000], configured [machine.inf] and ready.
+     set: USB\VID_8087&PID_0AAA\5&1F543D55&0&10 -> Migrated [0000000000000000], configured [oem50.inf/ibtusb.inf] and started.
+     set: ACPI\FIXEDBUTTON\2&DABA3FF&1 -> Migrated [0000000000000000], configured [machine.inf] and started.
+     set: ACPI\PNP0C14\XAPE -> Migrated [0000000000000000], configured [wmiacpi.inf] and started.
+     set: BTHENUM\{0000111F-0000-1000-8000-00805F9B34FB}_VID&00010046_PID&1200\7&1B74E3B7&0&A4CCB9D849A4_C00000000 -> Migrated [0000000000000000], configured [microsoft_bluetooth_hfp_hf.inf] and started.
+     set: PCI\VEN_8086&DEV_02E9&SUBSYS_19011D72&REV_00\3&11583659&1&A9 -> Migrated [0000000000000000], configured [oem57.inf/ialpss2_i2c_cnl.inf] and started.
+     set: ACPI\INT33A1\1 -> Migrated [0000000000000000], configured [intelpep.inf] and started.
+     set: BTH\MS_RFCOMM\6&22C770F9&0&0 -> Migrated [0000000000000000], configured [tdibth.inf] and started.
+     set: BTHENUM\{00001132-0000-1000-8000-00805F9B34FB}_VID&00010046_PID&1200\7&1B74E3B7&0&A4CCB9D849A4_C00000000 -> Configured [null] and started.
+     set: BTH\MS_BTHPAN\6&22C770F9&0&2 -> Migrated [0000000000000000], configured [bthpan.inf] and started.
+     set: ACPI\PNP0C02\IOTRAPS -> Migrated [0000000000000000], configured [machine.inf] and ready.
+     set: STORAGE\VOLUME\{952F47B0-BD6C-11EA-8863-806E6F6E6963}#0000000010500000 -> Configured [volume.inf] and started.
+     set: BTHENUM\{0000110C-0000-1000-8000-00805F9B34FB}_VID&00010046_PID&1200\7&1B74E3B7&0&A4CCB9D849A4_C00000000 -> Migrated [0000000000000000], configured [microsoft_bluetooth_avrcptransport.inf] and started.
+     set: {DD8E82AE-334B-49A2-AEAE-AEB0FD5C40DD}\DETECTIONVERIFICATION\5&28520DAF&0&0 -> Migrated [0000000000000000], configured [oem26.inf/detectionverificationdrv.inf] and started.
+     set: ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_142_-_INTEL(R)_CORE(TM)_I5-10210U_CPU_@_1.60GHZ\_1 -> Migrated [0000000000000000], configured [cpu.inf] and started.
+     set: ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_142_-_INTEL(R)_CORE(TM)_I5-10210U_CPU_@_1.60GHZ\_2 -> Migrated [0000000000000000], configured [cpu.inf] and started.
+     set: ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_142_-_INTEL(R)_CORE(TM)_I5-10210U_CPU_@_1.60GHZ\_3 -> Migrated [0000000000000000], configured [cpu.inf] and started.
+     set: ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_142_-_INTEL(R)_CORE(TM)_I5-10210U_CPU_@_1.60GHZ\_4 -> Migrated [0000000000000000], configured [cpu.inf] and started.
+     set: ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_142_-_INTEL(R)_CORE(TM)_I5-10210U_CPU_@_1.60GHZ\_5 -> Migrated [0000000000000000], configured [cpu.inf] and started.
+     set: ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_142_-_INTEL(R)_CORE(TM)_I5-10210U_CPU_@_1.60GHZ\_6 -> Migrated [0000000000000000], configured [cpu.inf] and started.
+     set: ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_142_-_INTEL(R)_CORE(TM)_I5-10210U_CPU_@_1.60GHZ\_7 -> Migrated [0000000000000000], configured [cpu.inf] and started.
+     set: ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_142_-_INTEL(R)_CORE(TM)_I5-10210U_CPU_@_1.60GHZ\_8 -> Migrated [0000000000000000], configured [cpu.inf] and started.
+     set: STORAGE\VOLUME\{952F47B0-BD6C-11EA-8863-806E6F6E6963}#0000000000100000 -> Configured [volume.inf] and started.
+     set: BTHENUM\{00001105-0000-1000-8000-00805F9B34FB}_VID&00010046_PID&1200\7&1B74E3B7&0&A4CCB9D849A4_C00000000 -> Migrated [0000000000000000], configured [bth.inf] and started.
+     set: SWD\MMDEVAPI\MICROSOFTGSWAVETABLESYNTH -> Migrated [0000000000000000], configured [c_swdevice.inf] and started.
+     set: BTHENUM\{0000112D-0000-1000-8000-00805F9B34FB}_VID&00010046_PID&1200\7&1B74E3B7&0&A4CCB9D849A4_C00000000 -> Migrated [0000000000000000], configured [bth.inf] and started.
+     set: USB\ROOT_HUB30\4&1B0B8274&0&0 -> Migrated [0000000000000000], configured [usbhub3.inf] and started.
+     set: SWD\DRIVERENUM\{6799211C-AC58-4689-BC51-A485C2B9CD2F}#DTSSERVICE&5&33B0D57C&0 -> Migrated [0000000000000000], configured [oem29.inf/dtsapo4xservice.inf] and started.
+     set: SCSI\DISK&VEN_SAMSUNG&PROD_MZNLN512HAJQ-000\4&17CFB3F3&0&000200 -> Migrated [0000000000000000], configured [disk.inf] and started.
+     set: {2F2B7B01-597A-434C-8DD6-D27CD46EF73C}\IBTUSBFILTER\6&22C770F9&0&00 -> Configured [null] and started.
+     set: ACPI\XMCCA001\2&DABA3FF&1 -> Migrated [0000000000000000], configured [oem52.inf/radiocontrol.inf] and started.
+     set: ROOT\NDISVIRTUALBUS\0000 -> Migrated [0000000000000000], configured [ndisvirtualbus.inf] and started.
+     set: HID\XMCCA001\3&5F5E471&0&0000 -> Migrated [0000000000000000], configured [oem52.inf/radiocontrol.inf] and started.
+     set: PCI\VEN_8086&DEV_1903&SUBSYS_19011D72&REV_0C\3&11583659&1&20 -> Migrated [0000000000000000], configured [oem38.inf/dptf_cpu.inf] and started.
+     set: ACPI\ELAN2304\4&CFC1A96&0 -> Migrated [0000000000000000], configured [hidi2c.inf] and started.
+     set: BTHLE\DEV_A4CCB9D849A4\7&322A2D1F&0&A4CCB9D849A4 -> Migrated [0000000000000000], configured [bthleenum.inf] and started.
+     set: SWD\DRIVERENUM\CUI&4&1880DEDB&0 -> Migrated [0000000000000000], configured [oem19.inf/cui_dch.inf] and started.
+     set: BTHHFENUM\BTHHFPAUDIO\8&A817881&2&97 -> Migrated [0000000000000000], configured [microsoft_bluetooth_hfp.inf] and started.
+     set: BTHENUM\{0000110E-0000-1000-8000-00805F9B34FB}_VID&00010046_PID&1200\7&1B74E3B7&0&A4CCB9D849A4_C00000000 -> Migrated [0000000000000000], configured [microsoft_bluetooth_avrcptransport.inf] and started.
+     set: PCI\VEN_8086&DEV_02EF&SUBSYS_19011D72&REV_00\3&11583659&1&A2 -> Migrated [0000000000000000], configured [oem32.inf/cometlakepch-lpsystem.inf] and ready.
+     set: PCI\VEN_8086&DEV_02A4&SUBSYS_19011D72&REV_00\3&11583659&1&FD -> Migrated [0000000000000000], configured [oem32.inf/cometlakepch-lpsystem.inf] and ready.
+     set: BTHENUM\{00001800-0000-1000-8000-00805F9B34FB}_VID&00010046_PID&1200\7&1B74E3B7&0&A4CCB9D849A4_C00000000 -> Configured [null] and started.
+     set: BTHENUM\{0000112F-0000-1000-8000-00805F9B34FB}_VID&00010046_PID&1200\7&1B74E3B7&0&A4CCB9D849A4_C00000000 -> Migrated [0000000000000000], configured [bth.inf] and started.
+     set: ROOT\MSSMBIOS\0000 -> Migrated [0000000000000000], configured [mssmbios.inf] and started.
+     set: ACPI\INT340E\2&DABA3FF&1 -> Migrated [0000000000000000], configured [machine.inf] and ready.
+     set: ACPI\PNP0C14\TBFP -> Migrated [0000000000000000], configured [wmiacpi.inf] and started.
+     set: ROOT\SYSTEM\0000 -> Migrated [0000000000000000], configured [swenum.inf] and started.
+     set: ROOT\RDPBUS\0000 -> Configured [rdpbus.inf] and started.
+     set: BTHENUM\{00001115-0000-1000-8000-00805F9B34FB}_VID&00010046_PID&1200\7&1B74E3B7&0&A4CCB9D849A4_C00000000 -> Migrated [0000000000000000], configured [bth.inf] and started.
+     set: SWD\DRIVERENUM\OEM_ICLS_COMPONENT&4&2937ED40&0 -> Migrated [0000000000000000], configured [oem55.inf/iclsclient.inf] and started.
+     set: ROOT\MEDIA\0000 -> Migrated [0000000000000000], configured [oem27.inf/droidcamvideo.inf] and started.
+     set: ROOT\MEDIA\0001 -> Migrated [0000000000000000], configured [oem51.inf/droidcam.inf] and started.
+     set: ACPI\INT34BB\3&11583659&1 -> Migrated [0000000000000000], configured [oem66.inf/ialpss2_gpio2_cnl.inf] and started.
+<<<  Section end 2021/11/02 12:56:11.225
+<<<  [Exit status: SUCCESS]
+
