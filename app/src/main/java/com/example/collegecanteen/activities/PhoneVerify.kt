@@ -45,13 +45,15 @@ class PhoneVerify : AppCompatActivity() {
         auth.signInWithCredential(credential)
             .addOnCompleteListener(this) { task ->
                 if (task.isSuccessful) {
+//                    Toast.makeText(this , "Logged in as $number " , Toast.LENGTH_SHORT ).show()
                     startActivity(Intent(applicationContext, CategoryActivity::class.java))
                     finish()
-// ...
                 } else {
-// Sign in failed, display a message and update the UI
+
+//              Sign in failed, display a message and update the UI
                     if (task.exception is FirebaseAuthInvalidCredentialsException) {
-// The verification code entered was invalid
+
+//              The verification code entered was invalid
                         Toast.makeText(this,"Invalid OTP",Toast.LENGTH_SHORT).show()
                     }
                 }

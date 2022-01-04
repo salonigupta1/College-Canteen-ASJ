@@ -33,7 +33,7 @@ class CategoryActivity : AppCompatActivity() {
         auth= FirebaseAuth.getInstance()
         val currentUser=auth.currentUser
 
-//
+
 //        @Suppress("DEPRECATION")
 //        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
 //            window.insetsController?.hide(WindowInsets.Type.statusBars())
@@ -116,19 +116,6 @@ class CategoryActivity : AppCompatActivity() {
         }
 
     }
-
-//    private fun checkUser(){
-////            get current user
-//        val firebaseUser = auth.currentUser
-//        if (firebaseUser==null){
-////            logged out
-//            startActivity(Intent(this , PhoneAuth::class.java))
-//        }
-//        else{
-//            val phone = firebaseUser.phoneNumber
-//            binding.phoneTv.text = phone
-//        }
-//    }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (toggle.onOptionsItemSelected(item))
