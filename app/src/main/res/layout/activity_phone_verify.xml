@@ -64,13 +64,22 @@
             app:hideLineWhenFilled="true"
             style="@style/PinWidget.PinView"
             app:itemRadius="5dp"/>
+
+<!--        <Button-->
+<!--            android:id="@+id/verifyBtn"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@drawable/rounded_btn"-->
+<!--            android:text="@string/verify"-->
+<!--            android:textColor="#ffffff"-->
+<!--            android:textSize="15sp" />-->
         <Button
             android:id="@+id/verifyBtn"
-            android:layout_width="match_parent"
+            android:layout_width="274dp"
             android:layout_height="wrap_content"
+            android:background="@drawable/rounded_btn"
             android:text="@string/verify"
-            android:textSize="22sp"
-            android:textColor="#ffffff"
-            android:background="@drawable/rounded_btn"/>
+            android:layout_marginTop="15dp"
+            android:textSize="15sp" />
     </LinearLayout>
 </LinearLayout>

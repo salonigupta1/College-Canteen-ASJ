@@ -11,36 +11,32 @@
     tools:openDrawer="start"
 
     android:fitsSystemWindows="true">
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/select_your_choice"
-            android:textSize="42sp"
-            android:layout_marginTop="28dp"
-            android:textStyle="bold"
-            android:gravity="center_horizontal|center_vertical"
-            android:textColor="@color/purple_200">
-        </TextView>
-    </LinearLayout>
-
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center_vertical"
-        android:layout_marginTop="99dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_your_flavour"
+            android:textSize="35sp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="@color/purple_200">
+        </TextView>
+
         <GridLayout
-            android:layout_width="388dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_margin="5dp"
+            android:layout_marginTop="20dp"
             android:alignmentMode="alignMargins"
             android:columnCount="2"
             android:columnOrderPreserved="false"
@@ -65,8 +61,8 @@
                     tools:ignore="UseCompoundDrawables">
 
                     <ImageView
-                        android:layout_width="55dp"
-                        android:layout_height="55dp"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
                         android:layout_marginTop="12dp"
                         android:contentDescription="@string/icon"
                         android:src="@drawable/burger" />
@@ -74,11 +70,11 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="24dp"
                         android:fontFamily="sans-serif-black"
                         android:text="@string/fastFood"
                         android:textColor="@color/white"
-                        android:textSize="16sp" />
+                        android:layout_marginTop="20dp"
+                        android:textSize="20sp" />
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -100,8 +96,8 @@
                     tools:ignore="UseCompoundDrawables">
 
                     <ImageView
-                        android:layout_width="55dp"
-                        android:layout_height="55dp"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
                         android:layout_marginTop="12dp"
                         android:contentDescription="@string/icon"
                         android:src="@drawable/drink1"
@@ -110,11 +106,11 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="24dp"
                         android:fontFamily="sans-serif-black"
                         android:text="@string/drinks"
                         android:textColor="@color/white"
-                        android:textSize="16sp" />
+                        android:layout_marginTop="10dp"
+                        android:textSize="20sp" />
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -137,8 +133,8 @@
                     tools:ignore="UseCompoundDrawables">
 
                     <ImageView
-                        android:layout_width="55dp"
-                        android:layout_height="55dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:layout_marginTop="12dp"
                         android:contentDescription="@string/icon"
                         android:src="@drawable/sweets" />
@@ -146,12 +142,11 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="24dp"
                         android:fontFamily="sans-serif-black"
                         android:text="@string/desserts"
-
                         android:textColor="@color/white"
-                        android:textSize="16sp" />
+                        android:layout_marginTop="0dp"
+                        android:textSize="20sp" />
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -173,8 +168,8 @@
                     tools:ignore="UseCompoundDrawables">
 
                     <ImageView
-                        android:layout_width="55dp"
-                        android:layout_height="55dp"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
                         android:layout_marginTop="12dp"
                         android:contentDescription="@string/icon"
                         android:src="@drawable/snack1" />
@@ -182,11 +177,11 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="24dp"
                         android:fontFamily="sans-serif-black"
                         android:text="@string/snacks"
                         android:textColor="@color/white"
-                        android:textSize="16sp" />
+                        android:layout_marginTop="20dp"
+                        android:textSize="20sp" />
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -199,12 +194,13 @@
             android:layout_height="50dp"
             android:background="#0000FFFF"
             android:text="@string/logout"
-            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textSize="20sp"
             android:textAlignment="center"
             android:textAllCaps="false"
             android:textColor="@color/purple_200"
-            android:layout_marginTop="60dp"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_horizontal" />
 
     </LinearLayout>
 
