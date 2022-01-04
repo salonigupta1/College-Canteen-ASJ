@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:id="@+id/drawerLayout"
     android:background="#ffff"
-    tools:context=".activities.DrinkProductActivity"
+    tools:context=".activities.FastFoodProductActivity"
     tools:openDrawer="start"
     android:fitsSystemWindows="true">
     <LinearLayout
@@ -16,7 +16,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/drinks"
+            android:text="@string/fast_food"
             android:textSize="50sp"
             android:fontFamily="cursive"
             android:textStyle="bold"

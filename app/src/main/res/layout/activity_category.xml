@@ -31,14 +31,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="188dp"
-        android:gravity="center_vertical">
+        android:gravity="center_vertical"
+        android:layout_marginTop="99dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
 
         <GridLayout
             android:layout_width="388dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="5dp"
+            android:alignmentMode="alignMargins"
             android:columnCount="2"
             android:columnOrderPreserved="false"
             android:rowCount="2">
@@ -200,6 +203,7 @@
             android:textAlignment="center"
             android:textAllCaps="false"
             android:textColor="@color/purple_200"
+            android:layout_marginTop="60dp"
             android:layout_gravity="center_horizontal"/>
 
     </LinearLayout>

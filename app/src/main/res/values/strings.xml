@@ -37,4 +37,6 @@
     <string name="select_your_choice">Select your choice</string>
     <string name="desserts">Desserts</string>
     <string name="snacks">Snacks</string>
+    <string name="connectUs">Connect Us</string>
+    <string name="choose_your_flavour">Choose Your Flavour</string>
 </resources>
