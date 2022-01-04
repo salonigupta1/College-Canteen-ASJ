@@ -25,7 +25,7 @@ class DrinkProductActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_fastfoodproduct)
+        setContentView(R.layout.activity_drink_product)
 
         auth= FirebaseAuth.getInstance()
         val currentUser=auth.currentUser

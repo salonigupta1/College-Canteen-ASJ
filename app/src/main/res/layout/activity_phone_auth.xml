@@ -39,7 +39,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
         android:layout_marginTop="150dp"
         android:gravity="top|center"
@@ -98,34 +98,47 @@
             android:layout_height="wrap_content"
             android:background="@drawable/rounded_btn"
             android:text="@string/get_otp"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:layout_marginTop="15dp"/>
     </LinearLayout>
 
-<!--    <LinearLayout-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content">-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/connectUs"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        android:textColor="#000"
+        android:fontFamily="serif"
+        android:layout_marginTop="60dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
 
 
-<!--        <ImageView-->
-<!--            android:contentDescription="@string/mail"-->
-<!--            android:layout_width="40dp"-->
-<!--            android:layout_height="50dp"-->
-<!--            android:src="@drawable/mail"-->
-<!--            android:layout_marginStart="118dp"/>-->
+        <ImageView
+            android:contentDescription="@string/mail"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:src="@drawable/mail"
+            android:layout_marginStart="115dp"/>
 
-<!--        <ImageView-->
-<!--            android:contentDescription="@string/insta"-->
-<!--            android:layout_width="40dp"-->
-<!--            android:layout_height="50dp"-->
-<!--            android:src="@drawable/insta"-->
-<!--            android:layout_marginStart="25dp"/>-->
+        <ImageView
+            android:contentDescription="@string/insta"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:src="@drawable/insta"
+            android:layout_marginStart="25dp"/>
 
-<!--        <ImageView-->
-<!--            android:contentDescription="@string/web"-->
-<!--            android:layout_width="40dp"-->
-<!--            android:layout_height="50dp"-->
-<!--            android:layout_marginStart="25dp"-->
-<!--            android:src="@drawable/website" />-->
-<!--    </LinearLayout>-->
+        <ImageView
+            android:contentDescription="@string/web"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="25dp"
+            android:src="@drawable/website" />
+    </LinearLayout>
 
 </LinearLayout>
