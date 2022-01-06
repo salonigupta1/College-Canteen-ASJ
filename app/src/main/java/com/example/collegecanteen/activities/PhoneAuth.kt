@@ -12,16 +12,19 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import com.example.collegecanteen.R
-import com.example.collegecanteen.databinding.ActivityPhoneAuthBinding
+//import com.example.collegecanteen.databinding.ActivityPhoneAuthBinding
+import com.google.firebase.FirebaseApp
 import com.google.firebase.FirebaseException
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.PhoneAuthCredential
 import com.google.firebase.auth.PhoneAuthOptions
 import com.google.firebase.auth.PhoneAuthProvider
 import java.util.concurrent.TimeUnit
-import com.google.firebase.FirebaseTooManyRequestsException
+//import com.google.firebase.FirebaseTooManyRequestsException
+import com.google.firebase.appcheck.FirebaseAppCheck
+import com.google.firebase.appcheck.safetynet.SafetyNetAppCheckProviderFactory
 
-import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException
+//import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException
 
 
 
@@ -35,7 +38,7 @@ class PhoneAuth : AppCompatActivity() {
 
     private lateinit var progressDialog:ProgressDialog
 //    private lateinit var actionBar:ActionBar
-    private lateinit var binding:ActivityPhoneAuthBinding
+//    private lateinit var binding:ActivityPhoneAuthBinding
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -53,6 +56,13 @@ class PhoneAuth : AppCompatActivity() {
         progressDialog.setMessage("sending OTP...")
         progressDialog.setCanceledOnTouchOutside(false)
 
+
+//        Initialize App Check
+        FirebaseApp.initializeApp(/*context=*/this)
+        val firebaseAppCheck = FirebaseAppCheck.getInstance()
+        firebaseAppCheck.installAppCheckProviderFactory(
+            SafetyNetAppCheckProviderFactory.getInstance()
+        )
 
 //        init firebase AUTH
         auth=FirebaseAuth.getInstance()
@@ -104,7 +114,7 @@ class PhoneAuth : AppCompatActivity() {
     }
 
 //    login function
-    public fun login() {
+private fun login() {
         val mobileNumber=findViewById<EditText>(R.id.phoneNumber)
         var number=mobileNumber.text.toString().trim()
             progressDialog.show()

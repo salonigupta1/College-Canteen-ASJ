@@ -52,6 +52,7 @@ class CategoryActivity : AppCompatActivity() {
         val logout = findViewById<View>(R.id.logoutBtn) as Button
         logout.setOnClickListener{
             auth.signOut()
+            Toast.makeText(applicationContext, "Logging Out...", Toast.LENGTH_SHORT).show()
             startActivity(Intent(this, PhoneAuth::class.java))
             finish()
         }
