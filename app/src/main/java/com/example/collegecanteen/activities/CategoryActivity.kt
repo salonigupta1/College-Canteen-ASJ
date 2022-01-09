@@ -12,26 +12,40 @@ import android.widget.LinearLayout
 //import android.widget.TextView
 //import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.ActionBar
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.drawerlayout.widget.DrawerLayout
+import com.example.collegecanteen.databinding.ActivityCategoryBinding
 import com.google.android.material.navigation.NavigationView
 import com.google.firebase.auth.FirebaseAuth
 
 class CategoryActivity : AppCompatActivity() {
 
-//    private lateinit var binding: ActivityProfileBinding
+    private lateinit var binding: ActivityCategoryBinding
+
+
+    private  lateinit var actionBar: ActionBar
+
+
     private lateinit var auth: FirebaseAuth
     private lateinit var toggle: ActionBarDrawerToggle
 
-    override fun onCreate(savedInstanceState: Bundle?) {
 
-//        binding = ActivityProfileBinding.inflate(layoutInflater)
-//        setContentView(binding.root)
+    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_category)
+      binding = ActivityCategoryBinding.inflate(layoutInflater)
+      setContentView(binding.root)
+//        setContentView(R.layout.activity_category)
+
+        actionBar = supportActionBar!!
+        actionBar.title = "Category Activity"
 
         auth= FirebaseAuth.getInstance()
         val currentUser=auth.currentUser
+//        checkUser()
+
+
+
 
 
 //        @Suppress("DEPRECATION")
@@ -49,6 +63,7 @@ class CategoryActivity : AppCompatActivity() {
             finish()
         }
 
+//        log out button
         val logout = findViewById<View>(R.id.logoutBtn) as Button
         logout.setOnClickListener{
             auth.signOut()
@@ -57,6 +72,16 @@ class CategoryActivity : AppCompatActivity() {
             finish()
         }
 
+
+////                order button
+//        val orderBtn = findViewById<View>(R.id.order) as Button
+//        orderBtn.setOnClickListener{
+//            startActivity(Intent(this, PhoneAuth::class.java))
+//            finish()
+//        }
+
+
+//         drawer and navbar
         val drawerLayout: DrawerLayout = findViewById(R.id.drawerLayout)
         val navView: NavigationView = findViewById(R.id.nav_view)
 
@@ -92,6 +117,8 @@ class CategoryActivity : AppCompatActivity() {
             true
         }
 
+
+//       on clicking cards, move to respective product activity
         val varFastFood = findViewById<View>(R.id.fastFood) as LinearLayout
         varFastFood.setOnClickListener {
             val intent = Intent(this@CategoryActivity, FastFoodProductActivity::class.java)
@@ -116,9 +143,25 @@ class CategoryActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+
     }
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+
+//      show user phone number inside category page
+//    private fun checkUser() {
+//        val currentUser=auth.currentUser
+//        if (currentUser != null){
+//            val userPhoneNumber = currentUser.phoneNumber
+//            binding.fastFoodUser.text = userPhoneNumber
+//
+//        }else{
+//            startActivity(Intent(this , PhoneAuth::class.java))
+//        }
+//    }
+
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean
+    {
         if (toggle.onOptionsItemSelected(item))
             return true
         return super.onOptionsItemSelected(item)

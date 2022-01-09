@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    tools:context=".activities.OrderActivity"
+
+    android:fitsSystemWindows="true">
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="28dp"-->
+<!--            android:fontFamily="monospace"-->
+<!--            android:padding="26dp"-->
+<!--            android:gravity="center_horizontal|center_vertical"-->
+<!--            android:text="Place your Order"-->
+<!--            android:textColor="@color/purple_200"-->
+<!--            android:textSize="29sp"-->
+<!--            android:textStyle="bold"/>-->
+<!--    </LinearLayout>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="77dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="270dp"
+                android:layout_height="270dp"
+               android:layout_gravity="center_horizontal"
+                android:layout_margin="12dp"
+                android:backgroundTint="#FDA88B"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp"
+                >
+                <LinearLayout
+                    android:id="@+id/fastFood"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:backgroundTint="#FDA88B"
+                    tools:ignore="UseCompoundDrawables">
+                    <ImageView
+                        android:layout_width="99dp"
+                        android:layout_height="99dp"
+                        android:layout_marginTop="12dp"
+                        android:contentDescription="@string/icon"
+                        android:src="@drawable/burger1" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/burger"
+                        android:textColor="@color/white"
+                        android:textSize="22sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:fontFamily="monospace"
+                        android:text="@string/price_rs_50"
+                        android:textColor="@color/white"
+                        android:textSize="19sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="40dp"
+            android:paddingEnd="0dp"
+            android:text="@string/delivery_information"
+            android:textColor="#444444"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="40dp"
+            android:paddingTop="10dp"
+            android:paddingRight="40dp"
+            android:paddingBottom="10dp">
+
+
+            <EditText
+                android:autofillHints="name"
+                android:id="@+id/nameOrder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:hint="@string/enter_your_name"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#1F1F1F"
+                android:backgroundTint="@color/teal_700" />
+
+            <EditText
+                android:autofillHints="postalAddress"
+                android:id="@+id/addressOrder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/teal_700"
+                android:hint="@string/delivery_address"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#1F1F1F" />
+            <EditText
+                android:autofillHints="phone"
+                android:id="@+id/phoneOrder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/teal_700"
+                android:hint="@string/available_phone_number"
+                android:inputType="phone"
+                android:minHeight="48dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#1F1F1F" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/teal_700"
+                android:text="@string/cod_on_every_order"
+                android:fontFamily="cursive"
+                android:textSize="16sp"
+                android:minHeight="48dp"
+                android:layout_marginTop="22dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#1F1F1F" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/orderFinal"
+            android:layout_width="274dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_btn"
+            android:text="@string/place_your_order"
+            android:textSize="15sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"/>
+    </LinearLayout>
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

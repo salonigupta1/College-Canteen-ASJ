@@ -40,4 +40,12 @@
     <string name="connectUs">Connect Us</string>
     <string name="choose_your_flavour">Choose Your Flavour</string>
     <string name="select_your_flavour">Select your Flavour</string>
+    <string name="name">Name</string>
+    <string name="delivery_information">Delivery Information</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="place_your_order">Place your Order</string>
+    <string name="available_phone_number">Available Phone Number</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="price_rs_50">Price: Rs. 50/-</string>
+    <string name="cod_on_every_order">*COD on every order</string>
 </resources>

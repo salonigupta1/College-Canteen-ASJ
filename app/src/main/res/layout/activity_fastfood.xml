@@ -83,6 +83,7 @@
                             android:textSize="16sp" />
 
                         <Button
+                            android:id="@+id/burgerOrder"
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
@@ -313,6 +314,7 @@
                             tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
 
                         <Button
+                            android:id="@+id/order"
                             android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"

@@ -85,6 +85,7 @@
                 android:autofillHints="@string/_91"
                 android:inputType="phone"
                 android:minHeight="48dp"
+                android:hint="@string/phone_number"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:textColor="#1F1F1F"

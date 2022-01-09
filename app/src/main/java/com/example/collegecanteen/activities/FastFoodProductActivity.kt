@@ -10,6 +10,7 @@ import androidx.drawerlayout.widget.DrawerLayout
 import com.example.collegecanteen.R
 import com.google.android.material.navigation.NavigationView
 import android.content.Intent
+import android.view.View
 //import android.view.Menu
 //import android.view.View
 //import android.view.Menu
@@ -83,6 +84,13 @@ class FastFoodProductActivity : AppCompatActivity() {
                 ).show()
             }
             true
+        }
+
+
+        val varBurger = findViewById<View>(R.id.burgerOrder) as Button
+        varBurger.setOnClickListener {
+            val intent = Intent(this@FastFoodProductActivity, OrderActivity::class.java)
+            startActivity(intent)
         }
 
     }

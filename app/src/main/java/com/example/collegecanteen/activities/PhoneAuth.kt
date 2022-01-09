@@ -84,9 +84,12 @@ class PhoneAuth : AppCompatActivity() {
 
         // Callback function for Phone Auth
         callbacks = object : PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
-
+            val mobileNumber=findViewById<EditText>(R.id.phoneNumber)
+            var number=mobileNumber.text.toString().trim()
             override fun onVerificationCompleted(credential: PhoneAuthCredential) {
-                startActivity(Intent(applicationContext, CategoryActivity::class.java))
+                val intent = Intent(applicationContext, CategoryActivity::class.java)
+                intent.putExtra("PhoneAuthNumber", number)
+                startActivity(intent)
                 finish()
             }
 
